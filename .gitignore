@@ -15,3 +15,4 @@ packages/devicon-kit/src/icons/
 packages/devicon-kit/src/index.ts
 packages/devicon-kit/src/dynamic.ts
 packages/docs/src/lib/iconMetadata.ts
+.vercel

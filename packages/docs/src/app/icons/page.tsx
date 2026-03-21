@@ -1,13 +1,24 @@
 'use client';
 
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { IconGallery } from '@/components/icons/IconGallery';
 import { iconMetadata, categories } from '@/lib/iconMetadata';
 
-export default function IconsPage() {
+function IconsContent() {
   const searchParams = useSearchParams();
   const initialCategory = searchParams.get('category') || 'all';
 
+  return (
+    <IconGallery
+      icons={iconMetadata}
+      categories={categories}
+      initialCategory={initialCategory}
+    />
+  );
+}
+
+export default function IconsPage() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
       <div className="mb-8">
@@ -22,11 +33,9 @@ export default function IconsPage() {
         </p>
       </div>
 
-      <IconGallery
-        icons={iconMetadata}
-        categories={categories}
-        initialCategory={initialCategory}
-      />
+      <Suspense fallback={<div style={{ color: 'var(--text-tertiary)' }}>Loading icons...</div>}>
+        <IconsContent />
+      </Suspense>
     </div>
   );
 }
