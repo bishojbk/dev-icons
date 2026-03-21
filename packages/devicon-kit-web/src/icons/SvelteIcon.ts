@@ -1,0 +1,37 @@
+const SIZE_MAP: Record<string, number> = { xs: 12, sm: 16, md: 24, lg: 32, xl: 48, '2xl': 64 };
+
+export class SvelteIconElement extends HTMLElement {
+  static observedAttributes = ['size', 'color', 'variant', 'animate', 'title'];
+
+  private _variants: Record<string, string> = {
+      'default': `<g fill="currentColor" transform="translate(8, 8) scale(4.667)"><path d="M10.354 21.125a4.44 4.44 0 0 1-4.765-1.767 4.1 4.1 0 0 1-.703-3.107 4 4 0 0 1 .134-.522l.105-.321.287.21a7.2 7.2 0 0 0 2.186 1.092l.208.063-.02.208a1.25 1.25 0 0 0 .226.83 1.34 1.34 0 0 0 1.435.533 1.2 1.2 0 0 0 .343-.15l5.59-3.562a1.16 1.16 0 0 0 .524-.778 1.24 1.24 0 0 0-.211-.937 1.34 1.34 0 0 0-1.435-.533 1.2 1.2 0 0 0-.343.15l-2.133 1.36a4 4 0 0 1-1.135.499 4.44 4.44 0 0 1-4.765-1.766 4.1 4.1 0 0 1-.702-3.108 3.86 3.86 0 0 1 1.742-2.582l5.589-3.563a4 4 0 0 1 1.135-.499 4.44 4.44 0 0 1 4.765 1.767 4.1 4.1 0 0 1 .703 3.107 4 4 0 0 1-.134.522l-.105.321-.286-.21a7.2 7.2 0 0 0-2.187-1.093l-.208-.063.02-.207a1.25 1.25 0 0 0-.226-.831 1.34 1.34 0 0 0-1.435-.532 1.2 1.2 0 0 0-.343.15L8.62 9.368a1.16 1.16 0 0 0-.524.778 1.24 1.24 0 0 0 .211.937 1.34 1.34 0 0 0 1.435.533 1.2 1.2 0 0 0 .344-.151l2.132-1.36a4 4 0 0 1 1.135-.498 4.44 4.44 0 0 1 4.765 1.766 4.1 4.1 0 0 1 .702 3.108 3.86 3.86 0 0 1-1.742 2.583l-5.589 3.562a4 4 0 0 1-1.135.499m10.358-17.95C18.484-.015 14.082-.96 10.9 1.068L5.31 4.63a6.4 6.4 0 0 0-2.896 4.295 6.75 6.75 0 0 0 .666 4.336 6.4 6.4 0 0 0-.96 2.396 6.83 6.83 0 0 0 1.168 5.167c2.229 3.19 6.63 4.135 9.812 2.108l5.59-3.562a6.4 6.4 0 0 0 2.896-4.295 6.76 6.76 0 0 0-.665-4.336 6.4 6.4 0 0 0 .958-2.396 6.83 6.83 0 0 0-1.167-5.168"/></g>`,
+  };
+
+  connectedCallback() { this.render(); }
+  attributeChangedCallback() { this.render(); }
+
+  private render() {
+    const size = this.getAttribute('size') || 'md';
+    const color = this.getAttribute('color') || '#FF3E00';
+    const variant = this.getAttribute('variant') || 'default';
+    const animate = this.getAttribute('animate') || 'none';
+    const titleText = this.getAttribute('title');
+
+    const resolvedSize = /^\d+$/.test(size) ? Number(size) : (SIZE_MAP[size] ?? 24);
+    const inner = this._variants[variant] || this._variants['default'] || '';
+    const titleTag = titleText ? `<title>${titleText}</title>` : '';
+
+    let animStyle = '';
+    if (animate === 'spin') animStyle = 'animation: devicon-spin 1s linear infinite;';
+    else if (animate === 'pulse') animStyle = 'animation: devicon-pulse 2s ease-in-out infinite;';
+    else if (animate === 'bounce') animStyle = 'animation: devicon-bounce 1s ease infinite;';
+
+    this.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="${resolvedSize}" height="${resolvedSize}" viewBox="0 0 128 128" fill="${color}" style="color: ${color}; ${animStyle}" role="${titleText ? 'img' : 'presentation'}" aria-hidden="${!titleText}">${titleTag}${inner}</svg>`;
+  }
+}
+
+export function registerSvelteIcon(name = 'devicon-svelte') {
+  if (!customElements.get(name)) {
+    customElements.define(name, SvelteIconElement);
+  }
+}

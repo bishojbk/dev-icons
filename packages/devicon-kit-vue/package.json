@@ -1,0 +1,24 @@
+{
+  "name": "devicon-kit-vue",
+  "version": "0.1.0",
+  "description": "417+ developer icons as Vue 3 components with variants, animations, and accessibility.",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "vue": ">=3.3.0"
+  },
+  "license": "MIT",
+  "keywords": ["vue", "icons", "svg", "developer", "vue3", "components"]
+}

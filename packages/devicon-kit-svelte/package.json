@@ -1,0 +1,26 @@
+{
+  "name": "devicon-kit-svelte",
+  "version": "0.1.0",
+  "description": "417+ developer icons as Svelte components with variants, animations, and accessibility.",
+  "type": "module",
+  "sideEffects": false,
+  "svelte": "./dist/index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "svelte": "./dist/index.js",
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "peerDependencies": {
+    "svelte": ">=4.0.0"
+  },
+  "license": "MIT",
+  "keywords": ["svelte", "icons", "svg", "developer", "components"]
+}

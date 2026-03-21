@@ -1,0 +1,38 @@
+const SIZE_MAP: Record<string, number> = { xs: 12, sm: 16, md: 24, lg: 32, xl: 48, '2xl': 64 };
+
+export class FastifyIconElement extends HTMLElement {
+  static observedAttributes = ['size', 'color', 'variant', 'animate', 'title'];
+
+  private _variants: Record<string, string> = {
+      'default': `<g fill="currentColor" transform="translate(8, 8) scale(4.667)"><path d="M23.245 6.49 24 4.533l-.031-.121-7.473 1.967c.797-1.153.523-2.078.523-2.078s-2.387 1.524-4.193 1.485c-1.804-.04-2.387-.52-5.155.362S4.12 9.738 3.32 10.321C2.516 10.904 0 12.798 0 12.798l.006.034 2.27-.724s-.622.585-1.945 2.37l-.062-.057.002.011s1.064 1.626 2.107 1.324a2 2 0 0 0 .353-.147c.419.234.967.463 1.572.525 0 0-.41-.475-.752-1.017l.238-.154.865.318-.096-.812.008-.006.849.311-.105-.738a6 6 0 0 1 .322-.158l.885-3.345 3.662-2.497-.291.733c-.741 1.826-2.135 2.256-2.135 2.256l-.582.22c-.433.512-.614.637-.764 2.353.348-.088.682-.107.984-.028 1.564.421 2.107 2.307 1.685 2.827-.104.13-.356.354-.673.617H7.77l-.008.514-.065.051h-.645l-.009.504-.17.127c-.607.011-1.373-.518-1.373-.518 0 .481.401 1.225.401 1.225l.07-.034-.061.045s1.625 1.083 2.646.681c.91-.356 3.263-2.213 5.296-3.093l6.15-1.62.811-2.1-4.688 1.235v-1.889l5.5-1.448.811-2.1-6.31 1.662V8.367zm-11.163 4 1.459-.384.02.074-.455 1.179-1.513.398zm.503 2.526-1.512.398.489-1.266 1.459-.385.02.074zm1.971-.424-1.513.398.49-1.266 1.459-.385.02.073Z"/></g>`,
+      'light': `<g fill="#f8fafc" transform="translate(8, 8) scale(4.667)"><path d="M23.245 6.49 24 4.533l-.031-.121-7.473 1.967c.797-1.153.523-2.078.523-2.078s-2.387 1.524-4.193 1.485c-1.804-.04-2.387-.52-5.155.362S4.12 9.738 3.32 10.321C2.516 10.904 0 12.798 0 12.798l.006.034 2.27-.724s-.622.585-1.945 2.37l-.062-.057.002.011s1.064 1.626 2.107 1.324a2 2 0 0 0 .353-.147c.419.234.967.463 1.572.525 0 0-.41-.475-.752-1.017l.238-.154.865.318-.096-.812.008-.006.849.311-.105-.738a6 6 0 0 1 .322-.158l.885-3.345 3.662-2.497-.291.733c-.741 1.826-2.135 2.256-2.135 2.256l-.582.22c-.433.512-.614.637-.764 2.353.348-.088.682-.107.984-.028 1.564.421 2.107 2.307 1.685 2.827-.104.13-.356.354-.673.617H7.77l-.008.514-.065.051h-.645l-.009.504-.17.127c-.607.011-1.373-.518-1.373-.518 0 .481.401 1.225.401 1.225l.07-.034-.061.045s1.625 1.083 2.646.681c.91-.356 3.263-2.213 5.296-3.093l6.15-1.62.811-2.1-4.688 1.235v-1.889l5.5-1.448.811-2.1-6.31 1.662V8.367zm-11.163 4 1.459-.384.02.074-.455 1.179-1.513.398zm.503 2.526-1.512.398.489-1.266 1.459-.385.02.074zm1.971-.424-1.513.398.49-1.266 1.459-.385.02.073Z"/></g>`,
+  };
+
+  connectedCallback() { this.render(); }
+  attributeChangedCallback() { this.render(); }
+
+  private render() {
+    const size = this.getAttribute('size') || 'md';
+    const color = this.getAttribute('color') || '#000000';
+    const variant = this.getAttribute('variant') || 'default';
+    const animate = this.getAttribute('animate') || 'none';
+    const titleText = this.getAttribute('title');
+
+    const resolvedSize = /^\d+$/.test(size) ? Number(size) : (SIZE_MAP[size] ?? 24);
+    const inner = this._variants[variant] || this._variants['default'] || '';
+    const titleTag = titleText ? `<title>${titleText}</title>` : '';
+
+    let animStyle = '';
+    if (animate === 'spin') animStyle = 'animation: devicon-spin 1s linear infinite;';
+    else if (animate === 'pulse') animStyle = 'animation: devicon-pulse 2s ease-in-out infinite;';
+    else if (animate === 'bounce') animStyle = 'animation: devicon-bounce 1s ease infinite;';
+
+    this.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="${resolvedSize}" height="${resolvedSize}" viewBox="0 0 128 128" fill="${color}" style="color: ${color}; ${animStyle}" role="${titleText ? 'img' : 'presentation'}" aria-hidden="${!titleText}">${titleTag}${inner}</svg>`;
+  }
+}
+
+export function registerFastifyIcon(name = 'devicon-fastify') {
+  if (!customElements.get(name)) {
+    customElements.define(name, FastifyIconElement);
+  }
+}

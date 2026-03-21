@@ -1,0 +1,37 @@
+const SIZE_MAP: Record<string, number> = { xs: 12, sm: 16, md: 24, lg: 32, xl: 48, '2xl': 64 };
+
+export class RailsIconElement extends HTMLElement {
+  static observedAttributes = ['size', 'color', 'variant', 'animate', 'title'];
+
+  private _variants: Record<string, string> = {
+      'default': `<g fill="currentColor" transform="translate(8, 8) scale(4.667)"><path d="M.741 19.365h8.36s-1.598-7.291 3.693-10.243l.134-.066c1.286-.637 4.907-2.431 10.702 1.854.19-.159.37-.286.37-.286s-5.503-5.492-11.63-4.878c-3.079.275-6.867 3.079-9.09 6.783S.741 19.365.741 19.365m8.804-.783a11 11 0 0 1-.127-1.333l1.143.412c.063.498.159.963.254 1.376zm-7.799-4.317L.529 13.82c-.201.455-.423.984-.529 1.27l1.217.444c.137-.359.36-.878.529-1.269m7.831.296.857.677q.063-.619.222-1.238l-.762-.603c-.137.391-.233.783-.317 1.164m2.042-2.646-.508-.762c.191-.243.413-.486.656-.709l.476.72a6 6 0 0 0-.624.751M4.19 8.878l.752.656c-.254.265-.498.551-.72.836l-.815-.698c.244-.265.508-.529.783-.794m9.799 1.027-.243-.73c.265-.117.571-.233.931-.339l.233.698a7 7 0 0 0-.921.371m3.122-.656.042-.667c.339.021.688.064 1.048.138l-.042.656a6 6 0 0 0-1.048-.127M8.942 6.392l-.476-.731c-.265.138-.54.286-.826.455l.487.741c.275-.169.54-.328.815-.465m9.217-.053.042-.709c-.095-.053-.36-.18-1.026-.371l-.043.699c.349.116.688.243 1.027.381M13.238 5.28h.106l-.212-.645q-.492 0-1.016.063l.201.625a9 9 0 0 1 .921-.043"/></g>`,
+  };
+
+  connectedCallback() { this.render(); }
+  attributeChangedCallback() { this.render(); }
+
+  private render() {
+    const size = this.getAttribute('size') || 'md';
+    const color = this.getAttribute('color') || '#D30001';
+    const variant = this.getAttribute('variant') || 'default';
+    const animate = this.getAttribute('animate') || 'none';
+    const titleText = this.getAttribute('title');
+
+    const resolvedSize = /^\d+$/.test(size) ? Number(size) : (SIZE_MAP[size] ?? 24);
+    const inner = this._variants[variant] || this._variants['default'] || '';
+    const titleTag = titleText ? `<title>${titleText}</title>` : '';
+
+    let animStyle = '';
+    if (animate === 'spin') animStyle = 'animation: devicon-spin 1s linear infinite;';
+    else if (animate === 'pulse') animStyle = 'animation: devicon-pulse 2s ease-in-out infinite;';
+    else if (animate === 'bounce') animStyle = 'animation: devicon-bounce 1s ease infinite;';
+
+    this.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="${resolvedSize}" height="${resolvedSize}" viewBox="0 0 128 128" fill="${color}" style="color: ${color}; ${animStyle}" role="${titleText ? 'img' : 'presentation'}" aria-hidden="${!titleText}">${titleTag}${inner}</svg>`;
+  }
+}
+
+export function registerRailsIcon(name = 'devicon-rails') {
+  if (!customElements.get(name)) {
+    customElements.define(name, RailsIconElement);
+  }
+}

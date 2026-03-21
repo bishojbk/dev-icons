@@ -1,0 +1,37 @@
+<script lang="ts">
+  const SIZE_MAP: Record<string, number> = { xs: 12, sm: 16, md: 24, lg: 32, xl: 48, '2xl': 64 };
+  const ANIM_MAP: Record<string, string> = {
+    spin: 'animation: devicon-spin 1s linear infinite',
+    pulse: 'animation: devicon-pulse 2s ease-in-out infinite',
+    bounce: 'animation: devicon-bounce 1s ease infinite',
+  };
+
+  export let size: number | string = 'md';
+  export let color: string = '#C2A633';
+  export let variant: string = 'default';
+  export let animate: string = 'none';
+  export let title: string | undefined = undefined;
+
+  const variants: Record<string, string> = {
+  'default': `<g fill="currentColor" transform="translate(8, 8) scale(4.667)"><path d="M12.288 7.908h-1.715v3.38h2.697v1.415h-2.697v3.38h1.799c.462 0 3.794.052 3.789-3.933s-3.232-4.242-3.873-4.242M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0m.472 18.481H8.126v-5.778H6.594v-1.415h1.532V5.511h3.73c.882 0 6.727-.183 6.727 6.594-.001 6.888-6.111 6.376-6.111 6.376"/></g>`,
+  };
+
+  $: resolvedSize = typeof size === 'number' ? size : (SIZE_MAP[size] ?? 24);
+  $: svgInner = variants[variant] || variants['default'] || '';
+  $: titleTag = title ? `<title>${title}</title>` : '';
+  $: animStyle = ANIM_MAP[animate] || '';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={resolvedSize}
+  height={resolvedSize}
+  viewBox="0 0 128 128"
+  fill={color}
+  style="color: {color}; {animStyle}"
+  role={title ? 'img' : 'presentation'}
+  aria-hidden={!title}
+  {...$$restProps}
+>
+  {@html titleTag + svgInner}
+</svg>

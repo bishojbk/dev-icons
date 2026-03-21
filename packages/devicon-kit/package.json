@@ -1,0 +1,83 @@
+{
+  "name": "devicon-kit",
+  "version": "0.1.0",
+  "description": "500+ beautifully crafted developer icons as React components with variants, animations, and accessibility built-in.",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/esm/index.mjs",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/types/index.d.ts",
+        "default": "./dist/esm/index.mjs"
+      },
+      "require": {
+        "types": "./dist/types/index.d.cts",
+        "default": "./dist/cjs/index.cjs"
+      }
+    },
+    "./icons/*": {
+      "import": {
+        "types": "./dist/types/icons/*.d.ts",
+        "default": "./dist/esm/icons/*.mjs"
+      },
+      "require": {
+        "types": "./dist/types/icons/*.d.cts",
+        "default": "./dist/cjs/icons/*.cjs"
+      }
+    },
+    "./dynamic": {
+      "import": {
+        "types": "./dist/types/dynamic.d.ts",
+        "default": "./dist/esm/dynamic.mjs"
+      }
+    },
+    "./context": {
+      "import": {
+        "types": "./dist/types/lib/IconContext.d.ts",
+        "default": "./dist/esm/lib/IconContext.mjs"
+      },
+      "require": {
+        "types": "./dist/types/lib/IconContext.d.cts",
+        "default": "./dist/cjs/lib/IconContext.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "clean": "rm -rf dist"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.0",
+    "vite": "^6.0.0",
+    "vite-plugin-dts": "^4.3.0"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "developer",
+    "svg",
+    "typescript",
+    "devicons",
+    "programming",
+    "technology",
+    "framework",
+    "tools"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bishojbk/dev-icons"
+  }
+}

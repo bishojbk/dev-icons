@@ -1,0 +1,37 @@
+const SIZE_MAP: Record<string, number> = { xs: 12, sm: 16, md: 24, lg: 32, xl: 48, '2xl': 64 };
+
+export class ElasticIconElement extends HTMLElement {
+  static observedAttributes = ['size', 'color', 'variant', 'animate', 'title'];
+
+  private _variants: Record<string, string> = {
+      'default': `<g fill="currentColor" transform="translate(8, 8) scale(4.667)"><path d="m20.345 16.33-3.959-.926-1.05-2.01 5.177-4.535a3.96 3.96 0 0 1 2.559 3.702 4.01 4.01 0 0 1-2.727 3.77m-2.976 4.68c-.616 0-1.22-.207-1.714-.587l.782-4.077 3.596.841c.115.31.172.642.172.987a2.84 2.84 0 0 1-2.836 2.836m-2.637-.586a5.92 5.92 0 0 1-4.908 2.6A5.947 5.947 0 0 1 4 15.905l5.167-4.67 5.272 2.403 1.167 2.23zM.928 11.443a4.01 4.01 0 0 1 2.726-3.77l3.95.933.927 1.98-5.05 4.565a3.97 3.97 0 0 1-2.553-3.708m5.703-8.45a2.84 2.84 0 0 1 1.723.58l-.789 4.092-3.598-.85a2.8 2.8 0 0 1-.172-.986A2.84 2.84 0 0 1 6.63 2.992m2.66.59A5.92 5.92 0 0 1 20.1 6.93c0 .4-.038.781-.114 1.164l-5.299 4.643-5.251-2.394-1.026-2.19zM24 12.571a4.72 4.72 0 0 0-3.124-4.454 6.7 6.7 0 0 0 .126-1.29A6.79 6.79 0 0 0 14.22.047 6.77 6.77 0 0 0 8.727 2.86a3.6 3.6 0 0 0-2.204-.754A3.604 3.604 0 0 0 3.15 6.959 4.79 4.79 0 0 0 0 11.431 4.73 4.73 0 0 0 3.139 15.9a7 7 0 0 0-.124 1.289 6.773 6.773 0 0 0 6.765 6.765c2.19 0 4.22-1.052 5.49-2.824a3.57 3.57 0 0 0 2.207.769 3.603 3.603 0 0 0 3.374-4.854A4.785 4.785 0 0 0 24 12.572"/></g>`,
+  };
+
+  connectedCallback() { this.render(); }
+  attributeChangedCallback() { this.render(); }
+
+  private render() {
+    const size = this.getAttribute('size') || 'md';
+    const color = this.getAttribute('color') || '#005571';
+    const variant = this.getAttribute('variant') || 'default';
+    const animate = this.getAttribute('animate') || 'none';
+    const titleText = this.getAttribute('title');
+
+    const resolvedSize = /^\d+$/.test(size) ? Number(size) : (SIZE_MAP[size] ?? 24);
+    const inner = this._variants[variant] || this._variants['default'] || '';
+    const titleTag = titleText ? `<title>${titleText}</title>` : '';
+
+    let animStyle = '';
+    if (animate === 'spin') animStyle = 'animation: devicon-spin 1s linear infinite;';
+    else if (animate === 'pulse') animStyle = 'animation: devicon-pulse 2s ease-in-out infinite;';
+    else if (animate === 'bounce') animStyle = 'animation: devicon-bounce 1s ease infinite;';
+
+    this.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="${resolvedSize}" height="${resolvedSize}" viewBox="0 0 128 128" fill="${color}" style="color: ${color}; ${animStyle}" role="${titleText ? 'img' : 'presentation'}" aria-hidden="${!titleText}">${titleTag}${inner}</svg>`;
+  }
+}
+
+export function registerElasticIcon(name = 'devicon-elastic') {
+  if (!customElements.get(name)) {
+    customElements.define(name, ElasticIconElement);
+  }
+}

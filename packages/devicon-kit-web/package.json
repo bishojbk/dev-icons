@@ -1,0 +1,21 @@
+{
+  "name": "devicon-kit-web",
+  "version": "0.1.0",
+  "description": "417+ developer icons as Web Components (Custom Elements). Works in Angular, vanilla JS, and any framework.",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "keywords": ["web-components", "custom-elements", "icons", "svg", "developer", "angular", "vanilla"]
+}

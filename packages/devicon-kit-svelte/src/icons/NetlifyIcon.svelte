@@ -1,0 +1,37 @@
+<script lang="ts">
+  const SIZE_MAP: Record<string, number> = { xs: 12, sm: 16, md: 24, lg: 32, xl: 48, '2xl': 64 };
+  const ANIM_MAP: Record<string, string> = {
+    spin: 'animation: devicon-spin 1s linear infinite',
+    pulse: 'animation: devicon-pulse 2s ease-in-out infinite',
+    bounce: 'animation: devicon-bounce 1s ease infinite',
+  };
+
+  export let size: number | string = 'md';
+  export let color: string = '#00C7B7';
+  export let variant: string = 'default';
+  export let animate: string = 'none';
+  export let title: string | undefined = undefined;
+
+  const variants: Record<string, string> = {
+  'default': `<g fill="currentColor" transform="translate(8, 8) scale(4.667)"><path d="M6.49 19.04h-.23L5.13 17.9v-.23l1.73-1.71h1.2l.15.15v1.2L6.5 19.04ZM5.13 6.31V6.1l1.13-1.13h.23L8.2 6.68v1.2l-.15.15h-1.2zm9.96 9.09h-1.65l-.14-.13v-3.83c0-.68-.27-1.2-1.1-1.23-.42 0-.9 0-1.43.02l-.07.08v4.96l-.14.14H8.9l-.13-.14V8.73l.13-.14h3.7a2.6 2.6 0 0 1 2.61 2.6v4.08l-.13.14Zm-8.37-2.44H.14L0 12.82v-1.64l.14-.14h6.58l.14.14v1.64zm17.14 0h-6.58l-.14-.14v-1.64l.14-.14h6.58l.14.14v1.64zM11.05 6.55V1.64l.14-.14h1.65l.14.14v4.9l-.14.14h-1.65zm0 15.81v-4.9l.14-.14h1.65l.14.13v4.91l-.14.14h-1.65z"/></g>`,
+  };
+
+  $: resolvedSize = typeof size === 'number' ? size : (SIZE_MAP[size] ?? 24);
+  $: svgInner = variants[variant] || variants['default'] || '';
+  $: titleTag = title ? `<title>${title}</title>` : '';
+  $: animStyle = ANIM_MAP[animate] || '';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={resolvedSize}
+  height={resolvedSize}
+  viewBox="0 0 128 128"
+  fill={color}
+  style="color: {color}; {animStyle}"
+  role={title ? 'img' : 'presentation'}
+  aria-hidden={!title}
+  {...$$restProps}
+>
+  {@html titleTag + svgInner}
+</svg>

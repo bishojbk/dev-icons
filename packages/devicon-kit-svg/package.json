@@ -1,0 +1,21 @@
+{
+  "name": "devicon-kit-svg",
+  "version": "0.1.0",
+  "description": "417+ developer icon SVG strings — framework-agnostic. Use with any framework or vanilla JS.",
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "keywords": ["icons", "svg", "developer", "framework-agnostic", "vanilla"]
+}

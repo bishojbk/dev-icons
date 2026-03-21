@@ -1,0 +1,7429 @@
+[
+  {
+    "slug": "dotnet",
+    "name": ".NET",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "microsoft",
+      "csharp",
+      "runtime"
+    ],
+    "aliases": [
+      ".net"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "512BD4",
+    "url": "https://github.com/dotnet/brand/blob/c7d0f51b8ec59531332d05fb27a5b758a7a3d689/logo/dotnet-logo.svg"
+  },
+  {
+    "slug": "adonisjs",
+    "name": "AdonisJS",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "nodejs",
+      "typescript",
+      "mvc"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "5A45FF",
+    "url": "https://adonisjs.com"
+  },
+  {
+    "slug": "airbnb",
+    "name": "Airbnb",
+    "category": "brands",
+    "tags": [
+      "travel",
+      "accommodation",
+      "hospitality",
+      "rental"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF5A5F",
+    "url": "https://www.airbnb.com"
+  },
+  {
+    "slug": "airtable",
+    "name": "Airtable",
+    "category": "tools",
+    "tags": [
+      "database",
+      "spreadsheet",
+      "no-code",
+      "collaboration"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "18BFFF",
+    "url": "https://airtable.com/newsroom"
+  },
+  {
+    "slug": "akamai",
+    "name": "Akamai",
+    "category": "cloud",
+    "tags": [
+      "cdn",
+      "security",
+      "edge",
+      "performance"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0096D6",
+    "url": "https://www.akamai.com"
+  },
+  {
+    "slug": "alacritty",
+    "name": "Alacritty",
+    "category": "tools",
+    "tags": [
+      "terminal",
+      "gpu",
+      "fast",
+      "rust"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F46D01",
+    "url": "https://github.com/alacritty/alacritty/blob/6d8db6b9dfadd6164c4be7a053f25db8ef6b7998/extra/logo/alacritty-simple.svg"
+  },
+  {
+    "slug": "algolia",
+    "name": "Algolia",
+    "category": "databases",
+    "tags": [
+      "search",
+      "api",
+      "instant",
+      "hosted"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "003DFF",
+    "url": "https://algolia.frontify.com/d/1AZwVNcFZiu7/style-guide#/basics/algolia-logo"
+  },
+  {
+    "slug": "alpinelinux",
+    "name": "Alpine Linux",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "minimal",
+      "docker"
+    ],
+    "aliases": [
+      "alpine"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "0D597F",
+    "url": "https://alpinelinux.org"
+  },
+  {
+    "slug": "alpinejs",
+    "name": "Alpine.js",
+    "category": "frontend",
+    "tags": [
+      "framework",
+      "lightweight",
+      "declarative",
+      "html"
+    ],
+    "aliases": [
+      "alpine"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "8BC0D0",
+    "url": "https://alpinejs.dev"
+  },
+  {
+    "slug": "amd",
+    "name": "AMD",
+    "category": "brands",
+    "tags": [
+      "hardware",
+      "cpu",
+      "gpu",
+      "semiconductor"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "ED1C24",
+    "url": "https://www.amd.com"
+  },
+  {
+    "slug": "anaconda",
+    "name": "Anaconda",
+    "category": "ai-ml",
+    "tags": [
+      "python",
+      "data-science",
+      "package",
+      "environment"
+    ],
+    "aliases": [
+      "conda"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "44A833",
+    "url": "https://www.anaconda.com"
+  },
+  {
+    "slug": "android",
+    "name": "Android",
+    "category": "mobile",
+    "tags": [
+      "platform",
+      "google",
+      "mobile",
+      "kotlin"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3DDC84",
+    "url": "https://partnermarketinghub.withgoogle.com/brands/android/visual-identity/visual-identity/logo-lock-ups"
+  },
+  {
+    "slug": "androidstudio",
+    "name": "Android Studio",
+    "category": "mobile",
+    "tags": [
+      "ide",
+      "google",
+      "android",
+      "kotlin"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3DDC84",
+    "url": "https://developer.android.com/studio"
+  },
+  {
+    "slug": "angular",
+    "name": "Angular",
+    "category": "frontend",
+    "tags": [
+      "framework",
+      "google",
+      "typescript",
+      "spa"
+    ],
+    "aliases": [
+      "ng"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "0F0F11",
+    "url": "https://angular.dev/press-kit"
+  },
+  {
+    "slug": "ansible",
+    "name": "Ansible",
+    "category": "devops",
+    "tags": [
+      "automation",
+      "iac",
+      "configuration",
+      "redhat"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "EE0000",
+    "url": "https://www.ansible.com/logos"
+  },
+  {
+    "slug": "antdesign",
+    "name": "Ant Design",
+    "category": "frontend",
+    "tags": [
+      "ui",
+      "react",
+      "enterprise",
+      "components"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0170FE",
+    "url": "https://ant.design"
+  },
+  {
+    "slug": "anthropic",
+    "name": "Anthropic",
+    "category": "brands",
+    "tags": [
+      "ai",
+      "company",
+      "safety",
+      "research"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "191919",
+    "url": "https://www.anthropic.com"
+  },
+  {
+    "slug": "apache",
+    "name": "Apache",
+    "category": "backend",
+    "tags": [
+      "server",
+      "web",
+      "http",
+      "open-source"
+    ],
+    "aliases": [
+      "httpd"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "D22128",
+    "url": "https://www.apache.org/foundation/press/kit"
+  },
+  {
+    "slug": "apacheairflow",
+    "name": "Apache Airflow",
+    "category": "backend",
+    "tags": [
+      "orchestration",
+      "pipeline",
+      "workflow",
+      "data"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "017CEE",
+    "url": "https://apache.org/logos"
+  },
+  {
+    "slug": "cassandra",
+    "name": "Apache Cassandra",
+    "category": "databases",
+    "tags": [
+      "database",
+      "nosql",
+      "distributed",
+      "wide-column"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "1287B1",
+    "url": "https://www.apache.org/logos"
+  },
+  {
+    "slug": "kafka",
+    "name": "Apache Kafka",
+    "category": "backend",
+    "tags": [
+      "streaming",
+      "messaging",
+      "distributed",
+      "events"
+    ],
+    "aliases": [
+      "apache-kafka"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "231F20",
+    "url": "https://apache.org/logos"
+  },
+  {
+    "slug": "apachespark",
+    "name": "Apache Spark",
+    "category": "backend",
+    "tags": [
+      "big-data",
+      "processing",
+      "distributed",
+      "analytics"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E25A1C",
+    "url": "https://apache.org/logos"
+  },
+  {
+    "slug": "apollographql",
+    "name": "Apollo GraphQL",
+    "category": "backend",
+    "tags": [
+      "graphql",
+      "client",
+      "server",
+      "cache"
+    ],
+    "aliases": [
+      "apollo"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "311C87",
+    "url": "https://www.apollographql.com"
+  },
+  {
+    "slug": "apple",
+    "name": "Apple",
+    "category": "brands",
+    "tags": [
+      "company",
+      "hardware",
+      "software",
+      "ios"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.apple.com"
+  },
+  {
+    "slug": "arc",
+    "name": "Arc",
+    "category": "browsers",
+    "tags": [
+      "browser",
+      "chromium",
+      "modern",
+      "tabs"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FCBFBD",
+    "url": "https://arc.net"
+  },
+  {
+    "slug": "archlinux",
+    "name": "Arch Linux",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "rolling",
+      "minimal"
+    ],
+    "aliases": [
+      "arch"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "1793D1",
+    "url": "https://www.archlinux.org/art"
+  },
+  {
+    "slug": "arduino",
+    "name": "Arduino",
+    "category": "hardware",
+    "tags": [
+      "microcontroller",
+      "iot",
+      "embedded",
+      "electronics"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "00878F",
+    "url": "https://www.arduino.cc"
+  },
+  {
+    "slug": "asana",
+    "name": "Asana",
+    "category": "tools",
+    "tags": [
+      "project",
+      "tasks",
+      "team",
+      "management"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F06A6A",
+    "url": "https://asana.com/brand"
+  },
+  {
+    "slug": "assemblyscript",
+    "name": "AssemblyScript",
+    "category": "languages",
+    "tags": [
+      "language",
+      "wasm",
+      "typescript",
+      "compile"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "007ACC",
+    "url": "https://www.assemblyscript.org"
+  },
+  {
+    "slug": "astro",
+    "name": "Astro",
+    "category": "frontend",
+    "tags": [
+      "framework",
+      "static",
+      "islands",
+      "content"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "BC52EE",
+    "url": "https://astro.build/press"
+  },
+  {
+    "slug": "atlassian",
+    "name": "Atlassian",
+    "category": "brands",
+    "tags": [
+      "software",
+      "project-management",
+      "collaboration",
+      "tools"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0052CC",
+    "url": "https://atlassian.design/resources/logo-library"
+  },
+  {
+    "slug": "auth0",
+    "name": "Auth0",
+    "category": "misc",
+    "tags": [
+      "auth",
+      "identity",
+      "oauth",
+      "sso"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "EB5424",
+    "url": "https://auth0.com"
+  },
+  {
+    "slug": "babel",
+    "name": "Babel",
+    "category": "frontend",
+    "tags": [
+      "compiler",
+      "javascript",
+      "transpiler",
+      "es6"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F9DC3E",
+    "url": "https://github.com/babel/website/blob/93330158b6ecca1ab88d3be8dbf661f5c2da6c76/website/static/img/babel-black.svg"
+  },
+  {
+    "slug": "behance",
+    "name": "Behance",
+    "category": "social",
+    "tags": [
+      "design",
+      "portfolio",
+      "adobe",
+      "community"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "1769FF",
+    "url": "https://www.behance.net"
+  },
+  {
+    "slug": "biome",
+    "name": "Biome",
+    "category": "tools",
+    "tags": [
+      "linter",
+      "formatter",
+      "fast",
+      "rust"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "60A5FA",
+    "url": "https://github.com/biomejs/resources/blob/551f36498dfe34b24bc7755fcdd0fa501b757cf4/svg/icon-light-mono.svg"
+  },
+  {
+    "slug": "bitbucket",
+    "name": "Bitbucket",
+    "category": "tools",
+    "tags": [
+      "platform",
+      "git",
+      "hosting",
+      "atlassian"
+    ],
+    "aliases": [
+      "bb"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "0052CC",
+    "url": "https://atlassian.design/resources/logo-library"
+  },
+  {
+    "slug": "bitcoin",
+    "name": "Bitcoin",
+    "category": "crypto",
+    "tags": [
+      "cryptocurrency",
+      "blockchain",
+      "decentralized",
+      "btc"
+    ],
+    "aliases": [
+      "btc"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "F7931A",
+    "url": "https://bitcoin.org"
+  },
+  {
+    "slug": "blender",
+    "name": "Blender",
+    "category": "design",
+    "tags": [
+      "3d",
+      "modeling",
+      "animation",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E87D0D",
+    "url": "https://www.blender.org/about/logo"
+  },
+  {
+    "slug": "bluesky",
+    "name": "Bluesky",
+    "category": "social",
+    "tags": [
+      "social",
+      "microblog",
+      "decentralized",
+      "at-protocol"
+    ],
+    "aliases": [
+      "bsky"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "1185FE",
+    "url": "https://bsky.social/about/blog/press-faq"
+  },
+  {
+    "slug": "bootstrap",
+    "name": "Bootstrap",
+    "category": "frontend",
+    "tags": [
+      "css",
+      "framework",
+      "responsive",
+      "components"
+    ],
+    "aliases": [
+      "bs"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "7952B3",
+    "url": "https://getbootstrap.com/docs/5.3/about/brand"
+  },
+  {
+    "slug": "brave",
+    "name": "Brave",
+    "category": "browsers",
+    "tags": [
+      "browser",
+      "privacy",
+      "chromium",
+      "web"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FB542B",
+    "url": "https://brave.com/brave-branding-assets"
+  },
+  {
+    "slug": "bun",
+    "name": "Bun",
+    "category": "backend",
+    "tags": [
+      "runtime",
+      "javascript",
+      "fast",
+      "bundler"
+    ],
+    "aliases": [
+      "bunjs"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://bun.sh/press-kit"
+  },
+  {
+    "slug": "buymeacoffee",
+    "name": "Buy Me A Coffee",
+    "category": "social",
+    "tags": [
+      "funding",
+      "creator",
+      "tips",
+      "support"
+    ],
+    "aliases": [
+      "bmc"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFDD00",
+    "url": "https://www.buymeacoffee.com/brand"
+  },
+  {
+    "slug": "c",
+    "name": "C",
+    "category": "languages",
+    "tags": [
+      "language",
+      "systems",
+      "low-level",
+      "performance"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "A8B9CC",
+    "url": "https://commons.wikimedia.org/wiki/File:The_C_Programming_Language_logo.svg"
+  },
+  {
+    "slug": "cplusplus",
+    "name": "C++",
+    "category": "languages",
+    "tags": [
+      "language",
+      "systems",
+      "performance",
+      "oop"
+    ],
+    "aliases": [
+      "cpp",
+      "c++"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "00599C",
+    "url": "https://github.com/isocpp/logos/tree/64ef037049f87ac74875dbe72695e59118b52186"
+  },
+  {
+    "slug": "caddy",
+    "name": "Caddy",
+    "category": "devops",
+    "tags": [
+      "server",
+      "https",
+      "automatic",
+      "go"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "1F88C0",
+    "url": "https://caddyserver.com"
+  },
+  {
+    "slug": "calendly",
+    "name": "Calendly",
+    "category": "productivity",
+    "tags": [
+      "scheduling",
+      "calendar",
+      "meetings",
+      "booking"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "006BFF",
+    "url": "https://calendly.com/newsroom"
+  },
+  {
+    "slug": "capacitor",
+    "name": "Capacitor",
+    "category": "frontend",
+    "tags": [
+      "mobile",
+      "hybrid",
+      "ionic",
+      "cross-platform"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "119EFF",
+    "url": "https://github.com/ionic-team/ionicons-site/blob/b0c97018d737b763301154231b34e1b882c0c84d/docs/ionicons/svg/logo-capacitor.svg"
+  },
+  {
+    "slug": "cardano",
+    "name": "Cardano",
+    "category": "crypto",
+    "tags": [
+      "cryptocurrency",
+      "blockchain",
+      "proof-of-stake",
+      "ada"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "0133AD",
+    "url": "https://cardano.org/brand-assets/"
+  },
+  {
+    "slug": "celery",
+    "name": "Celery",
+    "category": "backend",
+    "tags": [
+      "task-queue",
+      "async",
+      "distributed",
+      "python"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "37814A",
+    "url": "https://github.com/celery/celery/blob/4d77ddddb10797011dc10dd2e4e1e7a7467b8431/docs/images/favicon.ico"
+  },
+  {
+    "slug": "centos",
+    "name": "CentOS",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "rhel",
+      "server"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "262577",
+    "url": "https://wiki.centos.org/ArtWork/Brand/Logo"
+  },
+  {
+    "slug": "chainlink",
+    "name": "Chainlink",
+    "category": "crypto",
+    "tags": [
+      "cryptocurrency",
+      "oracle",
+      "defi",
+      "link"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "375BD2",
+    "url": "https://chain.link/brand-assets"
+  },
+  {
+    "slug": "chakraui",
+    "name": "Chakra UI",
+    "category": "frontend",
+    "tags": [
+      "ui",
+      "react",
+      "accessible",
+      "components"
+    ],
+    "aliases": [
+      "chakra"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "1BB2A9",
+    "url": "https://github.com/chakra-ui/chakra-ui/blob/e08025b359146d80ab46f1d35da82a11780c5316/media/logomark-colored.svg"
+  },
+  {
+    "slug": "chartdotjs",
+    "name": "Chart.js",
+    "category": "frontend",
+    "tags": [
+      "visualization",
+      "charts",
+      "canvas",
+      "data"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF6384",
+    "url": "https://www.chartjs.org"
+  },
+  {
+    "slug": "chocolatey",
+    "name": "Chocolatey",
+    "category": "tools",
+    "tags": [
+      "package",
+      "windows",
+      "manager",
+      "automation"
+    ],
+    "aliases": [
+      "choco"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "80B5E3",
+    "url": "https://chocolatey.org/media-kit"
+  },
+  {
+    "slug": "circleci",
+    "name": "CircleCI",
+    "category": "devops",
+    "tags": [
+      "ci-cd",
+      "automation",
+      "pipeline",
+      "cloud"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "343434",
+    "url": "https://circleci.com/press"
+  },
+  {
+    "slug": "claude",
+    "name": "Claude",
+    "category": "brands",
+    "tags": [
+      "ai",
+      "llm",
+      "anthropic",
+      "assistant"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "D97757",
+    "url": "https://claude.ai"
+  },
+  {
+    "slug": "clerk",
+    "name": "Clerk",
+    "category": "misc",
+    "tags": [
+      "auth",
+      "identity",
+      "react",
+      "nextjs"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "6C47FF",
+    "url": "https://clerk.com"
+  },
+  {
+    "slug": "clickup",
+    "name": "ClickUp",
+    "category": "tools",
+    "tags": [
+      "project",
+      "tasks",
+      "productivity",
+      "management"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "7B68EE",
+    "url": "https://clickup.com/brand"
+  },
+  {
+    "slug": "clojure",
+    "name": "Clojure",
+    "category": "languages",
+    "tags": [
+      "language",
+      "functional",
+      "jvm",
+      "lisp"
+    ],
+    "aliases": [
+      "clj"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "5881D8",
+    "url": "https://commons.wikimedia.org/wiki/File:Clojure_logo.svg"
+  },
+  {
+    "slug": "cloudflare",
+    "name": "Cloudflare",
+    "category": "cloud",
+    "tags": [
+      "cdn",
+      "dns",
+      "security",
+      "edge"
+    ],
+    "aliases": [
+      "cf"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "F38020",
+    "url": "https://www.cloudflare.com/logo/"
+  },
+  {
+    "slug": "cockroachdb",
+    "name": "Cockroach Labs",
+    "category": "databases",
+    "tags": [
+      "database",
+      "sql",
+      "distributed",
+      "cloud"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "6933FF",
+    "url": "https://www.cockroachlabs.com"
+  },
+  {
+    "slug": "codecov",
+    "name": "Codecov",
+    "category": "devops",
+    "tags": [
+      "coverage",
+      "testing",
+      "reports",
+      "ci"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F01F7A",
+    "url": "https://codecov.io"
+  },
+  {
+    "slug": "codeigniter",
+    "name": "CodeIgniter",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "php",
+      "lightweight",
+      "mvc"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "EF4223",
+    "url": "https://www.codeigniter.com/help/legal"
+  },
+  {
+    "slug": "coffeescript",
+    "name": "CoffeeScript",
+    "category": "languages",
+    "tags": [
+      "language",
+      "javascript",
+      "compile",
+      "functional"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "2F2625",
+    "url": "https://coffeescript.org"
+  },
+  {
+    "slug": "composer",
+    "name": "Composer",
+    "category": "tools",
+    "tags": [
+      "package",
+      "php",
+      "manager",
+      "dependency"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "885630",
+    "url": "https://getcomposer.org"
+  },
+  {
+    "slug": "confluence",
+    "name": "Confluence",
+    "category": "tools",
+    "tags": [
+      "wiki",
+      "docs",
+      "atlassian",
+      "collaboration"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "172B4D",
+    "url": "https://www.atlassian.com/company/news/press-kit"
+  },
+  {
+    "slug": "consul",
+    "name": "Consul",
+    "category": "devops",
+    "tags": [
+      "service-discovery",
+      "hashicorp",
+      "mesh",
+      "config"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F24C53",
+    "url": "https://www.hashicorp.com/brand"
+  },
+  {
+    "slug": "contentful",
+    "name": "Contentful",
+    "category": "brands",
+    "tags": [
+      "cms",
+      "headless",
+      "content",
+      "api"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "2478CC",
+    "url": "https://press.contentful.com/media_kits"
+  },
+  {
+    "slug": "convex",
+    "name": "Convex",
+    "category": "databases",
+    "tags": [
+      "database",
+      "backend",
+      "realtime",
+      "serverless"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "EE342F",
+    "url": "https://www.convex.dev/brand"
+  },
+  {
+    "slug": "cursor",
+    "name": "Cursor",
+    "category": "tools",
+    "tags": [
+      "ide",
+      "ai",
+      "code-editor",
+      "fork"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://cursor.com/brand"
+  },
+  {
+    "slug": "cypress",
+    "name": "Cypress",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "e2e",
+      "browser",
+      "integration"
+    ],
+    "aliases": [
+      "cy"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "69D3A7",
+    "url": "https://www.cypress.io/press-kit"
+  },
+  {
+    "slug": "daisyui",
+    "name": "daisyUI",
+    "category": "frontend",
+    "tags": [
+      "ui",
+      "tailwind",
+      "components",
+      "css"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFC63A",
+    "url": "https://daisyui.com/brand"
+  },
+  {
+    "slug": "dart",
+    "name": "Dart",
+    "category": "languages",
+    "tags": [
+      "language",
+      "google",
+      "flutter",
+      "mobile"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0175C2",
+    "url": "https://github.com/dart-lang/site-shared/tree/18458ff440afd3d06f04e5cb871c4c5eda29c9d5/src/_assets/image/dart/logo"
+  },
+  {
+    "slug": "datadog",
+    "name": "Datadog",
+    "category": "devops",
+    "tags": [
+      "monitoring",
+      "apm",
+      "logs",
+      "observability"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "632CA6",
+    "url": "https://www.datadoghq.com/about/resources"
+  },
+  {
+    "slug": "datagrip",
+    "name": "DataGrip",
+    "category": "tools",
+    "tags": [
+      "ide",
+      "jetbrains",
+      "database",
+      "sql"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.jetbrains.com/company/brand/logos/"
+  },
+  {
+    "slug": "debian",
+    "name": "Debian",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "stable",
+      "free"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "A81D33",
+    "url": "https://www.debian.org/logos"
+  },
+  {
+    "slug": "deno",
+    "name": "Deno",
+    "category": "backend",
+    "tags": [
+      "runtime",
+      "javascript",
+      "typescript",
+      "secure"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://github.com/denoland/docs/blob/5dee713844c7447f80acd4093caa9d350d80bf36/static/img/logo.svg"
+  },
+  {
+    "slug": "devto",
+    "name": "dev.to",
+    "category": "social",
+    "tags": [
+      "blog",
+      "developer",
+      "community",
+      "articles"
+    ],
+    "aliases": [
+      "dev.to"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "0A0A0A",
+    "url": "https://dev.to"
+  },
+  {
+    "slug": "digitalocean",
+    "name": "DigitalOcean",
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "hosting",
+      "droplets",
+      "kubernetes"
+    ],
+    "aliases": [
+      "do"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "0080FF",
+    "url": "https://www.digitalocean.com/press/"
+  },
+  {
+    "slug": "discord",
+    "name": "Discord",
+    "category": "tools",
+    "tags": [
+      "communication",
+      "chat",
+      "voice",
+      "community"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "5865F2",
+    "url": "https://discord.com/branding"
+  },
+  {
+    "slug": "django",
+    "name": "Django",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "python",
+      "web",
+      "batteries"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "092E20",
+    "url": "https://www.djangoproject.com/community/logos/"
+  },
+  {
+    "slug": "docker",
+    "name": "Docker",
+    "category": "devops",
+    "tags": [
+      "container",
+      "virtualization",
+      "deployment",
+      "devops"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "2496ED",
+    "url": "https://www.docker.com/company/newsroom/media-resources"
+  },
+  {
+    "slug": "docusaurus",
+    "name": "Docusaurus",
+    "category": "tools",
+    "tags": [
+      "docs",
+      "static-site",
+      "react",
+      "meta"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3ECC5F",
+    "url": "https://github.com/facebook/docusaurus/blob/67c40069d1062b5aae530b696e6f66bf9618a696/website/static/img/docusaurus.svg"
+  },
+  {
+    "slug": "dogecoin",
+    "name": "Dogecoin",
+    "category": "crypto",
+    "tags": [
+      "cryptocurrency",
+      "meme",
+      "blockchain",
+      "doge"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "C2A633",
+    "url": "https://cryptologos.cc/dogecoin"
+  },
+  {
+    "slug": "dribbble",
+    "name": "Dribbble",
+    "category": "social",
+    "tags": [
+      "design",
+      "portfolio",
+      "community",
+      "shots"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "EA4C89",
+    "url": "https://dribbble.com/branding"
+  },
+  {
+    "slug": "drizzle",
+    "name": "Drizzle",
+    "category": "databases",
+    "tags": [
+      "orm",
+      "typescript",
+      "sql",
+      "lightweight"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "C5F74F",
+    "url": "https://orm.drizzle.team"
+  },
+  {
+    "slug": "drupal",
+    "name": "Drupal",
+    "category": "backend",
+    "tags": [
+      "cms",
+      "php",
+      "enterprise",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0678BE",
+    "url": "https://www.drupal.org/about/media-kit/logos"
+  },
+  {
+    "slug": "duckdb",
+    "name": "DuckDB",
+    "category": "databases",
+    "tags": [
+      "database",
+      "analytics",
+      "embedded",
+      "olap"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFF000",
+    "url": "https://duckdb.org"
+  },
+  {
+    "slug": "elastic",
+    "name": "Elastic",
+    "category": "devops",
+    "tags": [
+      "search",
+      "observability",
+      "security",
+      "elk"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "005571",
+    "url": "https://www.elastic.co/brand"
+  },
+  {
+    "slug": "elasticsearch",
+    "name": "Elasticsearch",
+    "category": "databases",
+    "tags": [
+      "search",
+      "analytics",
+      "nosql",
+      "elk"
+    ],
+    "aliases": [
+      "elastic"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "005571",
+    "url": "https://www.elastic.co/brand"
+  },
+  {
+    "slug": "electron",
+    "name": "Electron",
+    "category": "backend",
+    "tags": [
+      "desktop",
+      "chromium",
+      "nodejs",
+      "cross-platform"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "47848F",
+    "url": "https://www.electronjs.org"
+  },
+  {
+    "slug": "elixir",
+    "name": "Elixir",
+    "category": "languages",
+    "tags": [
+      "language",
+      "functional",
+      "erlang",
+      "concurrent"
+    ],
+    "aliases": [
+      "ex"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "4B275F",
+    "url": "https://github.com/elixir-lang/elixir-lang.github.com/tree/031746384ee23b9be19298c92a9699c56cc05845/images/logo"
+  },
+  {
+    "slug": "elm",
+    "name": "Elm",
+    "category": "languages",
+    "tags": [
+      "language",
+      "functional",
+      "frontend",
+      "type-safe"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "1293D8",
+    "url": "https://github.com/elm/foundation.elm-lang.org/blob/2d097b317d8af2aaeab49284830260a32d817305/assets/elm_logo.svg"
+  },
+  {
+    "slug": "epicgames",
+    "name": "Epic Games",
+    "category": "gaming",
+    "tags": [
+      "platform",
+      "store",
+      "unreal",
+      "fortnite"
+    ],
+    "aliases": [
+      "epic"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "313131",
+    "url": "https://dev.epicgames.com/docs/services/en-US/EpicAccountServices/DesignGuidelines/index.html#epicgamesbrandguidelines"
+  },
+  {
+    "slug": "erlang",
+    "name": "Erlang",
+    "category": "languages",
+    "tags": [
+      "language",
+      "functional",
+      "concurrent",
+      "telecom"
+    ],
+    "aliases": [
+      "erl"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "A90533",
+    "url": "https://github.com/erlang/erlide_eclipse/blob/99d1d61fde8e32ef1630ca0e1b05a6822b3d6489/meta/media/erlang-logo.svg"
+  },
+  {
+    "slug": "esbuild",
+    "name": "esbuild",
+    "category": "frontend",
+    "tags": [
+      "build",
+      "bundler",
+      "fast",
+      "go"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFCF00",
+    "url": "https://github.com/evanw/esbuild/blob/ac542f913908d7326b65eb2e01f0559ed135a40e/images/logo.svg"
+  },
+  {
+    "slug": "eslint",
+    "name": "ESLint",
+    "category": "tools",
+    "tags": [
+      "linter",
+      "javascript",
+      "code-quality",
+      "rules"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "4B32C3",
+    "url": "https://eslint.org"
+  },
+  {
+    "slug": "espressif",
+    "name": "Espressif",
+    "category": "hardware",
+    "tags": [
+      "esp32",
+      "iot",
+      "wifi",
+      "microcontroller"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E7352C",
+    "url": "https://www.espressif.com"
+  },
+  {
+    "slug": "ethereum",
+    "name": "Ethereum",
+    "category": "crypto",
+    "tags": [
+      "cryptocurrency",
+      "blockchain",
+      "smart-contracts",
+      "eth"
+    ],
+    "aliases": [
+      "eth"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "3C3C3D",
+    "url": "https://ethereum.org/en/assets/"
+  },
+  {
+    "slug": "expo",
+    "name": "Expo",
+    "category": "mobile",
+    "tags": [
+      "framework",
+      "react-native",
+      "toolchain",
+      "mobile"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "1C2024",
+    "url": "https://expo.dev/brand/"
+  },
+  {
+    "slug": "express",
+    "name": "Express",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "nodejs",
+      "http",
+      "middleware"
+    ],
+    "aliases": [
+      "expressjs"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://github.com/openjs-foundation/artwork/blob/ac43961d1157f973c54f210cf5e0c9c45e3d3f10/projects/express/express-icon-black.svg"
+  },
+  {
+    "slug": "fsharp",
+    "name": "F#",
+    "category": "languages",
+    "tags": [
+      "language",
+      "functional",
+      "dotnet",
+      "microsoft"
+    ],
+    "aliases": [
+      "f#"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "378BBA",
+    "url": "https://foundation.fsharp.org/logo"
+  },
+  {
+    "slug": "facebook",
+    "name": "Facebook",
+    "category": "social",
+    "tags": [
+      "social",
+      "networking",
+      "meta",
+      "community"
+    ],
+    "aliases": [
+      "fb"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "0866FF",
+    "url": "https://about.meta.com/brand/resources/facebook/logo"
+  },
+  {
+    "slug": "fastapi",
+    "name": "FastAPI",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "python",
+      "async",
+      "api"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "009688",
+    "url": "https://github.com/tiangolo/fastapi/blob/ffb4f77a11f83132b521ba0aac6c95792c19e797/docs/en/docs/img/icon-white.svg"
+  },
+  {
+    "slug": "fastify",
+    "name": "Fastify",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "nodejs",
+      "fast",
+      "http"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://github.com/fastify/graphics/blob/91e8a3d4754807de3b69440f66c72a737a5fde94/fastify-1000px-square-02.svg"
+  },
+  {
+    "slug": "fastly",
+    "name": "Fastly",
+    "category": "cloud",
+    "tags": [
+      "cdn",
+      "edge",
+      "compute",
+      "performance"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF282D",
+    "url": "https://assets.fastly.com/style-guide/docs/"
+  },
+  {
+    "slug": "fedora",
+    "name": "Fedora",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "redhat",
+      "rpm"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "51A2DA",
+    "url": "https://docs.fedoraproject.org/en-US/project/brand/"
+  },
+  {
+    "slug": "figma",
+    "name": "Figma",
+    "category": "design",
+    "tags": [
+      "design",
+      "ui",
+      "prototyping",
+      "collaboration"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F24E1E",
+    "url": "https://www.figma.com/using-the-figma-brand/"
+  },
+  {
+    "slug": "firebase",
+    "name": "Firebase",
+    "category": "databases",
+    "tags": [
+      "database",
+      "baas",
+      "google",
+      "realtime"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "DD2C00",
+    "url": "https://firebase.google.com/brand-guidelines"
+  },
+  {
+    "slug": "firefox",
+    "name": "Firefox",
+    "category": "browsers",
+    "tags": [
+      "browser",
+      "mozilla",
+      "gecko",
+      "web"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF7139",
+    "url": "https://mozilla.design/firefox/logos-usage/"
+  },
+  {
+    "slug": "fiverr",
+    "name": "Fiverr",
+    "category": "social",
+    "tags": [
+      "freelance",
+      "services",
+      "gig",
+      "platform"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "1DBF73",
+    "url": "https://www.fiverr.com/press-kit"
+  },
+  {
+    "slug": "flask",
+    "name": "Flask",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "python",
+      "micro",
+      "web"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3BABC3",
+    "url": "https://github.com/pallets/flask/blob/85c5d93cbd049c4bd0679c36fd1ddcae8c37b642/docs/_static/flask-icon.svg"
+  },
+  {
+    "slug": "fluentd",
+    "name": "Fluentd",
+    "category": "devops",
+    "tags": [
+      "logging",
+      "collection",
+      "unified",
+      "cncf"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0E83C8",
+    "url": "https://docs.fluentd.org/quickstart/logo"
+  },
+  {
+    "slug": "flutter",
+    "name": "Flutter",
+    "category": "mobile",
+    "tags": [
+      "framework",
+      "cross-platform",
+      "dart",
+      "google"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "02569B",
+    "url": "https://flutter.dev/brand"
+  },
+  {
+    "slug": "flyio",
+    "name": "Fly.io",
+    "category": "cloud",
+    "tags": [
+      "hosting",
+      "edge",
+      "containers",
+      "distributed"
+    ],
+    "aliases": [
+      "fly"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "24175B",
+    "url": "https://fly.io/docs/about/brand"
+  },
+  {
+    "slug": "fortran",
+    "name": "Fortran",
+    "category": "languages",
+    "tags": [
+      "language",
+      "scientific",
+      "legacy",
+      "hpc"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "734F96",
+    "url": "https://github.com/fortran-lang/fortran-lang.org/blob/5469465d08d3fcbf16d048e651ca5c9ba050839c/assets/img/fortran-logo.svg"
+  },
+  {
+    "slug": "framer",
+    "name": "Framer",
+    "category": "design",
+    "tags": [
+      "design",
+      "prototyping",
+      "animation",
+      "react"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0055FF",
+    "url": "https://framer.com"
+  },
+  {
+    "slug": "freebsd",
+    "name": "FreeBSD",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "bsd",
+      "unix",
+      "server"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "AB2B28",
+    "url": "https://www.freebsdfoundation.org/about/project/"
+  },
+  {
+    "slug": "gatsby",
+    "name": "Gatsby",
+    "category": "frontend",
+    "tags": [
+      "framework",
+      "react",
+      "static",
+      "graphql"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "663399",
+    "url": "https://www.gatsbyjs.com/guidelines/logo"
+  },
+  {
+    "slug": "ghost",
+    "name": "Ghost",
+    "category": "backend",
+    "tags": [
+      "cms",
+      "blog",
+      "publishing",
+      "newsletter"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "15171A",
+    "url": "https://github.com/TryGhost/Admin/blob/e3e1fa3353767c3729b1658ad42cc35f883470c5/public/assets/icons/icon.svg"
+  },
+  {
+    "slug": "gimp",
+    "name": "GIMP",
+    "category": "design",
+    "tags": [
+      "image",
+      "editing",
+      "open-source",
+      "raster"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "8C8073",
+    "url": "https://gitlab.gnome.org/GNOME/gimp-data/-/blob/e62f1905dcef7ec831ea6c052bb035eb37eaa69e/images/logo/gimp-logo-unicolor.svg"
+  },
+  {
+    "slug": "git",
+    "name": "Git",
+    "category": "tools",
+    "tags": [
+      "version-control",
+      "vcs",
+      "scm"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F05032",
+    "url": "https://git-scm.com/downloads/logos"
+  },
+  {
+    "slug": "gitbook",
+    "name": "GitBook",
+    "category": "tools",
+    "tags": [
+      "docs",
+      "documentation",
+      "wiki",
+      "knowledge"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "BBDDE5",
+    "url": "https://www.gitbook.com"
+  },
+  {
+    "slug": "gitea",
+    "name": "Gitea",
+    "category": "devops",
+    "tags": [
+      "git",
+      "hosting",
+      "self-hosted",
+      "lightweight"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "609926",
+    "url": "https://github.com/go-gitea/gitea/blob/e0c753e770a64cda5e3900aa1da3d7e1f3263c9a/assets/logo.svg"
+  },
+  {
+    "slug": "github",
+    "name": "GitHub",
+    "category": "tools",
+    "tags": [
+      "platform",
+      "git",
+      "hosting",
+      "collaboration",
+      "microsoft"
+    ],
+    "aliases": [
+      "gh"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "181717",
+    "url": "https://github.com/logos"
+  },
+  {
+    "slug": "githubactions",
+    "name": "GitHub Actions",
+    "category": "devops",
+    "tags": [
+      "ci-cd",
+      "automation",
+      "github",
+      "workflow"
+    ],
+    "aliases": [
+      "gha"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "2088FF",
+    "url": "https://github.com/features/actions"
+  },
+  {
+    "slug": "githubcopilot",
+    "name": "GitHub Copilot",
+    "category": "tools",
+    "tags": [
+      "ai",
+      "code-completion",
+      "github",
+      "assistant"
+    ],
+    "aliases": [
+      "copilot"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://primer.style/foundations/icons/copilot-24"
+  },
+  {
+    "slug": "githubpages",
+    "name": "GitHub Pages",
+    "category": "tools",
+    "tags": [
+      "hosting",
+      "static",
+      "github",
+      "free"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "222222",
+    "url": "https://pages.github.com"
+  },
+  {
+    "slug": "gitkraken",
+    "name": "GitKraken",
+    "category": "tools",
+    "tags": [
+      "git",
+      "gui",
+      "client",
+      "merge"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "179287",
+    "url": "https://www.gitkraken.com"
+  },
+  {
+    "slug": "gitlab",
+    "name": "GitLab",
+    "category": "devops",
+    "tags": [
+      "ci-cd",
+      "git",
+      "platform",
+      "devops"
+    ],
+    "aliases": [
+      "gl"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FC6D26",
+    "url": "https://about.gitlab.com/press/press-kit/"
+  },
+  {
+    "slug": "gitlabtools",
+    "name": "GitLab",
+    "category": "tools",
+    "tags": [
+      "platform",
+      "git",
+      "hosting",
+      "ci-cd"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FC6D26",
+    "url": "https://about.gitlab.com/press/press-kit/"
+  },
+  {
+    "slug": "gitpod",
+    "name": "Gitpod",
+    "category": "misc",
+    "tags": [
+      "ide",
+      "cloud",
+      "dev-environment",
+      "workspace"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFAE33",
+    "url": "https://www.gitpod.io"
+  },
+  {
+    "slug": "gleam",
+    "name": "Gleam",
+    "category": "languages",
+    "tags": [
+      "language",
+      "functional",
+      "erlang",
+      "type-safe"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFAFF3",
+    "url": "https://gleam.run"
+  },
+  {
+    "slug": "gnometerminal",
+    "name": "GNOME Terminal",
+    "category": "tools",
+    "tags": [
+      "terminal",
+      "linux",
+      "gnome",
+      "shell"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "241F31",
+    "url": "https://gitlab.gnome.org/GNOME/gnome-terminal/-/blob/9c32e039bfb7902c136dc7aed3308e027325776c/data/icons/hicolor_apps_scalable_org.gnome.Terminal.svg"
+  },
+  {
+    "slug": "bash",
+    "name": "GNU Bash",
+    "category": "languages",
+    "tags": [
+      "shell",
+      "scripting",
+      "terminal",
+      "unix"
+    ],
+    "aliases": [
+      "sh"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "4EAA25",
+    "url": "https://github.com/odb/official-bash-logo/tree/61eff022f2dad3c7468f5deb4f06652d15f2c143"
+  },
+  {
+    "slug": "gpg",
+    "name": "GNU Privacy Guard",
+    "category": "misc",
+    "tags": [
+      "security",
+      "encryption",
+      "signing",
+      "privacy"
+    ],
+    "aliases": [
+      "gnupg"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "0093DD",
+    "url": "https://git.gnupg.org/cgi-bin/gitweb.cgi?p=gnupg.git;a=tree;f=artwork/icons"
+  },
+  {
+    "slug": "go",
+    "name": "Go",
+    "category": "languages",
+    "tags": [
+      "language",
+      "google",
+      "concurrent",
+      "systems"
+    ],
+    "aliases": [
+      "golang"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "00ADD8",
+    "url": "https://blog.golang.org/go-brand"
+  },
+  {
+    "slug": "godotengine",
+    "name": "Godot Engine",
+    "category": "gaming",
+    "tags": [
+      "engine",
+      "game-dev",
+      "open-source",
+      "2d"
+    ],
+    "aliases": [
+      "godot"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "478CBF",
+    "url": "https://godotengine.org/press"
+  },
+  {
+    "slug": "goland",
+    "name": "GoLand",
+    "category": "tools",
+    "tags": [
+      "ide",
+      "jetbrains",
+      "go",
+      "debugging"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.jetbrains.com/company/brand/#logos-and-icons-jetbrains-logos"
+  },
+  {
+    "slug": "google",
+    "name": "Google",
+    "category": "brands",
+    "tags": [
+      "company",
+      "search",
+      "tech",
+      "alphabet"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "4285F4",
+    "url": "https://partnermarketinghub.withgoogle.com"
+  },
+  {
+    "slug": "chrome",
+    "name": "Google Chrome",
+    "category": "browsers",
+    "tags": [
+      "browser",
+      "google",
+      "chromium",
+      "web"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "4285F4",
+    "url": "https://www.google.com/chrome"
+  },
+  {
+    "slug": "gcp",
+    "name": "Google Cloud",
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "google",
+      "infrastructure",
+      "services"
+    ],
+    "aliases": [
+      "google-cloud"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "4285F4",
+    "url": "https://cloud.google.com"
+  },
+  {
+    "slug": "googlecolab",
+    "name": "Google Colab",
+    "category": "ai-ml",
+    "tags": [
+      "notebook",
+      "cloud",
+      "gpu",
+      "google"
+    ],
+    "aliases": [
+      "colab"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "F9AB00",
+    "url": "https://colab.research.google.com"
+  },
+  {
+    "slug": "googlegemini",
+    "name": "Google Gemini",
+    "category": "brands",
+    "tags": [
+      "ai",
+      "llm",
+      "google",
+      "multimodal"
+    ],
+    "aliases": [
+      "gemini"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "8E75B2",
+    "url": "https://gemini.google.com"
+  },
+  {
+    "slug": "googlemeet",
+    "name": "Google Meet",
+    "category": "productivity",
+    "tags": [
+      "video",
+      "meetings",
+      "google",
+      "communication"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "00897B",
+    "url": "https://about.google/brand-resource-center/logos-list/"
+  },
+  {
+    "slug": "gradio",
+    "name": "Gradio",
+    "category": "ai-ml",
+    "tags": [
+      "ui",
+      "ml-demo",
+      "interface",
+      "python"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F97316",
+    "url": "https://www.gradio.app"
+  },
+  {
+    "slug": "grafana",
+    "name": "Grafana",
+    "category": "devops",
+    "tags": [
+      "monitoring",
+      "dashboard",
+      "visualization",
+      "observability"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F46800",
+    "url": "https://grafana.com"
+  },
+  {
+    "slug": "graphql",
+    "name": "GraphQL",
+    "category": "backend",
+    "tags": [
+      "api",
+      "query",
+      "schema",
+      "typed"
+    ],
+    "aliases": [
+      "gql"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "E10098",
+    "url": "https://graphql.org/brand"
+  },
+  {
+    "slug": "gulp",
+    "name": "gulp",
+    "category": "frontend",
+    "tags": [
+      "build",
+      "task-runner",
+      "streaming",
+      "automation"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "CF4647",
+    "url": "https://github.com/gulpjs/artwork/blob/4e14158817ac88e9a5c02b3b307e6f630fe222fb/gulp-white-text.svg"
+  },
+  {
+    "slug": "gunicorn",
+    "name": "Gunicorn",
+    "category": "backend",
+    "tags": [
+      "server",
+      "python",
+      "wsgi",
+      "http"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "499848",
+    "url": "https://github.com/benoitc/gunicorn/blob/ff58e0c6da83d5520916bc4cc109a529258d76e1/docs/logo/gunicorn.svg"
+  },
+  {
+    "slug": "hashnode",
+    "name": "Hashnode",
+    "category": "social",
+    "tags": [
+      "blog",
+      "developer",
+      "community",
+      "writing"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "2962FF",
+    "url": "https://hashnode.com/media"
+  },
+  {
+    "slug": "haskell",
+    "name": "Haskell",
+    "category": "languages",
+    "tags": [
+      "language",
+      "functional",
+      "pure",
+      "academic"
+    ],
+    "aliases": [
+      "hs"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "5D4F85",
+    "url": "https://wiki.haskell.org/Thompson-Wheeler_logo"
+  },
+  {
+    "slug": "headlessui",
+    "name": "Headless UI",
+    "category": "frontend",
+    "tags": [
+      "ui",
+      "accessible",
+      "unstyled",
+      "tailwind"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "66E3FF",
+    "url": "https://headlessui.dev"
+  },
+  {
+    "slug": "helm",
+    "name": "Helm",
+    "category": "devops",
+    "tags": [
+      "kubernetes",
+      "package",
+      "charts",
+      "deployment"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "0F1689",
+    "url": "https://helm.sh"
+  },
+  {
+    "slug": "hetzner",
+    "name": "Hetzner",
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "hosting",
+      "vps",
+      "europe"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "D50C2D",
+    "url": "https://www.hetzner.com"
+  },
+  {
+    "slug": "homebrew",
+    "name": "Homebrew",
+    "category": "tools",
+    "tags": [
+      "package",
+      "macos",
+      "linux",
+      "manager"
+    ],
+    "aliases": [
+      "brew"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FBB040",
+    "url": "https://github.com/Homebrew/brew.sh/blob/2e576aaca83e62dda41a188597bb4bd20e75e385/assets/img/homebrew.svg"
+  },
+  {
+    "slug": "hono",
+    "name": "Hono",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "edge",
+      "fast",
+      "web-standards"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E36002",
+    "url": "https://github.com/honojs/hono/blob/76dbc74407329c46870af6aa4fab0c04036d8ae2/docs/images/hono-logo.svg"
+  },
+  {
+    "slug": "hoppscotch",
+    "name": "Hoppscotch",
+    "category": "tools",
+    "tags": [
+      "api",
+      "testing",
+      "http",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "09090B",
+    "url": "https://hoppscotch.com"
+  },
+  {
+    "slug": "htmx",
+    "name": "htmx",
+    "category": "frontend",
+    "tags": [
+      "framework",
+      "html",
+      "ajax",
+      "hypermedia"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3366CC",
+    "url": "https://github.com/bigskysoftware/htmx/blob/f690d928342b6334fa539cfbd4be515748d2ba0f/www/static/img/htmx_logo.2.png"
+  },
+  {
+    "slug": "huggingface",
+    "name": "Hugging Face",
+    "category": "ai-ml",
+    "tags": [
+      "ai",
+      "nlp",
+      "transformers",
+      "models"
+    ],
+    "aliases": [
+      "hf"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFD21E",
+    "url": "https://huggingface.co/brand"
+  },
+  {
+    "slug": "hyper",
+    "name": "Hyper",
+    "category": "tools",
+    "tags": [
+      "terminal",
+      "electron",
+      "extensible",
+      "cross-platform"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://hyper.is"
+  },
+  {
+    "slug": "influxdb",
+    "name": "InfluxDB",
+    "category": "databases",
+    "tags": [
+      "database",
+      "time-series",
+      "monitoring",
+      "iot"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "22ADF6",
+    "url": "https://influxdata.github.io/branding/logo/downloads/"
+  },
+  {
+    "slug": "inkscape",
+    "name": "Inkscape",
+    "category": "design",
+    "tags": [
+      "vector",
+      "editing",
+      "open-source",
+      "svg"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://inkscape.org/gallery/=inkscape-branding/inkscape-brand-assets/"
+  },
+  {
+    "slug": "insomnia",
+    "name": "Insomnia",
+    "category": "tools",
+    "tags": [
+      "api",
+      "testing",
+      "http",
+      "graphql"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "4000BF",
+    "url": "https://insomnia.rest"
+  },
+  {
+    "slug": "instagram",
+    "name": "Instagram",
+    "category": "social",
+    "tags": [
+      "social",
+      "photo",
+      "stories",
+      "meta"
+    ],
+    "aliases": [
+      "ig"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF0069",
+    "url": "https://about.meta.com/brand/resources/instagram"
+  },
+  {
+    "slug": "intel",
+    "name": "Intel",
+    "category": "brands",
+    "tags": [
+      "hardware",
+      "cpu",
+      "semiconductor",
+      "chip"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0071C5",
+    "url": "https://www.intel.com/content/www/us/en/newsroom/resources/press-kits-intel-overview.html"
+  },
+  {
+    "slug": "intellij",
+    "name": "IntelliJ IDEA",
+    "category": "tools",
+    "tags": [
+      "ide",
+      "jetbrains",
+      "java",
+      "kotlin"
+    ],
+    "aliases": [
+      "idea"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.jetbrains.com/idea/"
+  },
+  {
+    "slug": "ionic",
+    "name": "Ionic",
+    "category": "frontend",
+    "tags": [
+      "mobile",
+      "hybrid",
+      "angular",
+      "cross-platform"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3880FF",
+    "url": "https://ionicframework.com/press"
+  },
+  {
+    "slug": "ios",
+    "name": "iOS",
+    "category": "mobile",
+    "tags": [
+      "platform",
+      "apple",
+      "mobile",
+      "swift"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://en.wikipedia.org/wiki/IOS"
+  },
+  {
+    "slug": "istio",
+    "name": "Istio",
+    "category": "devops",
+    "tags": [
+      "service-mesh",
+      "kubernetes",
+      "traffic",
+      "security"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "466BB0",
+    "url": "https://github.com/istio/istio/blob/5a047251817eb2523af297607b7614120812e47a/logo/istio-bluelogo-whitebackground-unframed.svg"
+  },
+  {
+    "slug": "itchio",
+    "name": "Itch.io",
+    "category": "gaming",
+    "tags": [
+      "indie",
+      "games",
+      "marketplace",
+      "platform"
+    ],
+    "aliases": [
+      "itch.io"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FA5C5C",
+    "url": "https://itch.io/press-kit"
+  },
+  {
+    "slug": "iterm2",
+    "name": "iTerm2",
+    "category": "tools",
+    "tags": [
+      "terminal",
+      "macos",
+      "shell",
+      "emulator"
+    ],
+    "aliases": [
+      "iterm"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://github.com/gnachman/iTerm2/blob/6a857f3f5872eb1465ddc0dd83412015991e79ae/images/AppIcon/iTermIcon.sketch"
+  },
+  {
+    "slug": "javascript",
+    "name": "JavaScript",
+    "category": "languages",
+    "tags": [
+      "language",
+      "web",
+      "scripting",
+      "ecmascript"
+    ],
+    "aliases": [
+      "js",
+      "es6"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "F7DF1E",
+    "url": "https://github.com/voodootikigod/logo.js/blob/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg"
+  },
+  {
+    "slug": "jenkins",
+    "name": "Jenkins",
+    "category": "devops",
+    "tags": [
+      "ci-cd",
+      "automation",
+      "pipeline",
+      "java"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "D24939",
+    "url": "https://get.jenkins.io/art/"
+  },
+  {
+    "slug": "jest",
+    "name": "Jest",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "javascript",
+      "unit",
+      "snapshot"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "C21325",
+    "url": "https://jestjs.io"
+  },
+  {
+    "slug": "jira",
+    "name": "Jira",
+    "category": "tools",
+    "tags": [
+      "project",
+      "issues",
+      "agile",
+      "atlassian"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0052CC",
+    "url": "https://atlassian.design/resources/logo-library"
+  },
+  {
+    "slug": "json",
+    "name": "JSON",
+    "category": "misc",
+    "tags": [
+      "data",
+      "format",
+      "api",
+      "serialization"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://commons.wikimedia.org/wiki/File:JSON_vector_logo.svg"
+  },
+  {
+    "slug": "jwt",
+    "name": "JSON Web Tokens",
+    "category": "misc",
+    "tags": [
+      "auth",
+      "token",
+      "security",
+      "standard"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://jwt.io"
+  },
+  {
+    "slug": "julia",
+    "name": "Julia",
+    "category": "languages",
+    "tags": [
+      "language",
+      "scientific",
+      "data-science",
+      "performance"
+    ],
+    "aliases": [
+      "jl"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "9558B2",
+    "url": "https://github.com/JuliaLang/julia-logo-graphics/blob/b5551ca7946b4a25746c045c15fbb8806610f8d0/images/julia-dots.svg"
+  },
+  {
+    "slug": "jupyter",
+    "name": "Jupyter",
+    "category": "ai-ml",
+    "tags": [
+      "notebook",
+      "data-science",
+      "python",
+      "interactive"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F37626",
+    "url": "https://github.com/jupyter/design/blob/80716ee75dd7b2a6ec6abcd89922d020483589b1/logos/Logo%20Mark/logomark-whitebody-whitemoons/logomark-whitebody-whitemoons.svg"
+  },
+  {
+    "slug": "k6",
+    "name": "k6",
+    "category": "testing",
+    "tags": [
+      "load-testing",
+      "performance",
+      "grafana",
+      "javascript"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "7D64FF",
+    "url": "https://commons.wikimedia.org/wiki/File:K6-logo.svg"
+  },
+  {
+    "slug": "kaggle",
+    "name": "Kaggle",
+    "category": "ai-ml",
+    "tags": [
+      "competition",
+      "dataset",
+      "notebook",
+      "community"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "20BEFF",
+    "url": "https://www.kaggle.com/brand-guidelines"
+  },
+  {
+    "slug": "kalilinux",
+    "name": "Kali Linux",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "security",
+      "pentesting"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "557C94",
+    "url": "https://www.kali.org/docs/policy/trademark/"
+  },
+  {
+    "slug": "keras",
+    "name": "Keras",
+    "category": "ai-ml",
+    "tags": [
+      "deep-learning",
+      "api",
+      "neural-network",
+      "tensorflow"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "D00000",
+    "url": "https://keras.io"
+  },
+  {
+    "slug": "kibana",
+    "name": "Kibana",
+    "category": "devops",
+    "tags": [
+      "visualization",
+      "analytics",
+      "elk",
+      "dashboard"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "005571",
+    "url": "https://www.elastic.co/brand"
+  },
+  {
+    "slug": "kofi",
+    "name": "Ko-fi",
+    "category": "social",
+    "tags": [
+      "funding",
+      "creator",
+      "donations",
+      "support"
+    ],
+    "aliases": [
+      "ko-fi"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF6433",
+    "url": "https://more.ko-fi.com/brand-assets"
+  },
+  {
+    "slug": "kotlin",
+    "name": "Kotlin",
+    "category": "languages",
+    "tags": [
+      "language",
+      "jvm",
+      "android",
+      "jetbrains"
+    ],
+    "aliases": [
+      "kt"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "7F52FF",
+    "url": "https://www.jetbrains.com/company/brand/logos/"
+  },
+  {
+    "slug": "kubernetes",
+    "name": "Kubernetes",
+    "category": "devops",
+    "tags": [
+      "orchestration",
+      "container",
+      "k8s",
+      "cloud-native"
+    ],
+    "aliases": [
+      "k8s"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "326CE5",
+    "url": "https://github.com/kubernetes/kubernetes/tree/cac53883f4714452f3084a22e4be20d042a9df33/logo"
+  },
+  {
+    "slug": "langchain",
+    "name": "LangChain",
+    "category": "ai-ml",
+    "tags": [
+      "llm",
+      "framework",
+      "rag",
+      "agents"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "1C3C3C",
+    "url": "https://www.langchain.com"
+  },
+  {
+    "slug": "laravel",
+    "name": "Laravel",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "php",
+      "web",
+      "eloquent"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF2D20",
+    "url": "https://github.com/laravel/art/tree/5a8325b064634b900f25dbb6f1cafd888b2d2211"
+  },
+  {
+    "slug": "leaflet",
+    "name": "Leaflet",
+    "category": "frontend",
+    "tags": [
+      "maps",
+      "geospatial",
+      "interactive",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "199900",
+    "url": "https://github.com/Leaflet/Leaflet/blob/d843c3b88486713827d7e860b58bdba75bfbd5a2/src/images/logo.svg"
+  },
+  {
+    "slug": "less",
+    "name": "Less",
+    "category": "frontend",
+    "tags": [
+      "css",
+      "preprocessor",
+      "styling",
+      "variables"
+    ],
+    "aliases": [
+      "lessjs"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "1D365D",
+    "url": "https://github.com/less/logo/blob/c9c10c328cfc00071e92443934b35e389310abf8/less_logo.ai"
+  },
+  {
+    "slug": "letsencrypt",
+    "name": "Let's Encrypt",
+    "category": "misc",
+    "tags": [
+      "security",
+      "ssl",
+      "certificate",
+      "free"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "003A70",
+    "url": "https://letsencrypt.org/trademarks/"
+  },
+  {
+    "slug": "line",
+    "name": "LINE",
+    "category": "social",
+    "tags": [
+      "messaging",
+      "japan",
+      "communication",
+      "social"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "00C300",
+    "url": "https://line.me/en/logo"
+  },
+  {
+    "slug": "linear",
+    "name": "Linear",
+    "category": "tools",
+    "tags": [
+      "project",
+      "issues",
+      "tracking",
+      "agile"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "5E6AD2",
+    "url": "https://linear.app"
+  },
+  {
+    "slug": "linux",
+    "name": "Linux",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "kernel",
+      "open-source",
+      "unix"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FCC624",
+    "url": "https://www.linuxfoundation.org/the-linux-mark/"
+  },
+  {
+    "slug": "linuxmint",
+    "name": "Linux Mint",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "cinnamon",
+      "beginner"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "86BE43",
+    "url": "https://github.com/linuxmint/brand-logo/blob/540ac3b08e987866d77a340f557f994c988ac2ae/ring-mono-green.svg"
+  },
+  {
+    "slug": "lit",
+    "name": "Lit",
+    "category": "frontend",
+    "tags": [
+      "web-components",
+      "lightweight",
+      "google",
+      "custom-elements"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "324FFF",
+    "url": "https://github.com/lit/lit.dev/blob/5e59bdb00b7a261d6fdcd6a4ae529e17f6146ed3/packages/lit-dev-content/site/images/flame-favicon.svg"
+  },
+  {
+    "slug": "litecoin",
+    "name": "Litecoin",
+    "category": "crypto",
+    "tags": [
+      "cryptocurrency",
+      "blockchain",
+      "payments",
+      "ltc"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "A6A9AA",
+    "url": "https://litecoin-foundation.org/litecoin-branding-guidelines/"
+  },
+  {
+    "slug": "logseq",
+    "name": "Logseq",
+    "category": "productivity",
+    "tags": [
+      "notes",
+      "knowledge",
+      "open-source",
+      "graph"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "85C8C8",
+    "url": "https://github.com/logseq/logseq/blob/c4d15ec8487c9fb6b6f41780fc1abddab89491e4/resources/icon.png"
+  },
+  {
+    "slug": "logstash",
+    "name": "Logstash",
+    "category": "devops",
+    "tags": [
+      "logging",
+      "pipeline",
+      "elk",
+      "data"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "005571",
+    "url": "https://www.elastic.co/brand"
+  },
+  {
+    "slug": "lottiefiles",
+    "name": "LottieFiles",
+    "category": "design",
+    "tags": [
+      "animation",
+      "json",
+      "motion",
+      "lightweight"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "00DDB3",
+    "url": "https://lottiefiles.github.io/lottie-docs/"
+  },
+  {
+    "slug": "lua",
+    "name": "Lua",
+    "category": "languages",
+    "tags": [
+      "language",
+      "scripting",
+      "embedded",
+      "game"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000080",
+    "url": "https://www.lua.org/images/"
+  },
+  {
+    "slug": "macos",
+    "name": "macOS",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "apple",
+      "desktop",
+      "unix"
+    ],
+    "aliases": [
+      "mac"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://commons.wikimedia.org/wiki/File:MacOS_wordmark_(2017).svg"
+  },
+  {
+    "slug": "mailchimp",
+    "name": "MailChimp",
+    "category": "brands",
+    "tags": [
+      "email",
+      "marketing",
+      "automation",
+      "newsletter"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFE01B",
+    "url": "https://mailchimp.com/about/brand-assets"
+  },
+  {
+    "slug": "manjaro",
+    "name": "Manjaro",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "arch-based",
+      "friendly"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "35BFA4",
+    "url": "https://manjaro.org"
+  },
+  {
+    "slug": "mantine",
+    "name": "Mantine",
+    "category": "frontend",
+    "tags": [
+      "ui",
+      "react",
+      "hooks",
+      "components"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "339AF0",
+    "url": "https://github.com/mantinedev/mantine/blob/f2da0287bfcda19dcf7866f4d03a05d1ee7b49f7/docs/src/images/logo.svg"
+  },
+  {
+    "slug": "mapbox",
+    "name": "Mapbox",
+    "category": "frontend",
+    "tags": [
+      "maps",
+      "geospatial",
+      "tiles",
+      "navigation"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.mapbox.com/about/press/brand-guidelines"
+  },
+  {
+    "slug": "mariadb",
+    "name": "MariaDB",
+    "category": "databases",
+    "tags": [
+      "database",
+      "sql",
+      "relational",
+      "mysql-fork"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "003545",
+    "url": "https://mariadb.com/about-us/logos/"
+  },
+  {
+    "slug": "markdown",
+    "name": "Markdown",
+    "category": "misc",
+    "tags": [
+      "markup",
+      "docs",
+      "text",
+      "formatting"
+    ],
+    "aliases": [
+      "md"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://github.com/dcurtis/markdown-mark/tree/360a3657fef7f6ad0b303296a95ad52985caa0d3"
+  },
+  {
+    "slug": "mastodon",
+    "name": "Mastodon",
+    "category": "social",
+    "tags": [
+      "social",
+      "fediverse",
+      "decentralized",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "6364FF",
+    "url": "https://github.com/mastodon/mastodon/blob/7ccf7a73f1c47a8c03712c39f7c591e837cf6d08/app/javascript/images/logo-symbol-icon.svg"
+  },
+  {
+    "slug": "medium",
+    "name": "Medium",
+    "category": "social",
+    "tags": [
+      "blog",
+      "writing",
+      "articles",
+      "publishing"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://medium.design/logos-and-brand-guidelines-f1a01a733592"
+  },
+  {
+    "slug": "meilisearch",
+    "name": "Meilisearch",
+    "category": "databases",
+    "tags": [
+      "search",
+      "fast",
+      "typo-tolerant",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF5CAA",
+    "url": "https://www.meilisearch.com"
+  },
+  {
+    "slug": "meta",
+    "name": "Meta",
+    "category": "brands",
+    "tags": [
+      "company",
+      "social",
+      "facebook",
+      "vr"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0467DF",
+    "url": "https://www.meta.com"
+  },
+  {
+    "slug": "minio",
+    "name": "MinIO",
+    "category": "cloud",
+    "tags": [
+      "storage",
+      "s3-compatible",
+      "object",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "C72E49",
+    "url": "https://min.io"
+  },
+  {
+    "slug": "miro",
+    "name": "Miro",
+    "category": "productivity",
+    "tags": [
+      "whiteboard",
+      "collaboration",
+      "design",
+      "brainstorm"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "050038",
+    "url": "https://miro.com"
+  },
+  {
+    "slug": "mlflow",
+    "name": "MLflow",
+    "category": "ai-ml",
+    "tags": [
+      "mlops",
+      "experiment-tracking",
+      "model-registry",
+      "deployment"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0194E2",
+    "url": "https://github.com/mlflow/mlflow/blob/855881f93703b15ffe643003fb4d7c84f0ec2502/assets/icon.svg"
+  },
+  {
+    "slug": "mobx",
+    "name": "MobX",
+    "category": "frontend",
+    "tags": [
+      "state",
+      "reactive",
+      "observable",
+      "simple"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF9955",
+    "url": "https://github.com/mobxjs/mobx/blob/248e25e37af31c2e71ff452bc662a85816fa40d8/docs/assets/mobservable.svg"
+  },
+  {
+    "slug": "mocha",
+    "name": "Mocha",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "javascript",
+      "runner",
+      "bdd"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "8D6748",
+    "url": "https://mochajs.org"
+  },
+  {
+    "slug": "monero",
+    "name": "Monero",
+    "category": "crypto",
+    "tags": [
+      "cryptocurrency",
+      "privacy",
+      "blockchain",
+      "xmr"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF6600",
+    "url": "https://www.getmonero.org/press-kit"
+  },
+  {
+    "slug": "mongodb",
+    "name": "MongoDB",
+    "category": "databases",
+    "tags": [
+      "database",
+      "nosql",
+      "document",
+      "json"
+    ],
+    "aliases": [
+      "mongo"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "47A248",
+    "url": "https://www.mongodb.com/pressroom"
+  },
+  {
+    "slug": "mqtt",
+    "name": "MQTT",
+    "category": "backend",
+    "tags": [
+      "messaging",
+      "iot",
+      "lightweight",
+      "pubsub"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "660066",
+    "url": "https://mqtt.org"
+  },
+  {
+    "slug": "mui",
+    "name": "MUI",
+    "category": "frontend",
+    "tags": [
+      "ui",
+      "react",
+      "material",
+      "components"
+    ],
+    "aliases": [
+      "material-ui"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "007FFF",
+    "url": "https://github.com/mui-org/material-ui/blob/353cecb5391571163eb6bd8cbf36d2dd299aaf56/docs/src/icons/SvgMuiLogo.tsx"
+  },
+  {
+    "slug": "mysql",
+    "name": "MySQL",
+    "category": "databases",
+    "tags": [
+      "database",
+      "sql",
+      "relational",
+      "oracle"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "4479A1",
+    "url": "https://www.mysql.com/about/legal/logos.html"
+  },
+  {
+    "slug": "neo4j",
+    "name": "Neo4j",
+    "category": "databases",
+    "tags": [
+      "database",
+      "graph",
+      "nosql",
+      "cypher"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "4581C3",
+    "url": "https://neo4j.com/brand/#logo"
+  },
+  {
+    "slug": "neovim",
+    "name": "Neovim",
+    "category": "tools",
+    "tags": [
+      "editor",
+      "terminal",
+      "vim",
+      "extensible"
+    ],
+    "aliases": [
+      "nvim"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "57A143",
+    "url": "https://neovim.io"
+  },
+  {
+    "slug": "nestjs",
+    "name": "NestJS",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "nodejs",
+      "typescript",
+      "enterprise"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E0234E",
+    "url": "https://nestjs.com"
+  },
+  {
+    "slug": "netflix",
+    "name": "Netflix",
+    "category": "brands",
+    "tags": [
+      "streaming",
+      "video",
+      "entertainment",
+      "content"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E50914",
+    "url": "https://brand.netflix.com/en/assets/logos"
+  },
+  {
+    "slug": "netlify",
+    "name": "Netlify",
+    "category": "cloud",
+    "tags": [
+      "hosting",
+      "jamstack",
+      "serverless",
+      "ci-cd"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "00C7B7",
+    "url": "https://www.netlify.com/press/"
+  },
+  {
+    "slug": "newrelic",
+    "name": "New Relic",
+    "category": "brands",
+    "tags": [
+      "monitoring",
+      "apm",
+      "observability",
+      "analytics"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "1CE783",
+    "url": "https://newrelic.com/about/media-assets"
+  },
+  {
+    "slug": "nextjs",
+    "name": "Next.js",
+    "category": "frontend",
+    "tags": [
+      "framework",
+      "react",
+      "ssr",
+      "vercel",
+      "fullstack"
+    ],
+    "aliases": [
+      "next"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://vercel.com/design/brands#next-js"
+  },
+  {
+    "slug": "nginx",
+    "name": "NGINX",
+    "category": "backend",
+    "tags": [
+      "server",
+      "proxy",
+      "load-balancer",
+      "web"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "009639",
+    "url": "https://www.nginx.com/press/"
+  },
+  {
+    "slug": "nim",
+    "name": "Nim",
+    "category": "languages",
+    "tags": [
+      "language",
+      "systems",
+      "compiled",
+      "python-like"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFE953",
+    "url": "https://nim-lang.org"
+  },
+  {
+    "slug": "nixos",
+    "name": "NixOS",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "reproducible",
+      "functional"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "5277C3",
+    "url": "https://github.com/NixOS/nixos-homepage/tree/58cfdb770aba28b73446a1b3ee65a5cec4f0d44f/logo"
+  },
+  {
+    "slug": "nodejs",
+    "name": "Node.js",
+    "category": "backend",
+    "tags": [
+      "runtime",
+      "javascript",
+      "server",
+      "v8"
+    ],
+    "aliases": [
+      "node"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "5FA04E",
+    "url": "https://nodejs.org/en/about/branding"
+  },
+  {
+    "slug": "nomad",
+    "name": "Nomad",
+    "category": "devops",
+    "tags": [
+      "orchestration",
+      "hashicorp",
+      "scheduler",
+      "workloads"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "00CA8E",
+    "url": "https://www.hashicorp.com/brand"
+  },
+  {
+    "slug": "notion",
+    "name": "Notion",
+    "category": "tools",
+    "tags": [
+      "docs",
+      "wiki",
+      "workspace",
+      "collaboration"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.notion.so"
+  },
+  {
+    "slug": "npm",
+    "name": "npm",
+    "category": "tools",
+    "tags": [
+      "package",
+      "registry",
+      "nodejs",
+      "javascript"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "CB3837",
+    "url": "https://www.npmjs.com"
+  },
+  {
+    "slug": "numpy",
+    "name": "NumPy",
+    "category": "ai-ml",
+    "tags": [
+      "math",
+      "array",
+      "scientific",
+      "python"
+    ],
+    "aliases": [
+      "np"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "013243",
+    "url": "https://numpy.org/press-kit/"
+  },
+  {
+    "slug": "nvidia",
+    "name": "NVIDIA",
+    "category": "brands",
+    "tags": [
+      "hardware",
+      "gpu",
+      "ai",
+      "gaming"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "76B900",
+    "url": "https://www.nvidia.com/en-us"
+  },
+  {
+    "slug": "nx",
+    "name": "Nx",
+    "category": "tools",
+    "tags": [
+      "monorepo",
+      "build",
+      "workspace",
+      "nrwl"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "143055",
+    "url": "https://nx.dev"
+  },
+  {
+    "slug": "obsidian",
+    "name": "Obsidian",
+    "category": "productivity",
+    "tags": [
+      "notes",
+      "knowledge",
+      "markdown",
+      "graph"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "7C3AED",
+    "url": "https://obsidian.md"
+  },
+  {
+    "slug": "ocaml",
+    "name": "OCaml",
+    "category": "languages",
+    "tags": [
+      "language",
+      "functional",
+      "ml",
+      "compiler"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "EC6813",
+    "url": "https://ocaml.org/logo"
+  },
+  {
+    "slug": "oculus",
+    "name": "Oculus",
+    "category": "gaming",
+    "tags": [
+      "vr",
+      "meta",
+      "headset",
+      "virtual-reality"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "1C1E20",
+    "url": "https://en.facebookbrand.com/oculus/assets/oculus?audience=oculus-landing"
+  },
+  {
+    "slug": "okta",
+    "name": "Okta",
+    "category": "misc",
+    "tags": [
+      "auth",
+      "identity",
+      "sso",
+      "enterprise"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "007DC1",
+    "url": "https://www.okta.com/press-room/media-assets/"
+  },
+  {
+    "slug": "ollama",
+    "name": "Ollama",
+    "category": "ai-ml",
+    "tags": [
+      "llm",
+      "local",
+      "inference",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://github.com/ollama/ollama/issues/2152#issuecomment-1905286922"
+  },
+  {
+    "slug": "onnx",
+    "name": "ONNX",
+    "category": "ai-ml",
+    "tags": [
+      "model",
+      "inference",
+      "interoperability",
+      "runtime"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "005CED",
+    "url": "https://github.com/onnx/onnx.github.io/blob/382e7036b616ce1555499ac41730245a2478513c/images/ONNX-ICON.svg"
+  },
+  {
+    "slug": "opencv",
+    "name": "OpenCV",
+    "category": "ai-ml",
+    "tags": [
+      "computer-vision",
+      "image",
+      "processing",
+      "ai"
+    ],
+    "aliases": [
+      "cv"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "5C3EE8",
+    "url": "https://opencv.org/resources/media-kit/"
+  },
+  {
+    "slug": "opensea",
+    "name": "OpenSea",
+    "category": "crypto",
+    "tags": [
+      "nft",
+      "marketplace",
+      "ethereum",
+      "web3"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "2081E2",
+    "url": "https://docs.opensea.io"
+  },
+  {
+    "slug": "opentelemetry",
+    "name": "OpenTelemetry",
+    "category": "devops",
+    "tags": [
+      "observability",
+      "tracing",
+      "metrics",
+      "logs"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://cncf-branding.netlify.app/projects/opentelemetry/"
+  },
+  {
+    "slug": "opera",
+    "name": "Opera",
+    "category": "browsers",
+    "tags": [
+      "browser",
+      "chromium",
+      "web",
+      "vpn"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF1B2D",
+    "url": "https://brand.opera.com/1472-2/opera-logos/"
+  },
+  {
+    "slug": "packer",
+    "name": "Packer",
+    "category": "devops",
+    "tags": [
+      "image",
+      "build",
+      "hashicorp",
+      "automation"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "02A8EF",
+    "url": "https://www.hashicorp.com/brand"
+  },
+  {
+    "slug": "pagerduty",
+    "name": "PagerDuty",
+    "category": "brands",
+    "tags": [
+      "incident",
+      "oncall",
+      "alerting",
+      "ops"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "06AC38",
+    "url": "https://www.pagerduty.com/brand/"
+  },
+  {
+    "slug": "pandas",
+    "name": "pandas",
+    "category": "ai-ml",
+    "tags": [
+      "data",
+      "dataframe",
+      "analysis",
+      "python"
+    ],
+    "aliases": [
+      "pd"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "150458",
+    "url": "https://pandas.pydata.org/about/citing.html"
+  },
+  {
+    "slug": "patreon",
+    "name": "Patreon",
+    "category": "social",
+    "tags": [
+      "funding",
+      "creator",
+      "subscription",
+      "support"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.patreon.com/brand"
+  },
+  {
+    "slug": "paypal",
+    "name": "PayPal",
+    "category": "misc",
+    "tags": [
+      "payments",
+      "checkout",
+      "fintech",
+      "transfer"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "002991",
+    "url": "https://www.paypal.com/us"
+  },
+  {
+    "slug": "penpot",
+    "name": "Penpot",
+    "category": "design",
+    "tags": [
+      "design",
+      "open-source",
+      "prototyping",
+      "vector"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://penpot.app"
+  },
+  {
+    "slug": "perl",
+    "name": "Perl",
+    "category": "languages",
+    "tags": [
+      "language",
+      "scripting",
+      "text-processing",
+      "regex"
+    ],
+    "aliases": [
+      "pl"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "0073A1",
+    "url": "https://github.com/metacpan/perl-assets/blob/56b555711934dde8fd0b20ec29ecc3bf81a3d493/blessed/src/010.svg"
+  },
+  {
+    "slug": "php",
+    "name": "PHP",
+    "category": "languages",
+    "tags": [
+      "language",
+      "web",
+      "server",
+      "scripting"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "777BB4",
+    "url": "https://php.net/download-logos.php"
+  },
+  {
+    "slug": "phpstorm",
+    "name": "PhpStorm",
+    "category": "tools",
+    "tags": [
+      "ide",
+      "jetbrains",
+      "php",
+      "debugging"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.jetbrains.com/company/brand/logos/"
+  },
+  {
+    "slug": "pinterest",
+    "name": "Pinterest",
+    "category": "social",
+    "tags": [
+      "social",
+      "visual",
+      "bookmarks",
+      "inspiration"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "BD081C",
+    "url": "https://business.pinterest.com/en/brand-guidelines"
+  },
+  {
+    "slug": "planetscale",
+    "name": "PlanetScale",
+    "category": "databases",
+    "tags": [
+      "database",
+      "mysql",
+      "serverless",
+      "branching"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://planetscale.com"
+  },
+  {
+    "slug": "playstation",
+    "name": "PlayStation",
+    "category": "gaming",
+    "tags": [
+      "console",
+      "sony",
+      "gaming",
+      "hardware"
+    ],
+    "aliases": [
+      "ps"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "0070D1",
+    "url": "https://www.playstation.com/en-us/"
+  },
+  {
+    "slug": "plotly",
+    "name": "Plotly",
+    "category": "ai-ml",
+    "tags": [
+      "visualization",
+      "interactive",
+      "charts",
+      "dash"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "7A76FF",
+    "url": "https://plotly.com/brand-guidelines"
+  },
+  {
+    "slug": "pm2",
+    "name": "PM2",
+    "category": "backend",
+    "tags": [
+      "process-manager",
+      "nodejs",
+      "daemon",
+      "cluster"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "2B037A",
+    "url": "https://pm2.keymetrics.io"
+  },
+  {
+    "slug": "pnpm",
+    "name": "pnpm",
+    "category": "tools",
+    "tags": [
+      "package",
+      "manager",
+      "fast",
+      "disk-efficient"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F69220",
+    "url": "https://pnpm.io/logos"
+  },
+  {
+    "slug": "podman",
+    "name": "Podman",
+    "category": "devops",
+    "tags": [
+      "container",
+      "rootless",
+      "daemonless",
+      "oci"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "892CA0",
+    "url": "https://podman.io"
+  },
+  {
+    "slug": "polars",
+    "name": "Polars",
+    "category": "ai-ml",
+    "tags": [
+      "dataframe",
+      "rust",
+      "fast",
+      "analytics"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0075FF",
+    "url": "https://pola.rs"
+  },
+  {
+    "slug": "polkadot",
+    "name": "Polkadot",
+    "category": "crypto",
+    "tags": [
+      "cryptocurrency",
+      "blockchain",
+      "parachain",
+      "dot"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E6007A",
+    "url": "https://polkadot.network/brand-assets/"
+  },
+  {
+    "slug": "polygon",
+    "name": "Polygon",
+    "category": "crypto",
+    "tags": [
+      "cryptocurrency",
+      "blockchain",
+      "layer2",
+      "matic"
+    ],
+    "aliases": [
+      "matic"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "7B3FE4",
+    "url": "https://www.polygon.technology"
+  },
+  {
+    "slug": "portainer",
+    "name": "Portainer",
+    "category": "cloud",
+    "tags": [
+      "container",
+      "management",
+      "docker",
+      "ui"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "13BEF9",
+    "url": "https://www.portainer.io"
+  },
+  {
+    "slug": "postcss",
+    "name": "PostCSS",
+    "category": "frontend",
+    "tags": [
+      "css",
+      "transform",
+      "plugins",
+      "autoprefixer"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "DD3A0A",
+    "url": "https://postcss.org"
+  },
+  {
+    "slug": "postgresql",
+    "name": "PostgreSQL",
+    "category": "databases",
+    "tags": [
+      "database",
+      "sql",
+      "relational",
+      "open-source"
+    ],
+    "aliases": [
+      "postgres",
+      "pg"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "4169E1",
+    "url": "https://wiki.postgresql.org/wiki/Logo"
+  },
+  {
+    "slug": "postman",
+    "name": "Postman",
+    "category": "tools",
+    "tags": [
+      "api",
+      "testing",
+      "http",
+      "rest"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF6C37",
+    "url": "https://www.getpostman.com/resources/media-assets/"
+  },
+  {
+    "slug": "preact",
+    "name": "Preact",
+    "category": "frontend",
+    "tags": [
+      "framework",
+      "react",
+      "lightweight",
+      "fast"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "673AB8",
+    "url": "https://preactjs.com"
+  },
+  {
+    "slug": "prettier",
+    "name": "Prettier",
+    "category": "tools",
+    "tags": [
+      "formatter",
+      "code-style",
+      "opinionated",
+      "auto"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F7B93E",
+    "url": "https://github.com/prettier/prettier-logo/blob/06997b307e0608ebee2044dafa0b9429d6b5a103/images/prettier-icon-clean-centred.svg"
+  },
+  {
+    "slug": "prisma",
+    "name": "Prisma",
+    "category": "databases",
+    "tags": [
+      "orm",
+      "typescript",
+      "database",
+      "schema"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "2D3748",
+    "url": "https://github.com/prisma/presskit/tree/4bcb64181f266723439d955d60afa1c55fefa715"
+  },
+  {
+    "slug": "producthunt",
+    "name": "Product Hunt",
+    "category": "social",
+    "tags": [
+      "product",
+      "launch",
+      "startup",
+      "community"
+    ],
+    "aliases": [
+      "ph"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "DA552F",
+    "url": "https://www.producthunt.com/branding"
+  },
+  {
+    "slug": "prometheus",
+    "name": "Prometheus",
+    "category": "devops",
+    "tags": [
+      "monitoring",
+      "metrics",
+      "alerting",
+      "time-series"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E6522C",
+    "url": "https://prometheus.io"
+  },
+  {
+    "slug": "pulumi",
+    "name": "Pulumi",
+    "category": "devops",
+    "tags": [
+      "iac",
+      "infrastructure",
+      "cloud",
+      "code"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "8A3391",
+    "url": "https://www.pulumi.com"
+  },
+  {
+    "slug": "puppeteer",
+    "name": "Puppeteer",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "browser",
+      "chromium",
+      "headless"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "40B5A4",
+    "url": "https://pptr.dev"
+  },
+  {
+    "slug": "purescript",
+    "name": "PureScript",
+    "category": "languages",
+    "tags": [
+      "language",
+      "functional",
+      "haskell",
+      "javascript"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "14161A",
+    "url": "https://github.com/purescript/logo/tree/1e7a57affdaeaf88ff594c08bd2b5a78fe2ed13c"
+  },
+  {
+    "slug": "pwa",
+    "name": "PWA",
+    "category": "frontend",
+    "tags": [
+      "progressive",
+      "web-app",
+      "offline",
+      "installable"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "5A0FC8",
+    "url": "https://github.com/webmaxru/progressive-web-apps-logo/blob/77744cd5c0a4d484bb3d082c6ac458c44202da03/pwalogo-white.svg"
+  },
+  {
+    "slug": "pycharm",
+    "name": "PyCharm",
+    "category": "tools",
+    "tags": [
+      "ide",
+      "jetbrains",
+      "python",
+      "debugging"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.jetbrains.com/company/brand/logos/"
+  },
+  {
+    "slug": "python",
+    "name": "Python",
+    "category": "languages",
+    "tags": [
+      "language",
+      "scripting",
+      "data-science",
+      "ai"
+    ],
+    "aliases": [
+      "py"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "3776AB",
+    "url": "https://www.python.org/community/logos/"
+  },
+  {
+    "slug": "pytorch",
+    "name": "PyTorch",
+    "category": "ai-ml",
+    "tags": [
+      "ai",
+      "deep-learning",
+      "framework",
+      "meta"
+    ],
+    "aliases": [
+      "torch"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "EE4C2C",
+    "url": "https://github.com/pytorch/pytorch.github.io/blob/8f083bd12192ca12d5e1c1f3d236f4831d823d8f/assets/images/logo.svg"
+  },
+  {
+    "slug": "qwik",
+    "name": "Qwik",
+    "category": "frontend",
+    "tags": [
+      "framework",
+      "resumable",
+      "performance",
+      "ssr"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "AC7EF4",
+    "url": "https://github.com/BuilderIO/qwik/blob/c88e53d49dc65020899d770338f4e51f3134611e/packages/docs/public/logos/qwik-logo.svg"
+  },
+  {
+    "slug": "r",
+    "name": "R",
+    "category": "languages",
+    "tags": [
+      "language",
+      "statistics",
+      "data-science",
+      "analytics"
+    ],
+    "aliases": [
+      "rlang"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "276DC3",
+    "url": "https://www.r-project.org/logo/"
+  },
+  {
+    "slug": "rabbitmq",
+    "name": "RabbitMQ",
+    "category": "backend",
+    "tags": [
+      "messaging",
+      "queue",
+      "amqp",
+      "broker"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF6600",
+    "url": "https://www.rabbitmq.com"
+  },
+  {
+    "slug": "radixui",
+    "name": "Radix UI",
+    "category": "frontend",
+    "tags": [
+      "ui",
+      "accessible",
+      "unstyled",
+      "primitives"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "161618",
+    "url": "https://www.radix-ui.com"
+  },
+  {
+    "slug": "railway",
+    "name": "Railway",
+    "category": "cloud",
+    "tags": [
+      "hosting",
+      "paas",
+      "deployment",
+      "infrastructure"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "0B0D0E",
+    "url": "https://railway.app"
+  },
+  {
+    "slug": "rancher",
+    "name": "Rancher",
+    "category": "devops",
+    "tags": [
+      "kubernetes",
+      "management",
+      "suse",
+      "multi-cluster"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0075A8",
+    "url": "https://rancher.com/brand-guidelines/"
+  },
+  {
+    "slug": "raspberrypi",
+    "name": "Raspberry Pi",
+    "category": "hardware",
+    "tags": [
+      "sbc",
+      "iot",
+      "linux",
+      "embedded"
+    ],
+    "aliases": [
+      "rpi"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "A22846",
+    "url": "https://www.raspberrypi.org/trademark-rules"
+  },
+  {
+    "slug": "raycast",
+    "name": "Raycast",
+    "category": "productivity",
+    "tags": [
+      "launcher",
+      "macos",
+      "productivity",
+      "extensions"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF6363",
+    "url": "https://www.raycast.com/press"
+  },
+  {
+    "slug": "react",
+    "name": "React",
+    "category": "frontend",
+    "tags": [
+      "library",
+      "ui",
+      "meta",
+      "jsx",
+      "component"
+    ],
+    "aliases": [
+      "reactjs"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "61DAFB",
+    "url": "https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg"
+  },
+  {
+    "slug": "reactnative",
+    "name": "React",
+    "category": "mobile",
+    "tags": [
+      "framework",
+      "cross-platform",
+      "javascript",
+      "meta"
+    ],
+    "aliases": [
+      "rn"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "61DAFB",
+    "url": "https://github.com/facebook/create-react-app/blob/282c03f9525fdf8061ffa1ec50dce89296d916bd/test/fixtures/relative-paths/src/logo.svg"
+  },
+  {
+    "slug": "reactquery",
+    "name": "React Query",
+    "category": "frontend",
+    "tags": [
+      "data",
+      "react",
+      "cache",
+      "fetching"
+    ],
+    "aliases": [
+      "tanstack-query"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF4154",
+    "url": "https://github.com/tannerlinsley/react-query/blob/9b5d18cd47a4c1454d6c8dd0f38280641c1dd5dd/docs/src/images/emblem-light.svg"
+  },
+  {
+    "slug": "reactrouter",
+    "name": "React Router",
+    "category": "frontend",
+    "tags": [
+      "routing",
+      "react",
+      "navigation",
+      "spa"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "CA4245",
+    "url": "https://github.com/ReactTraining/react-router/blob/c94bcd8cef0c811f80b02777ec26fee3618f8e86/website/static/safari-pinned-tab.svg"
+  },
+  {
+    "slug": "readthedocs",
+    "name": "Read the Docs",
+    "category": "tools",
+    "tags": [
+      "docs",
+      "documentation",
+      "sphinx",
+      "hosting"
+    ],
+    "aliases": [
+      "rtd"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://github.com/readthedocs/readthedocs.org/blob/d8f71fff113d8f63e7eeed1fc1f5456a132b2d3e/docs/img/logo.svg"
+  },
+  {
+    "slug": "redhat",
+    "name": "Red Hat",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "enterprise",
+      "rpm"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "EE0000",
+    "url": "https://www.redhat.com/en/about/brand/new-brand/details"
+  },
+  {
+    "slug": "reddit",
+    "name": "Reddit",
+    "category": "social",
+    "tags": [
+      "forum",
+      "community",
+      "discussion",
+      "social"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF4500",
+    "url": "https://www.redditinc.com/brand"
+  },
+  {
+    "slug": "redis",
+    "name": "Redis",
+    "category": "databases",
+    "tags": [
+      "database",
+      "cache",
+      "key-value",
+      "in-memory"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF4438",
+    "url": "https://redis.io/brand-guidelines"
+  },
+  {
+    "slug": "redux",
+    "name": "Redux",
+    "category": "frontend",
+    "tags": [
+      "state",
+      "react",
+      "flux",
+      "store"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "764ABC",
+    "url": "https://github.com/reduxjs/redux/blob/abb5f892f7e46849e5ca9bc13e75cfbc944a71b6/logo/logo.svg"
+  },
+  {
+    "slug": "remix",
+    "name": "Remix",
+    "category": "frontend",
+    "tags": [
+      "framework",
+      "react",
+      "fullstack",
+      "ssr"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://drive.google.com/drive/u/0/folders/1pbHnJqg8Y1ATs0Oi8gARH7wccJGv4I2c"
+  },
+  {
+    "slug": "render",
+    "name": "Render",
+    "category": "cloud",
+    "tags": [
+      "hosting",
+      "paas",
+      "deployment",
+      "cloud"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://render.com"
+  },
+  {
+    "slug": "replit",
+    "name": "Replit",
+    "category": "misc",
+    "tags": [
+      "playground",
+      "code",
+      "cloud",
+      "ide"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F26207",
+    "url": "https://repl.it"
+  },
+  {
+    "slug": "rescript",
+    "name": "ReScript",
+    "category": "languages",
+    "tags": [
+      "language",
+      "functional",
+      "javascript",
+      "ocaml"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E6484F",
+    "url": "https://rescript-lang.org/brand"
+  },
+  {
+    "slug": "rider",
+    "name": "Rider",
+    "category": "tools",
+    "tags": [
+      "ide",
+      "jetbrains",
+      "dotnet",
+      "csharp"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.jetbrains.com/company/brand/logos/"
+  },
+  {
+    "slug": "roblox",
+    "name": "Roblox",
+    "category": "gaming",
+    "tags": [
+      "platform",
+      "game-dev",
+      "metaverse",
+      "lua"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.roblox.com"
+  },
+  {
+    "slug": "roboflow",
+    "name": "Roboflow",
+    "category": "ai-ml",
+    "tags": [
+      "computer-vision",
+      "annotation",
+      "dataset",
+      "deployment"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "6706CE",
+    "url": "https://roboflow.com/press"
+  },
+  {
+    "slug": "ruby",
+    "name": "Ruby",
+    "category": "languages",
+    "tags": [
+      "language",
+      "scripting",
+      "web",
+      "rails"
+    ],
+    "aliases": [
+      "rb"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "CC342D",
+    "url": "https://www.ruby-lang.org/en/about/logo/"
+  },
+  {
+    "slug": "rails",
+    "name": "Ruby on Rails",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "ruby",
+      "web",
+      "mvc"
+    ],
+    "aliases": [
+      "ruby-on-rails"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "D30001",
+    "url": "https://github.com/simple-icons/simple-icons/issues/9619#issuecomment-1735150580"
+  },
+  {
+    "slug": "rubygems",
+    "name": "RubyGems",
+    "category": "tools",
+    "tags": [
+      "package",
+      "ruby",
+      "manager",
+      "gems"
+    ],
+    "aliases": [
+      "gem"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "E9573F",
+    "url": "https://rubygems.org/pages/about"
+  },
+  {
+    "slug": "rust",
+    "name": "Rust",
+    "category": "languages",
+    "tags": [
+      "language",
+      "systems",
+      "memory-safe",
+      "performance"
+    ],
+    "aliases": [
+      "rustlang"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.rust-lang.org"
+  },
+  {
+    "slug": "safari",
+    "name": "Safari",
+    "category": "browsers",
+    "tags": [
+      "browser",
+      "apple",
+      "webkit",
+      "web"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "006CFF",
+    "url": "https://apps.apple.com/us/app/safari/id1146562112"
+  },
+  {
+    "slug": "samsung",
+    "name": "Samsung",
+    "category": "brands",
+    "tags": [
+      "hardware",
+      "electronics",
+      "mobile",
+      "display"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "1428A0",
+    "url": "https://www.samsung.com/us/about-us/brand-identity/logo/"
+  },
+  {
+    "slug": "sanity",
+    "name": "Sanity",
+    "category": "brands",
+    "tags": [
+      "cms",
+      "headless",
+      "structured-content",
+      "api"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "0D0E12",
+    "url": "https://github.com/sanity-io/logos/blob/e298a1ac2757c83910fe08b496a115bc9aef06bd/src/sanityMonogram.tsx"
+  },
+  {
+    "slug": "sass",
+    "name": "Sass",
+    "category": "frontend",
+    "tags": [
+      "css",
+      "preprocessor",
+      "styling",
+      "scss"
+    ],
+    "aliases": [
+      "scss"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "CC6699",
+    "url": "https://sass-lang.com/styleguide/brand"
+  },
+  {
+    "slug": "scala",
+    "name": "Scala",
+    "category": "languages",
+    "tags": [
+      "language",
+      "jvm",
+      "functional",
+      "big-data"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "DC322F",
+    "url": "https://www.scala-lang.org"
+  },
+  {
+    "slug": "scikitlearn",
+    "name": "scikit-learn",
+    "category": "ai-ml",
+    "tags": [
+      "ml",
+      "classification",
+      "regression",
+      "python"
+    ],
+    "aliases": [
+      "sklearn"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "F7931E",
+    "url": "https://github.com/scikit-learn/scikit-learn/blob/c5ef2e985c13119001aa697e446ebb3dbcb326e5/doc/logos/scikit-learn-logo.svg"
+  },
+  {
+    "slug": "selenium",
+    "name": "Selenium",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "e2e",
+      "browser",
+      "automation"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "43B02A",
+    "url": "https://github.com/SeleniumHQ/heroku-selenium/blob/2f66891ba030d3aa1f36ab1748c52ba4fb4e057d/selenium-green.svg"
+  },
+  {
+    "slug": "sentry",
+    "name": "Sentry",
+    "category": "devops",
+    "tags": [
+      "error-tracking",
+      "monitoring",
+      "debugging",
+      "crash"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "362D59",
+    "url": "https://sentry.io/branding/"
+  },
+  {
+    "slug": "shadcnui",
+    "name": "shadcn/ui",
+    "category": "frontend",
+    "tags": [
+      "ui",
+      "react",
+      "radix",
+      "components",
+      "tailwind"
+    ],
+    "aliases": [
+      "shadcn"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://ui.shadcn.com"
+  },
+  {
+    "slug": "shopify",
+    "name": "Shopify",
+    "category": "brands",
+    "tags": [
+      "ecommerce",
+      "store",
+      "platform",
+      "saas"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "7AB55C",
+    "url": "https://www.shopify.com/brand-assets"
+  },
+  {
+    "slug": "signal",
+    "name": "Signal",
+    "category": "social",
+    "tags": [
+      "messaging",
+      "privacy",
+      "encrypted",
+      "communication"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3B45FD",
+    "url": "https://signal.org/brand"
+  },
+  {
+    "slug": "sketch",
+    "name": "Sketch",
+    "category": "design",
+    "tags": [
+      "design",
+      "ui",
+      "macos",
+      "vector"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F7B500",
+    "url": "https://www.sketch.com/about-us/#press"
+  },
+  {
+    "slug": "snapchat",
+    "name": "Snapchat",
+    "category": "social",
+    "tags": [
+      "social",
+      "messaging",
+      "stories",
+      "ar"
+    ],
+    "aliases": [
+      "snap"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFFC00",
+    "url": "https://www.snapchat.com/brand-guidelines"
+  },
+  {
+    "slug": "snyk",
+    "name": "Snyk",
+    "category": "devops",
+    "tags": [
+      "security",
+      "vulnerabilities",
+      "dependencies",
+      "scanning"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "4C4A73",
+    "url": "https://snyk.io/press-kit"
+  },
+  {
+    "slug": "socketio",
+    "name": "Socket.io",
+    "category": "backend",
+    "tags": [
+      "websocket",
+      "realtime",
+      "event-driven",
+      "nodejs"
+    ],
+    "aliases": [
+      "socket.io"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "010101",
+    "url": "https://socket.io"
+  },
+  {
+    "slug": "solana",
+    "name": "Solana",
+    "category": "crypto",
+    "tags": [
+      "cryptocurrency",
+      "blockchain",
+      "fast",
+      "sol"
+    ],
+    "aliases": [
+      "sol-crypto"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "9945FF",
+    "url": "https://solana.com/branding"
+  },
+  {
+    "slug": "solidity",
+    "name": "Solidity",
+    "category": "languages",
+    "tags": [
+      "language",
+      "blockchain",
+      "smart-contracts",
+      "ethereum"
+    ],
+    "aliases": [
+      "sol"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "363636",
+    "url": "https://docs.soliditylang.org/en/v0.8.6/brand-guide.html"
+  },
+  {
+    "slug": "sony",
+    "name": "Sony",
+    "category": "brands",
+    "tags": [
+      "hardware",
+      "electronics",
+      "gaming",
+      "entertainment"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "dark"
+    ],
+    "hex": "FFFFFF",
+    "url": "https://www.sony.com"
+  },
+  {
+    "slug": "soundcloud",
+    "name": "SoundCloud",
+    "category": "social",
+    "tags": [
+      "music",
+      "streaming",
+      "audio",
+      "creator"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF5500",
+    "url": "https://press.soundcloud.com"
+  },
+  {
+    "slug": "sourcetree",
+    "name": "Sourcetree",
+    "category": "tools",
+    "tags": [
+      "git",
+      "gui",
+      "atlassian",
+      "client"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0052CC",
+    "url": "https://atlassian.design/resources/logo-library"
+  },
+  {
+    "slug": "spotify",
+    "name": "Spotify",
+    "category": "social",
+    "tags": [
+      "music",
+      "streaming",
+      "podcast",
+      "audio"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "1ED760",
+    "url": "https://developer.spotify.com/documentation/general/design-and-branding/#using-our-logo"
+  },
+  {
+    "slug": "spring",
+    "name": "Spring",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "java",
+      "enterprise",
+      "boot"
+    ],
+    "aliases": [
+      "spring-boot"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "6DB33F",
+    "url": "https://spring.io/trademarks"
+  },
+  {
+    "slug": "springboot",
+    "name": "Spring Boot",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "java",
+      "enterprise",
+      "microservices"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "6DB33F",
+    "url": "https://spring.io/projects"
+  },
+  {
+    "slug": "sqlite",
+    "name": "SQLite",
+    "category": "databases",
+    "tags": [
+      "database",
+      "sql",
+      "embedded",
+      "file-based"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "003B57",
+    "url": "https://github.com/sqlite/sqlite/blob/43e862723ec680542ca6f608f9963c0993dd7324/art/sqlite370.eps"
+  },
+  {
+    "slug": "squarespace",
+    "name": "Squarespace",
+    "category": "design",
+    "tags": [
+      "website",
+      "builder",
+      "ecommerce",
+      "templates"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.squarespace.com/logo-guidelines"
+  },
+  {
+    "slug": "stackoverflow",
+    "name": "Stack Overflow",
+    "category": "social",
+    "tags": [
+      "qa",
+      "developer",
+      "community",
+      "knowledge"
+    ],
+    "aliases": [
+      "so"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "F58025",
+    "url": "https://stackoverflow.design/brand/logo/"
+  },
+  {
+    "slug": "stackblitz",
+    "name": "StackBlitz",
+    "category": "misc",
+    "tags": [
+      "playground",
+      "code",
+      "browser",
+      "ide"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "1269D3",
+    "url": "https://stackblitz.com"
+  },
+  {
+    "slug": "starship",
+    "name": "Starship",
+    "category": "tools",
+    "tags": [
+      "prompt",
+      "shell",
+      "cross-shell",
+      "rust"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "DD0B78",
+    "url": "https://starship.rs"
+  },
+  {
+    "slug": "steam",
+    "name": "Steam",
+    "category": "gaming",
+    "tags": [
+      "platform",
+      "store",
+      "valve",
+      "pc"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://partner.steamgames.com/doc/marketing/branding"
+  },
+  {
+    "slug": "storybook",
+    "name": "Storybook",
+    "category": "frontend",
+    "tags": [
+      "docs",
+      "ui",
+      "components",
+      "testing"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF4785",
+    "url": "https://github.com/storybookjs/brand/tree/6f4d67f65f8275c53c310a73a8da6c6e96c8488c"
+  },
+  {
+    "slug": "strapi",
+    "name": "Strapi",
+    "category": "brands",
+    "tags": [
+      "cms",
+      "headless",
+      "open-source",
+      "api"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "4945FF",
+    "url": "https://handbook.strapi.io/strapi-brand-book-2022/strapi-logo"
+  },
+  {
+    "slug": "streamlit",
+    "name": "Streamlit",
+    "category": "ai-ml",
+    "tags": [
+      "dashboard",
+      "data-app",
+      "python",
+      "interactive"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF4B4B",
+    "url": "https://www.streamlit.io/brand"
+  },
+  {
+    "slug": "stripe",
+    "name": "Stripe",
+    "category": "misc",
+    "tags": [
+      "payments",
+      "billing",
+      "api",
+      "fintech"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "635BFF",
+    "url": "https://stripe.com/newsroom/information"
+  },
+  {
+    "slug": "styledcomponents",
+    "name": "styled-components",
+    "category": "frontend",
+    "tags": [
+      "css-in-js",
+      "react",
+      "styling",
+      "components"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "DB7093",
+    "url": "https://www.styled-components.com"
+  },
+  {
+    "slug": "sublimetext",
+    "name": "Sublime Text",
+    "category": "tools",
+    "tags": [
+      "editor",
+      "fast",
+      "cross-platform"
+    ],
+    "aliases": [
+      "subl"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF9800",
+    "url": "https://www.sublimetext.com"
+  },
+  {
+    "slug": "supabase",
+    "name": "Supabase",
+    "category": "databases",
+    "tags": [
+      "database",
+      "baas",
+      "postgres",
+      "auth"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3FCF8E",
+    "url": "https://github.com/supabase/supabase/blob/4031a7549f5d46da7bc79c01d56be4177dc7c114/packages/common/assets/images/supabase-logo-wordmark--light.svg"
+  },
+  {
+    "slug": "surrealdb",
+    "name": "SurrealDB",
+    "category": "databases",
+    "tags": [
+      "database",
+      "multi-model",
+      "realtime",
+      "serverless"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF00A0",
+    "url": "https://github.com/surrealdb/surrealdb/blob/b5b4601b09b8f1c1334675bbeb4e7408df8dc882/img/logo.svg"
+  },
+  {
+    "slug": "suse",
+    "name": "SUSE",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "enterprise",
+      "gecko"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "0C322C",
+    "url": "https://brand.suse.com"
+  },
+  {
+    "slug": "svelte",
+    "name": "Svelte",
+    "category": "frontend",
+    "tags": [
+      "framework",
+      "compiler",
+      "ui",
+      "reactive"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF3E00",
+    "url": "https://github.com/sveltejs/branding/blob/c4dfca6743572087a6aef0e109ffe3d95596e86a/svelte-logo.svg"
+  },
+  {
+    "slug": "swagger",
+    "name": "Swagger",
+    "category": "backend",
+    "tags": [
+      "api",
+      "openapi",
+      "docs",
+      "specification"
+    ],
+    "aliases": [
+      "openapi"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "85EA2D",
+    "url": "https://swagger.io"
+  },
+  {
+    "slug": "swc",
+    "name": "SWC",
+    "category": "frontend",
+    "tags": [
+      "compiler",
+      "rust",
+      "fast",
+      "javascript"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F8C457",
+    "url": "https://github.com/swc-project/logo/blob/f26cac1b4a490e3bdf128d3b084bb57f4fab1aac/svg/swc_black.svg"
+  },
+  {
+    "slug": "swift",
+    "name": "Swift",
+    "category": "languages",
+    "tags": [
+      "language",
+      "apple",
+      "ios",
+      "macos"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F05138",
+    "url": "https://developer.apple.com/swift/resources/"
+  },
+  {
+    "slug": "symfony",
+    "name": "Symfony",
+    "category": "backend",
+    "tags": [
+      "framework",
+      "php",
+      "enterprise",
+      "components"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://symfony.com/logo"
+  },
+  {
+    "slug": "tails",
+    "name": "Tails",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "privacy",
+      "tor"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "56347C",
+    "url": "https://tails.boum.org/contribute/how/promote/material/logo/"
+  },
+  {
+    "slug": "tailwindcss",
+    "name": "Tailwind CSS",
+    "category": "frontend",
+    "tags": [
+      "css",
+      "utility",
+      "styling",
+      "framework"
+    ],
+    "aliases": [
+      "tailwind"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "06B6D4",
+    "url": "https://tailwindcss.com/brand"
+  },
+  {
+    "slug": "tauri",
+    "name": "Tauri",
+    "category": "backend",
+    "tags": [
+      "desktop",
+      "rust",
+      "lightweight",
+      "cross-platform"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "24C8D8",
+    "url": "https://github.com/tauri-apps/tauri-docs/blob/b1cdfa9d7c6d0b17dae60a90266ddced40a7b384/static/img/tauri.svg"
+  },
+  {
+    "slug": "telegram",
+    "name": "Telegram",
+    "category": "social",
+    "tags": [
+      "messaging",
+      "chat",
+      "cloud",
+      "communication"
+    ],
+    "aliases": [
+      "tg"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "26A5E4",
+    "url": "https://telegram.org/tour/screenshots"
+  },
+  {
+    "slug": "tensorflow",
+    "name": "TensorFlow",
+    "category": "ai-ml",
+    "tags": [
+      "ai",
+      "deep-learning",
+      "framework",
+      "google"
+    ],
+    "aliases": [
+      "tf-ml"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF6F00",
+    "url": "https://www.tensorflow.org"
+  },
+  {
+    "slug": "terraform",
+    "name": "Terraform",
+    "category": "devops",
+    "tags": [
+      "iac",
+      "infrastructure",
+      "hashicorp",
+      "cloud"
+    ],
+    "aliases": [
+      "tf"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "844FBA",
+    "url": "https://www.hashicorp.com/brand"
+  },
+  {
+    "slug": "testinglibrary",
+    "name": "Testing Library",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "dom",
+      "accessible",
+      "react"
+    ],
+    "aliases": [
+      "rtl"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "E33332",
+    "url": "https://testing-library.com"
+  },
+  {
+    "slug": "threads",
+    "name": "Threads",
+    "category": "social",
+    "tags": [
+      "social",
+      "microblog",
+      "meta",
+      "text"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://about.meta.com/brand/resources/instagram/threads"
+  },
+  {
+    "slug": "threejs",
+    "name": "Three.js",
+    "category": "frontend",
+    "tags": [
+      "3d",
+      "webgl",
+      "graphics",
+      "animation"
+    ],
+    "aliases": [
+      "three"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://github.com/mrdoob/three.js/blob/a567b810cfcb7f6a03e4faea99f03c53081da477/files/icon.svg"
+  },
+  {
+    "slug": "tiktok",
+    "name": "TikTok",
+    "category": "social",
+    "tags": [
+      "social",
+      "video",
+      "short-form",
+      "bytedance"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://tiktok.com"
+  },
+  {
+    "slug": "todoist",
+    "name": "Todoist",
+    "category": "productivity",
+    "tags": [
+      "tasks",
+      "todo",
+      "productivity",
+      "organization"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E44332",
+    "url": "https://doist.com/press"
+  },
+  {
+    "slug": "toml",
+    "name": "TOML",
+    "category": "misc",
+    "tags": [
+      "data",
+      "config",
+      "format",
+      "rust"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "9C4121",
+    "url": "https://github.com/toml-lang/toml/blob/625f62b55c5acdfb9924c78e1d0bf4cf0be23d91/logos/toml.svg"
+  },
+  {
+    "slug": "torbrowser",
+    "name": "Tor Browser",
+    "category": "browsers",
+    "tags": [
+      "browser",
+      "privacy",
+      "anonymity",
+      "onion"
+    ],
+    "aliases": [
+      "tor"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "7D4698",
+    "url": "https://styleguide.torproject.org/brand-assets"
+  },
+  {
+    "slug": "travisci",
+    "name": "Travis CI",
+    "category": "devops",
+    "tags": [
+      "ci-cd",
+      "automation",
+      "testing",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3EAAAF",
+    "url": "https://travis-ci.com/logo"
+  },
+  {
+    "slug": "trello",
+    "name": "Trello",
+    "category": "tools",
+    "tags": [
+      "project",
+      "kanban",
+      "board",
+      "atlassian"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0052CC",
+    "url": "https://atlassian.design/resources/logo-library"
+  },
+  {
+    "slug": "trpc",
+    "name": "tRPC",
+    "category": "backend",
+    "tags": [
+      "api",
+      "typescript",
+      "rpc",
+      "type-safe"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "2596BE",
+    "url": "https://github.com/trpc/trpc/blob/e0df4a2d5b498dd953a65901e04915c6e3f7ecc5/www/static/img/logo-no-text.svg"
+  },
+  {
+    "slug": "turborepo",
+    "name": "Turborepo",
+    "category": "tools",
+    "tags": [
+      "monorepo",
+      "build",
+      "cache",
+      "vercel"
+    ],
+    "aliases": [
+      "turbo"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF1E56",
+    "url": "https://vercel.com/geist/brands"
+  },
+  {
+    "slug": "turso",
+    "name": "Turso",
+    "category": "databases",
+    "tags": [
+      "database",
+      "sqlite",
+      "edge",
+      "embedded"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "4FF8D2",
+    "url": "https://turso.tech"
+  },
+  {
+    "slug": "twitch",
+    "name": "Twitch",
+    "category": "social",
+    "tags": [
+      "streaming",
+      "gaming",
+      "live",
+      "amazon"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "9146FF",
+    "url": "https://brand.twitch.tv"
+  },
+  {
+    "slug": "typescript",
+    "name": "TypeScript",
+    "category": "languages",
+    "tags": [
+      "language",
+      "typed",
+      "microsoft",
+      "superset"
+    ],
+    "aliases": [
+      "ts"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "3178C6",
+    "url": "https://www.typescriptlang.org/branding"
+  },
+  {
+    "slug": "uber",
+    "name": "Uber",
+    "category": "brands",
+    "tags": [
+      "ride-sharing",
+      "delivery",
+      "mobility",
+      "transport"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://assets.uber.com/d/k4nuxdZ8MC7E/logos/collection/151"
+  },
+  {
+    "slug": "ubuntu",
+    "name": "Ubuntu",
+    "category": "os",
+    "tags": [
+      "operating-system",
+      "linux",
+      "debian",
+      "canonical"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E95420",
+    "url": "https://design.ubuntu.com/resources"
+  },
+  {
+    "slug": "ultralytics",
+    "name": "Ultralytics",
+    "category": "ai-ml",
+    "tags": [
+      "computer-vision",
+      "yolo",
+      "object-detection",
+      "platform"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "111F68",
+    "url": "https://www.ultralytics.com"
+  },
+  {
+    "slug": "unity",
+    "name": "Unity",
+    "category": "gaming",
+    "tags": [
+      "engine",
+      "game-dev",
+      "3d",
+      "cross-platform"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "dark"
+    ],
+    "hex": "FFFFFF",
+    "url": "https://brand.unity.com"
+  },
+  {
+    "slug": "unrealengine",
+    "name": "Unreal Engine",
+    "category": "gaming",
+    "tags": [
+      "engine",
+      "game-dev",
+      "3d",
+      "epic"
+    ],
+    "aliases": [
+      "ue"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "0E1128",
+    "url": "https://www.unrealengine.com/en-US/branding"
+  },
+  {
+    "slug": "upstash",
+    "name": "Upstash",
+    "category": "databases",
+    "tags": [
+      "database",
+      "serverless",
+      "redis",
+      "kafka"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "00E9A3",
+    "url": "https://upstash.com"
+  },
+  {
+    "slug": "upwork",
+    "name": "Upwork",
+    "category": "social",
+    "tags": [
+      "freelance",
+      "jobs",
+      "remote",
+      "platform"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "6FDA44",
+    "url": "https://www.upwork.com/press/"
+  },
+  {
+    "slug": "v",
+    "name": "V",
+    "category": "languages",
+    "tags": [
+      "language",
+      "systems",
+      "fast",
+      "simple"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "5D87BF",
+    "url": "https://github.com/vlang/v-logo/blob/eec050c901ed3afefce8cbe56092d55ed6770706/dist/v-logo.svg"
+  },
+  {
+    "slug": "vagrant",
+    "name": "Vagrant",
+    "category": "devops",
+    "tags": [
+      "virtualization",
+      "hashicorp",
+      "dev-environments",
+      "reproducible"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "1868F2",
+    "url": "https://www.hashicorp.com/brand"
+  },
+  {
+    "slug": "vault",
+    "name": "Vault",
+    "category": "devops",
+    "tags": [
+      "secrets",
+      "security",
+      "hashicorp",
+      "encryption"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFEC6E",
+    "url": "https://www.hashicorp.com/brand"
+  },
+  {
+    "slug": "vercel",
+    "name": "Vercel",
+    "category": "cloud",
+    "tags": [
+      "hosting",
+      "edge",
+      "serverless",
+      "nextjs"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://vercel.com/geist/brands"
+  },
+  {
+    "slug": "vim",
+    "name": "Vim",
+    "category": "tools",
+    "tags": [
+      "editor",
+      "terminal",
+      "modal",
+      "unix"
+    ],
+    "aliases": [
+      "vi"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "019733",
+    "url": "https://commons.wikimedia.org/wiki/File:Vimlogo.svg"
+  },
+  {
+    "slug": "vite",
+    "name": "Vite",
+    "category": "frontend",
+    "tags": [
+      "build",
+      "bundler",
+      "dev-server",
+      "fast"
+    ],
+    "aliases": [
+      "vitejs"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "9135FF",
+    "url": "https://github.com/voidzero-dev/community-design-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-assets/vite/vite-icon-color-bracketless.svg"
+  },
+  {
+    "slug": "vitepress",
+    "name": "VitePress",
+    "category": "tools",
+    "tags": [
+      "docs",
+      "static-site",
+      "vue",
+      "vite"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "5C73E7",
+    "url": "https://github.com/vuejs/vitepress/blob/f7aef3ca23dae39e226c85d7bb2579dbf7c758f3/art/vitepress-logo-mini.svg"
+  },
+  {
+    "slug": "vitest",
+    "name": "Vitest",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "vite",
+      "fast",
+      "unit"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "00FF74",
+    "url": "https://github.com/voidzero-dev/community-design-resources/blob/55902097229cf01cf2a4ceb376f992f5cf306756/brand-assets/vitest/vitest-icon-color-bracketless.svg"
+  },
+  {
+    "slug": "vivaldi",
+    "name": "Vivaldi",
+    "category": "browsers",
+    "tags": [
+      "browser",
+      "chromium",
+      "customizable",
+      "web"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "EF3939",
+    "url": "https://vivaldi.com/press"
+  },
+  {
+    "slug": "vuejs",
+    "name": "Vue.js",
+    "category": "frontend",
+    "tags": [
+      "framework",
+      "ui",
+      "progressive",
+      "component"
+    ],
+    "aliases": [
+      "vue"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "4FC08D",
+    "url": "https://github.com/vuejs/art/blob/a1c78b74569b70a25300925b4eacfefcc143b8f6/logo.svg"
+  },
+  {
+    "slug": "vultr",
+    "name": "Vultr",
+    "category": "cloud",
+    "tags": [
+      "cloud",
+      "hosting",
+      "vps",
+      "compute"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "007BFC",
+    "url": "https://www.vultr.com/company/brand-assets"
+  },
+  {
+    "slug": "warp",
+    "name": "Warp",
+    "category": "tools",
+    "tags": [
+      "terminal",
+      "rust",
+      "modern",
+      "ai"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "01A4FF",
+    "url": "https://warp.dev"
+  },
+  {
+    "slug": "wasmcloud",
+    "name": "wasmCloud",
+    "category": "misc",
+    "tags": [
+      "wasm",
+      "cloud",
+      "distributed",
+      "platform"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "00BC8E",
+    "url": "https://github.com/wasmCloud/branding/blob/0827503c63f55471a0c709e97d609f56d716be40/03.Icon/Vector/SVG/Wasmcloud.Icon_Black.svg"
+  },
+  {
+    "slug": "web3dotjs",
+    "name": "Web3.js",
+    "category": "crypto",
+    "tags": [
+      "library",
+      "ethereum",
+      "javascript",
+      "dapps"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F16822",
+    "url": "https://github.com/ChainSafe/web3.js/blob/fdbda4958cbdbaebe8ed5ea59183582b07fac254/assets/logo/web3js.svg"
+  },
+  {
+    "slug": "webassembly",
+    "name": "WebAssembly",
+    "category": "languages",
+    "tags": [
+      "runtime",
+      "performance",
+      "browser",
+      "wasm"
+    ],
+    "aliases": [
+      "wasm"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "654FF0",
+    "url": "https://webassembly.org"
+  },
+  {
+    "slug": "webflow",
+    "name": "Webflow",
+    "category": "design",
+    "tags": [
+      "website",
+      "builder",
+      "no-code",
+      "cms"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "146EF5",
+    "url": "https://brand-at.webflow.io/resources#logos"
+  },
+  {
+    "slug": "webpack",
+    "name": "Webpack",
+    "category": "frontend",
+    "tags": [
+      "build",
+      "bundler",
+      "module",
+      "loader"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "8DD6F9",
+    "url": "https://webpack.js.org/branding"
+  },
+  {
+    "slug": "webstorm",
+    "name": "WebStorm",
+    "category": "tools",
+    "tags": [
+      "ide",
+      "jetbrains",
+      "javascript",
+      "typescript"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.jetbrains.com/company/brand/logos"
+  },
+  {
+    "slug": "wechat",
+    "name": "WeChat",
+    "category": "social",
+    "tags": [
+      "messaging",
+      "china",
+      "communication",
+      "social"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "07C160",
+    "url": "https://wechat.design/tool/brand"
+  },
+  {
+    "slug": "wandb",
+    "name": "Weights & Biases",
+    "category": "ai-ml",
+    "tags": [
+      "mlops",
+      "experiment-tracking",
+      "visualization",
+      "logging"
+    ],
+    "aliases": [
+      "weights-and-biases"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFBE00",
+    "url": "https://wandb.ai"
+  },
+  {
+    "slug": "whatsapp",
+    "name": "WhatsApp",
+    "category": "social",
+    "tags": [
+      "messaging",
+      "chat",
+      "meta",
+      "communication"
+    ],
+    "aliases": [
+      "wa"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "25D366",
+    "url": "https://about.meta.com/brand/resources/whatsapp/whatsapp-brand"
+  },
+  {
+    "slug": "wix",
+    "name": "Wix",
+    "category": "design",
+    "tags": [
+      "website",
+      "builder",
+      "hosting",
+      "drag-drop"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0C6EFC",
+    "url": "https://www.wix.com/about/design-assets"
+  },
+  {
+    "slug": "wordpress",
+    "name": "WordPress",
+    "category": "backend",
+    "tags": [
+      "cms",
+      "blog",
+      "php",
+      "open-source"
+    ],
+    "aliases": [
+      "wp"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "21759B",
+    "url": "https://wordpress.org/about/logos"
+  },
+  {
+    "slug": "x",
+    "name": "X",
+    "category": "social",
+    "tags": [
+      "social",
+      "microblog",
+      "elon",
+      "media"
+    ],
+    "aliases": [
+      "twitter"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://x.com"
+  },
+  {
+    "slug": "xcode",
+    "name": "Xcode",
+    "category": "mobile",
+    "tags": [
+      "ide",
+      "apple",
+      "ios",
+      "macos"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "147EFB",
+    "url": "https://developer.apple.com/develop"
+  },
+  {
+    "slug": "yaml",
+    "name": "YAML",
+    "category": "misc",
+    "tags": [
+      "data",
+      "config",
+      "format",
+      "serialization"
+    ],
+    "aliases": [
+      "yml"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "CB171E",
+    "url": "https://commons.wikimedia.org/wiki/File:Official_YAML_Logo.svg"
+  },
+  {
+    "slug": "yarn",
+    "name": "Yarn",
+    "category": "tools",
+    "tags": [
+      "package",
+      "manager",
+      "nodejs",
+      "javascript"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "2C8EBB",
+    "url": "https://github.com/yarnpkg/assets/blob/76d30ca2aebed5b73ea8131d972218fb860bd32d/yarn-kitten-circle.svg"
+  },
+  {
+    "slug": "yolo",
+    "name": "YOLO",
+    "category": "ai-ml",
+    "tags": [
+      "object-detection",
+      "computer-vision",
+      "real-time",
+      "ultralytics"
+    ],
+    "aliases": [
+      "yolov8",
+      "yolov11"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "111F68",
+    "url": "https://www.ultralytics.com/brand"
+  },
+  {
+    "slug": "youtube",
+    "name": "YouTube",
+    "category": "social",
+    "tags": [
+      "video",
+      "streaming",
+      "google",
+      "content"
+    ],
+    "aliases": [
+      "yt"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF0000",
+    "url": "https://www.youtube.com/howyoutubeworks/resources/brand-resources/#logos-icons-and-colors"
+  },
+  {
+    "slug": "zapier",
+    "name": "Zapier",
+    "category": "tools",
+    "tags": [
+      "automation",
+      "integration",
+      "workflow",
+      "no-code"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF4F00",
+    "url": "https://www.figma.com/file/NQFxTCE5pGR3dHZt0DkOyy/Zapier-Brand-Guidelines-%5BExternal%5D?type=design&node-id=101-9701&mode=design"
+  },
+  {
+    "slug": "zig",
+    "name": "Zig",
+    "category": "languages",
+    "tags": [
+      "language",
+      "systems",
+      "performance",
+      "compiler"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F7A41D",
+    "url": "https://github.com/ziglang/logo/blob/6446ba8e37a0651da720d8869e1ce9264fa0c0b9/zig-mark.svg"
+  },
+  {
+    "slug": "zoom",
+    "name": "Zoom",
+    "category": "productivity",
+    "tags": [
+      "video",
+      "meetings",
+      "conference",
+      "communication"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0B5CFF",
+    "url": "https://brand.zoom.us/media-library/"
+  }
+]

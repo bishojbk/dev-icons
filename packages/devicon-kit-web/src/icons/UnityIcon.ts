@@ -1,0 +1,38 @@
+const SIZE_MAP: Record<string, number> = { xs: 12, sm: 16, md: 24, lg: 32, xl: 48, '2xl': 64 };
+
+export class UnityIconElement extends HTMLElement {
+  static observedAttributes = ['size', 'color', 'variant', 'animate', 'title'];
+
+  private _variants: Record<string, string> = {
+      'default': `<g fill="currentColor" transform="translate(8, 8) scale(4.667)"><path d="m12.929 4.294 3.8 2.193c.136.077.141.29 0 .367l-4.515 2.608a.42.42 0 0 1-.425 0L7.274 6.854c-.139-.074-.141-.293 0-.367l3.797-2.193V0L1.376 5.598v11.195l3.718-2.146v-4.385c-.003-.157.18-.269.317-.184l4.515 2.607a.43.43 0 0 1 .214.368v5.213c.002.156-.181.268-.318.184l-3.8-2.193-3.717 2.145L12 24l9.695-5.598-3.717-2.145-3.8 2.192c-.134.082-.323-.024-.318-.183v-5.213c0-.156.087-.296.214-.368l4.515-2.607c.134-.082.322.022.318.184v4.385l3.717 2.146V5.598L12.93 0Z"/></g>`,
+      'dark': `<g fill="#0f172a" transform="translate(8, 8) scale(4.667)"><path d="m12.929 4.294 3.8 2.193c.136.077.141.29 0 .367l-4.515 2.608a.42.42 0 0 1-.425 0L7.274 6.854c-.139-.074-.141-.293 0-.367l3.797-2.193V0L1.376 5.598v11.195l3.718-2.146v-4.385c-.003-.157.18-.269.317-.184l4.515 2.607a.43.43 0 0 1 .214.368v5.213c.002.156-.181.268-.318.184l-3.8-2.193-3.717 2.145L12 24l9.695-5.598-3.717-2.145-3.8 2.192c-.134.082-.323-.024-.318-.183v-5.213c0-.156.087-.296.214-.368l4.515-2.607c.134-.082.322.022.318.184v4.385l3.717 2.146V5.598L12.93 0Z"/></g>`,
+  };
+
+  connectedCallback() { this.render(); }
+  attributeChangedCallback() { this.render(); }
+
+  private render() {
+    const size = this.getAttribute('size') || 'md';
+    const color = this.getAttribute('color') || '#0f172a';
+    const variant = this.getAttribute('variant') || 'default';
+    const animate = this.getAttribute('animate') || 'none';
+    const titleText = this.getAttribute('title');
+
+    const resolvedSize = /^\d+$/.test(size) ? Number(size) : (SIZE_MAP[size] ?? 24);
+    const inner = this._variants[variant] || this._variants['default'] || '';
+    const titleTag = titleText ? `<title>${titleText}</title>` : '';
+
+    let animStyle = '';
+    if (animate === 'spin') animStyle = 'animation: devicon-spin 1s linear infinite;';
+    else if (animate === 'pulse') animStyle = 'animation: devicon-pulse 2s ease-in-out infinite;';
+    else if (animate === 'bounce') animStyle = 'animation: devicon-bounce 1s ease infinite;';
+
+    this.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="${resolvedSize}" height="${resolvedSize}" viewBox="0 0 128 128" fill="${color}" style="color: ${color}; ${animStyle}" role="${titleText ? 'img' : 'presentation'}" aria-hidden="${!titleText}">${titleTag}${inner}</svg>`;
+  }
+}
+
+export function registerUnityIcon(name = 'devicon-unity') {
+  if (!customElements.get(name)) {
+    customElements.define(name, UnityIconElement);
+  }
+}
