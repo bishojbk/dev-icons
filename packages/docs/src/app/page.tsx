@@ -107,29 +107,30 @@ export default function HomePage() {
     <div>
       {/* Hero Section */}
       <section className="relative overflow-hidden">
-        {/* Floating icons background */}
+        {/* Floating icons background — very subtle, behind everything */}
         <div
-          className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-[0.07]"
+          className="pointer-events-none absolute inset-0 flex items-center justify-center opacity-[0.04]"
           aria-hidden="true"
+          style={{ zIndex: 0 }}
         >
-          <div className="grid grid-cols-4 gap-8 sm:grid-cols-6">
-            <ReactIcon size="2xl" />
-            <TypescriptIcon size="2xl" />
-            <PythonIcon size="2xl" />
-            <DockerIcon size="2xl" />
-            <GoIcon size="2xl" />
-            <RustIcon size="2xl" />
-            <NextjsIcon size="2xl" />
-            <NodejsIcon size="2xl" />
-            <PostgresqlIcon size="2xl" />
-            <KubernetesIcon size="2xl" />
-            <GoogleIcon size="2xl" />
-            <AnthropicIcon size="2xl" />
+          <div className="grid grid-cols-6 gap-12">
+            <ReactIcon size={80} />
+            <TypescriptIcon size={80} />
+            <PythonIcon size={80} />
+            <DockerIcon size={80} />
+            <GoIcon size={80} />
+            <RustIcon size={80} />
+            <NextjsIcon size={80} />
+            <NodejsIcon size={80} />
+            <PostgresqlIcon size={80} />
+            <KubernetesIcon size={80} />
+            <GoogleIcon size={80} />
+            <AnthropicIcon size={80} />
           </div>
         </div>
 
         <div className="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8">
-          <div className="relative mx-auto max-w-3xl text-center">
+          <div className="relative z-10 mx-auto max-w-3xl text-center">
             <div
               className="mb-6 inline-flex items-center rounded-full border px-4 py-1.5 text-sm font-medium"
               style={{
