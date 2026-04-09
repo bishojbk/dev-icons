@@ -536,6 +536,110 @@ const ICON_DEFS: [string, string, string, string[], string[]][] = [
   ['siEspressif', 'espressif', 'hardware', ['esp32', 'iot', 'wifi', 'microcontroller'], []],
   // Gaming
   ['siOculus', 'oculus', 'gaming', ['vr', 'meta', 'headset', 'virtual-reality'], []],
+
+  // ── Batch 4: 80+ more icons ──
+  // Cloud & Hosting
+  ['siWindsurf', 'windsurf', 'tools', ['ide', 'ai', 'code-editor', 'codeium'], []],
+  ['siOvh', 'ovh', 'cloud', ['hosting', 'cloud', 'european', 'infrastructure'], []],
+  ['siCoolify', 'coolify', 'cloud', ['hosting', 'self-hosted', 'paas', 'open-source'], []],
+  ['siProxmox', 'proxmox', 'cloud', ['virtualization', 'server', 'hypervisor', 'kvm'], []],
+  ['siUnraid', 'unraid', 'cloud', ['nas', 'server', 'storage', 'self-hosted'], []],
+  ['siTruenas', 'truenas', 'cloud', ['nas', 'storage', 'zfs', 'server'], []],
+  ['siTailscale', 'tailscale', 'cloud', ['vpn', 'mesh', 'network', 'wireguard'], []],
+  ['siBackblaze', 'backblaze', 'cloud', ['storage', 'backup', 'b2', 'cloud'], []],
+  // Databases & Search
+  ['siClickhouse', 'clickhouse', 'databases', ['database', 'analytics', 'columnar', 'olap'], []],
+  ['siTimescale', 'timescale', 'databases', ['database', 'time-series', 'postgresql', 'analytics'], ['timescaledb']],
+  ['siNeon', 'neon', 'databases', ['database', 'serverless', 'postgresql', 'branching'], []],
+  ['siSequelize', 'sequelize', 'databases', ['orm', 'nodejs', 'sql', 'database'], []],
+  ['siTypeorm', 'typeorm', 'databases', ['orm', 'typescript', 'database', 'activerecord'], []],
+  // AI & ML
+  ['siPerplexity', 'perplexity', 'ai-ml', ['search', 'ai', 'assistant', 'llm'], []],
+  ['siReplicate', 'replicate', 'ai-ml', ['ml', 'inference', 'api', 'models'], []],
+  // DevOps & CI/CD
+  ['siArgo', 'argo', 'devops', ['gitops', 'kubernetes', 'workflow', 'ci-cd'], []],
+  ['siFlux', 'flux', 'devops', ['gitops', 'kubernetes', 'cd', 'cncf'], []],
+  ['siCilium', 'cilium', 'devops', ['networking', 'kubernetes', 'ebpf', 'security'], []],
+  ['siLinkerd', 'linkerd', 'devops', ['service-mesh', 'kubernetes', 'cncf', 'proxy'], []],
+  ['siBuildkite', 'buildkite', 'devops', ['ci', 'cd', 'pipeline', 'hybrid'], []],
+  ['siDrone', 'drone', 'devops', ['ci', 'cd', 'container', 'pipeline'], []],
+  ['siTeamcity', 'teamcity', 'devops', ['ci', 'cd', 'jetbrains', 'enterprise'], []],
+  ['siHashicorp', 'hashicorp', 'devops', ['infrastructure', 'cloud', 'automation', 'iac'], []],
+  // Security
+  ['siWireguard', 'wireguard', 'devops', ['vpn', 'networking', 'encryption', 'tunnel'], []],
+  ['siOwasp', 'owasp', 'devops', ['security', 'web', 'vulnerabilities', 'standards'], []],
+  ['siKeycloak', 'keycloak', 'devops', ['auth', 'identity', 'sso', 'open-source'], []],
+  ['siHackerone', 'hackerone', 'devops', ['security', 'bounty', 'pentesting', 'vulnerability'], []],
+  ['siBugcrowd', 'bugcrowd', 'devops', ['security', 'bounty', 'crowdsourced', 'testing'], []],
+  ['siCheckmarx', 'checkmarx', 'devops', ['security', 'sast', 'code-scanning', 'appsec'], []],
+  ['siAqua', 'aqua', 'devops', ['security', 'container', 'cloud-native', 'scanning'], ['aquasec']],
+  // Tools & Editors
+  ['siGnuemacs', 'emacs', 'tools', ['editor', 'lisp', 'extensible', 'gnu'], ['gnu-emacs']],
+  ['siCodesandbox', 'codesandbox', 'tools', ['cloud-ide', 'sandbox', 'browser', 'development'], []],
+  ['siGlitch', 'glitch', 'tools', ['cloud-ide', 'remix', 'community', 'hosting'], []],
+  ['siBeekeeperstudio', 'beekeeperstudio', 'tools', ['database', 'gui', 'sql', 'cross-platform'], []],
+  ['siDbeaver', 'dbeaver', 'tools', ['database', 'gui', 'sql', 'universal'], []],
+  // Monitoring & Testing
+  ['siRollbar', 'rollbar', 'tools', ['error-tracking', 'monitoring', 'debugging', 'alerts'], []],
+  ['siSaucelabs', 'saucelabs', 'testing', ['testing', 'cross-browser', 'automation', 'cloud'], ['sauce-labs']],
+  ['siChromatic', 'chromatic', 'testing', ['testing', 'visual', 'storybook', 'ui'], []],
+  ['siLighthouse', 'lighthouse', 'testing', ['performance', 'audit', 'google', 'web'], []],
+  ['siPagespeedinsights', 'pagespeedinsights', 'testing', ['performance', 'google', 'web', 'optimization'], []],
+  ['siSpeedtest', 'speedtest', 'tools', ['network', 'speed', 'bandwidth', 'testing'], []],
+  ['siAppium', 'appium', 'testing', ['testing', 'mobile', 'automation', 'cross-platform'], []],
+  // Messaging & Communication
+  ['siMatrix', 'matrix', 'social', ['messaging', 'decentralized', 'federation', 'open-source'], []],
+  ['siElement', 'element', 'social', ['messaging', 'matrix', 'encrypted', 'collaboration'], []],
+  ['siMattermost', 'mattermost', 'social', ['messaging', 'team', 'open-source', 'slack-alt'], []],
+  ['siZulip', 'zulip', 'social', ['messaging', 'threaded', 'open-source', 'team'], []],
+  ['siSignal', 'signal', 'social', ['messaging', 'encrypted', 'privacy', 'mobile'], []],
+  ['siViber', 'viber', 'social', ['messaging', 'calls', 'mobile', 'voip'], []],
+  ['siKick', 'kick', 'social', ['streaming', 'live', 'gaming', 'video'], []],
+  ['siLemmy', 'lemmy', 'social', ['forum', 'reddit-alt', 'fediverse', 'open-source'], []],
+  ['siPixelfed', 'pixelfed', 'social', ['photos', 'instagram-alt', 'fediverse', 'open-source'], []],
+  // CMS & Content
+  ['siKeystone', 'keystone', 'backend', ['cms', 'headless', 'graphql', 'nodejs'], []],
+  ['siMintlify', 'mintlify', 'tools', ['docs', 'documentation', 'api', 'modern'], []],
+  ['siGhost', 'ghost', 'backend', ['cms', 'blogging', 'publishing', 'nodejs'], []],
+  // Static site generators
+  ['siHugo', 'hugo', 'frontend', ['ssg', 'static', 'go', 'fast'], []],
+  ['siJekyll', 'jekyll', 'frontend', ['ssg', 'static', 'ruby', 'github-pages'], []],
+  ['siHexo', 'hexo', 'frontend', ['ssg', 'static', 'nodejs', 'blog'], []],
+  // Payment
+  ['siAdyen', 'adyen', 'brands', ['payment', 'fintech', 'commerce', 'processing'], []],
+  ['siSquare', 'square', 'brands', ['payment', 'fintech', 'pos', 'processing'], []],
+  // Build tools
+  ['siAxios', 'axios', 'frontend', ['http', 'client', 'promise', 'requests'], []],
+  ['siN8n', 'n8n', 'tools', ['automation', 'workflow', 'integration', 'open-source'], []],
+  ['siMake', 'make', 'tools', ['automation', 'workflow', 'integration', 'no-code'], ['integromat']],
+  // Analytics
+  ['siPosthog', 'posthog', 'tools', ['analytics', 'product', 'open-source', 'tracking'], []],
+  // Design
+  ['siExcalidraw', 'excalidraw', 'design', ['whiteboard', 'drawing', 'collaboration', 'open-source'], []],
+  ['siMermaid', 'mermaid', 'design', ['diagrams', 'charts', 'markdown', 'visualization'], []],
+  ['siRive', 'rive', 'design', ['animation', 'interactive', 'runtime', 'motion'], []],
+  ['siKrita', 'krita', 'design', ['painting', 'digital-art', 'open-source', 'raster'], []],
+  // Networking
+  ['siOpenwrt', 'openwrt', 'os', ['router', 'firmware', 'networking', 'open-source'], []],
+  // Home automation
+  ['siHomeassistant', 'homeassistant', 'tools', ['iot', 'home', 'automation', 'open-source'], ['hass']],
+  ['siNodered', 'nodered', 'tools', ['iot', 'flow', 'automation', 'low-code'], ['node-red']],
+  // Media
+  ['siEmby', 'emby', 'tools', ['media', 'server', 'streaming', 'self-hosted'], []],
+  ['siJellyfin', 'jellyfin', 'tools', ['media', 'server', 'streaming', 'open-source'], []],
+  ['siPlex', 'plex', 'tools', ['media', 'server', 'streaming', 'self-hosted'], []],
+  ['siFfmpeg', 'ffmpeg', 'tools', ['video', 'audio', 'encoding', 'multimedia'], []],
+  // Misc
+  ['siConventionalcommits', 'conventionalcommits', 'tools', ['git', 'commits', 'convention', 'semver'], []],
+  ['siSemver', 'semver', 'tools', ['versioning', 'semantic', 'convention', 'release'], []],
+  ['siRss', 'rss', 'misc', ['feed', 'syndication', 'xml', 'news'], []],
+  ['siXml', 'xml', 'misc', ['markup', 'data', 'format', 'web'], []],
+  ['siLatex', 'latex', 'misc', ['typesetting', 'academic', 'publishing', 'documents'], ['tex']],
+  // Music
+  ['siDeezer', 'deezer', 'social', ['music', 'streaming', 'audio', 'playlists'], []],
+  ['siTidal', 'tidal', 'social', ['music', 'streaming', 'hifi', 'audio'], []],
+  // Browsers
+  ['siKickstarter', 'kickstarter', 'brands', ['crowdfunding', 'creative', 'projects', 'funding'], []],
 ];
 
 function extractInner(svg: string): string {

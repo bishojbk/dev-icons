@@ -1,0 +1,37 @@
+<script lang="ts">
+  const SIZE_MAP: Record<string, number> = { xs: 12, sm: 16, md: 24, lg: 32, xl: 48, '2xl': 64 };
+  const ANIM_MAP: Record<string, string> = {
+    spin: 'animation: devicon-spin 1s linear infinite',
+    pulse: 'animation: devicon-pulse 2s ease-in-out infinite',
+    bounce: 'animation: devicon-bounce 1s ease infinite',
+  };
+
+  export let size: number | string = 'md';
+  export let color: string = '#18E299';
+  export let variant: string = 'default';
+  export let animate: string = 'none';
+  export let title: string | undefined = undefined;
+
+  const variants: Record<string, string> = {
+  'default': `<g fill="currentColor" transform="translate(8, 8) scale(4.667)"><path d="M15.158.002a8.8 8.8 0 0 0-6.249 2.59l-.062.063h-.003L2.655 8.844l-.062.058a8.84 8.84 0 0 0-.83 11.55l6.251-6.249.065-.063a8.78 8.78 0 0 1-1.758-5.385 8.8 8.8 0 0 1 .283-2.151 9 9 0 0 1 2.151-.286 8.8 8.8 0 0 1 5.386 1.76 8.8 8.8 0 0 1 3.032 4.11 8.9 8.9 0 0 1 .225 5.21 9 9 0 0 0-.341.082 8.85 8.85 0 0 1-4.868-.303 8.7 8.7 0 0 1-2.323-1.25l-.064.065L3.55 22.24a8.85 8.85 0 0 0 11.548-.83l.06-.062 6.19-6.187a9 9 0 0 1-.367.337q.188-.165.366-.341l.063-.058A8.82 8.82 0 0 0 24 8.844V.002Zm3.289 17.05"/></g>`,
+  };
+
+  $: resolvedSize = typeof size === 'number' ? size : (SIZE_MAP[size] ?? 24);
+  $: svgInner = variants[variant] || variants['default'] || '';
+  $: titleTag = title ? `<title>${title}</title>` : '';
+  $: animStyle = ANIM_MAP[animate] || '';
+</script>
+
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width={resolvedSize}
+  height={resolvedSize}
+  viewBox="0 0 128 128"
+  fill={color}
+  style="color: {color}; {animStyle}"
+  role={title ? 'img' : 'presentation'}
+  aria-hidden={!title}
+  {...$$restProps}
+>
+  {@html titleTag + svgInner}
+</svg>

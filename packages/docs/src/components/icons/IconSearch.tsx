@@ -1,6 +1,6 @@
 'use client';
 
-import { useRef, useEffect } from 'react';
+import { useRef, useEffect, useState, useCallback } from 'react';
 
 interface IconSearchProps {
   value: string;
@@ -10,6 +10,30 @@ interface IconSearchProps {
 
 export function IconSearch({ value, onChange, resultCount }: IconSearchProps) {
   const inputRef = useRef<HTMLInputElement>(null);
+  const [localValue, setLocalValue] = useState(value);
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // Sync external value changes (e.g. category reset clearing search)
+  useEffect(() => {
+    setLocalValue(value);
+  }, [value]);
+
+  const debouncedOnChange = useCallback(
+    (val: string) => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+      debounceRef.current = setTimeout(() => {
+        onChange(val);
+      }, 200);
+    },
+    [onChange],
+  );
+
+  // Cleanup on unmount
+  useEffect(() => {
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    };
+  }, []);
 
   useEffect(() => {
     inputRef.current?.focus();
@@ -50,8 +74,11 @@ export function IconSearch({ value, onChange, resultCount }: IconSearchProps) {
       <input
         ref={inputRef}
         type="text"
-        value={value}
-        onChange={(e) => onChange(e.target.value)}
+        value={localValue}
+        onChange={(e) => {
+          setLocalValue(e.target.value);
+          debouncedOnChange(e.target.value);
+        }}
         placeholder="Search icons... (press / to focus)"
         className="search-input w-full rounded-xl border py-3.5 pl-11 pr-20 text-sm outline-none transition-all"
       />

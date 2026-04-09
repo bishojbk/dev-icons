@@ -1,4 +1,3 @@
 {
-  "installCommand": "cd ../.. && pnpm install && pnpm --filter devicon-kit build",
   "framework": "nextjs"
 }

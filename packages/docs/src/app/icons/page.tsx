@@ -20,20 +20,33 @@ function IconsContent() {
 
 export default function IconsPage() {
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-7xl px-6 py-10 sm:py-12">
       <div className="mb-8">
         <h1
-          className="text-3xl font-bold tracking-tight"
-          style={{ color: 'var(--text-primary)' }}
+          className="text-3xl font-bold tracking-tight sm:text-4xl"
+          style={{
+            color: 'var(--text-primary)',
+            fontFamily: 'var(--font-display)',
+            letterSpacing: '-0.02em',
+          }}
         >
           Icon Gallery
         </h1>
-        <p className="mt-2 text-sm" style={{ color: 'var(--text-secondary)' }}>
+        <p
+          className="mt-2 text-sm"
+          style={{ color: 'var(--text-secondary)' }}
+        >
           Browse, search, and copy icons for your project.
         </p>
       </div>
 
-      <Suspense fallback={<div style={{ color: 'var(--text-tertiary)' }}>Loading icons...</div>}>
+      <Suspense
+        fallback={
+          <div style={{ color: 'var(--text-tertiary)' }}>
+            Loading icons...
+          </div>
+        }
+      >
         <IconsContent />
       </Suspense>
     </div>

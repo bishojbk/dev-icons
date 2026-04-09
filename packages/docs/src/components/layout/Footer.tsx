@@ -3,16 +3,50 @@ import Link from 'next/link';
 export function Footer() {
   return (
     <footer className="border-t" style={{ borderColor: 'var(--border)' }}>
-      <div className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
+      <div className="mx-auto max-w-7xl px-6 py-16">
+        <div className="grid gap-12 md:grid-cols-[1.5fr_1fr_1fr_1fr]">
+          {/* Brand */}
+          <div>
+            <div className="flex items-center gap-2.5">
+              <svg width="24" height="24" viewBox="0 0 28 28" fill="none">
+                <rect width="28" height="28" rx="7" fill="var(--accent)" />
+                <path
+                  d="M9 8h4.5a5.5 5.5 0 010 11H9V8z"
+                  stroke="white"
+                  strokeWidth="2.2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  fill="none"
+                />
+              </svg>
+              <span
+                className="text-base font-bold"
+                style={{
+                  color: 'var(--text-primary)',
+                  fontFamily: 'var(--font-display)',
+                  letterSpacing: '-0.02em',
+                }}
+              >
+                DevIcon Kit
+              </span>
+            </div>
+            <p
+              className="mt-3 max-w-xs text-sm leading-relaxed"
+              style={{ color: 'var(--text-secondary)' }}
+            >
+              500+ developer icons for every framework. Open source under MIT.
+            </p>
+          </div>
+
+          {/* Library */}
           <div>
             <h3
-              className="text-sm font-semibold"
-              style={{ color: 'var(--text-primary)' }}
+              className="text-xs font-semibold uppercase tracking-wider"
+              style={{ color: 'var(--text-tertiary)' }}
             >
               Library
             </h3>
-            <ul className="mt-3 space-y-2">
+            <ul className="mt-4 space-y-3">
               <li>
                 <Link
                   href="/icons"
@@ -41,14 +75,16 @@ export function Footer() {
               </li>
             </ul>
           </div>
+
+          {/* Docs */}
           <div>
             <h3
-              className="text-sm font-semibold"
-              style={{ color: 'var(--text-primary)' }}
+              className="text-xs font-semibold uppercase tracking-wider"
+              style={{ color: 'var(--text-tertiary)' }}
             >
               Documentation
             </h3>
-            <ul className="mt-3 space-y-2">
+            <ul className="mt-4 space-y-3">
               <li>
                 <Link
                   href="/docs/getting-started"
@@ -83,14 +119,16 @@ export function Footer() {
               </li>
             </ul>
           </div>
+
+          {/* Community & Legal */}
           <div>
             <h3
-              className="text-sm font-semibold"
-              style={{ color: 'var(--text-primary)' }}
+              className="text-xs font-semibold uppercase tracking-wider"
+              style={{ color: 'var(--text-tertiary)' }}
             >
               Community
             </h3>
-            <ul className="mt-3 space-y-2">
+            <ul className="mt-4 space-y-3">
               <li>
                 <a
                   href="https://github.com/bishojbk/dev-icons"
@@ -117,47 +155,35 @@ export function Footer() {
                   Changelog
                 </Link>
               </li>
-            </ul>
-          </div>
-          <div>
-            <h3
-              className="text-sm font-semibold"
-              style={{ color: 'var(--text-primary)' }}
-            >
-              Legal
-            </h3>
-            <ul className="mt-3 space-y-2">
               <li>
                 <Link
                   href="/disclaimer"
                   className="footer-link text-sm transition-colors"
                 >
-                  Trademark Disclaimer
+                  Disclaimer
                 </Link>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/bishojbk/dev-icons/blob/main/LICENSE"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="footer-link text-sm transition-colors"
-                >
-                  MIT License
-                </a>
               </li>
             </ul>
           </div>
         </div>
+
+        {/* Bottom bar */}
         <div
-          className="mt-10 border-t pt-6 text-center text-sm"
-          style={{ borderColor: 'var(--border)', color: 'var(--text-tertiary)' }}
+          className="mt-12 flex flex-col items-center justify-between gap-3 border-t pt-8 text-sm sm:flex-row"
+          style={{
+            borderColor: 'var(--border)',
+            color: 'var(--text-tertiary)',
+          }}
         >
-          <p>
-            Built with care. All trademarks belong to their respective owners.
-          </p>
-          <p className="mt-1">
-            DevIcon Kit is open source under the MIT License.
-          </p>
+          <p>All trademarks belong to their respective owners.</p>
+          <a
+            href="https://github.com/bishojbk/dev-icons/blob/main/LICENSE"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-link transition-colors"
+          >
+            MIT License
+          </a>
         </div>
       </div>
     </footer>

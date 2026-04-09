@@ -1,6 +1,6 @@
 {
   "name": "devicon-kit",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "500+ beautifully crafted developer icons as React components with variants, animations, and accessibility built-in.",
   "type": "module",
   "sideEffects": false,

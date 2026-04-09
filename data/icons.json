@@ -36,6 +36,23 @@
     "url": "https://adonisjs.com"
   },
   {
+    "slug": "adyen",
+    "name": "Adyen",
+    "category": "brands",
+    "tags": [
+      "payment",
+      "fintech",
+      "commerce",
+      "processing"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0ABF53",
+    "url": "https://www.adyen.com/press-and-media/presskit"
+  },
+  {
     "slug": "airbnb",
     "name": "Airbnb",
     "category": "brands",
@@ -411,6 +428,23 @@
     "url": "https://www.apollographql.com"
   },
   {
+    "slug": "appium",
+    "name": "Appium",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "mobile",
+      "automation",
+      "cross-platform"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "EE376D",
+    "url": "https://github.com/openjs-foundation/artwork/blob/270575392800eb17a02612203f6f0d5868c634a7/projects/appium/appium-icon-mono.svg"
+  },
+  {
     "slug": "apple",
     "name": "Apple",
     "category": "brands",
@@ -427,6 +461,26 @@
     ],
     "hex": "000000",
     "url": "https://www.apple.com"
+  },
+  {
+    "slug": "aqua",
+    "name": "Aqua",
+    "category": "devops",
+    "tags": [
+      "security",
+      "container",
+      "cloud-native",
+      "scanning"
+    ],
+    "aliases": [
+      "aquasec"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "1904DA",
+    "url": "https://www.aquasec.com/brand"
   },
   {
     "slug": "arc",
@@ -480,6 +534,23 @@
     ],
     "hex": "00878F",
     "url": "https://www.arduino.cc"
+  },
+  {
+    "slug": "argo",
+    "name": "Argo",
+    "category": "devops",
+    "tags": [
+      "gitops",
+      "kubernetes",
+      "workflow",
+      "ci-cd"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "EF7B4D",
+    "url": "https://github.com/cncf/artwork/blob/c2e619cdf85e8bac090ceca7c0834c5cfedf9426/projects/argo/icon/black/argo-icon-black.svg"
   },
   {
     "slug": "asana",
@@ -567,6 +638,23 @@
     "url": "https://auth0.com"
   },
   {
+    "slug": "axios",
+    "name": "Axios",
+    "category": "frontend",
+    "tags": [
+      "http",
+      "client",
+      "promise",
+      "requests"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "5A29E4",
+    "url": "https://github.com/axios/axios-docs/blob/ba35d67160f94419c1b0292831cd1a4b378adb42/assets/logo.svg"
+  },
+  {
     "slug": "babel",
     "name": "Babel",
     "category": "frontend",
@@ -582,6 +670,40 @@
     ],
     "hex": "F9DC3E",
     "url": "https://github.com/babel/website/blob/93330158b6ecca1ab88d3be8dbf661f5c2da6c76/website/static/img/babel-black.svg"
+  },
+  {
+    "slug": "backblaze",
+    "name": "Backblaze",
+    "category": "cloud",
+    "tags": [
+      "storage",
+      "backup",
+      "b2",
+      "cloud"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E21E29",
+    "url": "https://www.backblaze.com/company/news.html"
+  },
+  {
+    "slug": "beekeeperstudio",
+    "name": "Beekeeper Studio",
+    "category": "tools",
+    "tags": [
+      "database",
+      "gui",
+      "sql",
+      "cross-platform"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FAD83B",
+    "url": "https://www.beekeeperstudio.io/press"
   },
   {
     "slug": "behance",
@@ -726,6 +848,40 @@
     ],
     "hex": "FB542B",
     "url": "https://brave.com/brave-branding-assets"
+  },
+  {
+    "slug": "bugcrowd",
+    "name": "Bugcrowd",
+    "category": "devops",
+    "tags": [
+      "security",
+      "bounty",
+      "crowdsourced",
+      "testing"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F26822",
+    "url": "https://www.bugcrowd.com/about/press-kit"
+  },
+  {
+    "slug": "buildkite",
+    "name": "Buildkite",
+    "category": "devops",
+    "tags": [
+      "ci",
+      "cd",
+      "pipeline",
+      "hybrid"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "14CC80",
+    "url": "https://buildkite.com/brand-assets"
   },
   {
     "slug": "bun",
@@ -961,6 +1117,23 @@
     "url": "https://www.chartjs.org"
   },
   {
+    "slug": "checkmarx",
+    "name": "Checkmarx",
+    "category": "devops",
+    "tags": [
+      "security",
+      "sast",
+      "code-scanning",
+      "appsec"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "54B848",
+    "url": "https://www.checkmarx.com/resources/datasheets/"
+  },
+  {
     "slug": "chocolatey",
     "name": "Chocolatey",
     "category": "tools",
@@ -978,6 +1151,40 @@
     ],
     "hex": "80B5E3",
     "url": "https://chocolatey.org/media-kit"
+  },
+  {
+    "slug": "chromatic",
+    "name": "Chromatic",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "visual",
+      "storybook",
+      "ui"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FC521F",
+    "url": "https://www.chromatic.com"
+  },
+  {
+    "slug": "cilium",
+    "name": "Cilium",
+    "category": "devops",
+    "tags": [
+      "networking",
+      "kubernetes",
+      "ebpf",
+      "security"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F8C517",
+    "url": "https://github.com/cilium/cilium/blob/774a91f0e7497d9c9085234005ec81f1065c3783/Documentation/images/logo-solo.svg"
   },
   {
     "slug": "circleci",
@@ -1030,6 +1237,23 @@
     ],
     "hex": "6C47FF",
     "url": "https://clerk.com"
+  },
+  {
+    "slug": "clickhouse",
+    "name": "ClickHouse",
+    "category": "databases",
+    "tags": [
+      "database",
+      "analytics",
+      "columnar",
+      "olap"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFCC01",
+    "url": "https://github.com/ClickHouse/ClickHouse/blob/12bd453a43819176d25ecf247033f6cb1af54beb/website/images/logo-clickhouse.svg"
   },
   {
     "slug": "clickup",
@@ -1138,6 +1362,24 @@
     "url": "https://www.codeigniter.com/help/legal"
   },
   {
+    "slug": "codesandbox",
+    "name": "CodeSandbox",
+    "category": "tools",
+    "tags": [
+      "cloud-ide",
+      "sandbox",
+      "browser",
+      "development"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "151515",
+    "url": "https://codesandbox.io/CodeSandbox-Press-Kit.zip"
+  },
+  {
     "slug": "coffeescript",
     "name": "CoffeeScript",
     "category": "languages",
@@ -1225,6 +1467,23 @@
     "url": "https://press.contentful.com/media_kits"
   },
   {
+    "slug": "conventionalcommits",
+    "name": "Conventional Commits",
+    "category": "tools",
+    "tags": [
+      "git",
+      "commits",
+      "convention",
+      "semver"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FE5196",
+    "url": "https://www.conventionalcommits.org"
+  },
+  {
     "slug": "convex",
     "name": "Convex",
     "category": "databases",
@@ -1240,6 +1499,23 @@
     ],
     "hex": "EE342F",
     "url": "https://www.convex.dev/brand"
+  },
+  {
+    "slug": "coolify",
+    "name": "Coolify",
+    "category": "cloud",
+    "tags": [
+      "hosting",
+      "self-hosted",
+      "paas",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "6B16ED",
+    "url": "https://github.com/coollabsio/coolify/blob/ac1d98f6035caff10f36fa10508326b4791dec07/public/coolify-logo-monochrome.svg"
   },
   {
     "slug": "cursor",
@@ -1348,6 +1624,24 @@
     "url": "https://www.jetbrains.com/company/brand/logos/"
   },
   {
+    "slug": "dbeaver",
+    "name": "DBeaver",
+    "category": "tools",
+    "tags": [
+      "database",
+      "gui",
+      "sql",
+      "universal"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "382923",
+    "url": "https://dbeaver.com"
+  },
+  {
     "slug": "debian",
     "name": "Debian",
     "category": "os",
@@ -1363,6 +1657,23 @@
     ],
     "hex": "A81D33",
     "url": "https://www.debian.org/logos"
+  },
+  {
+    "slug": "deezer",
+    "name": "Deezer",
+    "category": "social",
+    "tags": [
+      "music",
+      "streaming",
+      "audio",
+      "playlists"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "A238FF",
+    "url": "https://deezerbrand.com/document/37#/-/logo"
   },
   {
     "slug": "deno",
@@ -1542,6 +1853,24 @@
     "url": "https://orm.drizzle.team"
   },
   {
+    "slug": "drone",
+    "name": "Drone",
+    "category": "devops",
+    "tags": [
+      "ci",
+      "cd",
+      "container",
+      "pipeline"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "212121",
+    "url": "https://github.com/drone/brand/tree/f3ba7a1ad3c35abfe9571ea9c3ea93dff9912955"
+  },
+  {
     "slug": "drupal",
     "name": "Drupal",
     "category": "backend",
@@ -1629,6 +1958,23 @@
     "url": "https://www.electronjs.org"
   },
   {
+    "slug": "element",
+    "name": "Element",
+    "category": "social",
+    "tags": [
+      "messaging",
+      "matrix",
+      "encrypted",
+      "collaboration"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0DBD8B",
+    "url": "https://element.io"
+  },
+  {
     "slug": "elixir",
     "name": "Elixir",
     "category": "languages",
@@ -1664,6 +2010,23 @@
     ],
     "hex": "1293D8",
     "url": "https://github.com/elm/foundation.elm-lang.org/blob/2d097b317d8af2aaeab49284830260a32d817305/assets/elm_logo.svg"
+  },
+  {
+    "slug": "emby",
+    "name": "Emby",
+    "category": "tools",
+    "tags": [
+      "media",
+      "server",
+      "streaming",
+      "self-hosted"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "52B54B",
+    "url": "https://emby.media"
   },
   {
     "slug": "epicgames",
@@ -1774,6 +2137,23 @@
     ],
     "hex": "3C3C3D",
     "url": "https://ethereum.org/en/assets/"
+  },
+  {
+    "slug": "excalidraw",
+    "name": "Excalidraw",
+    "category": "design",
+    "tags": [
+      "whiteboard",
+      "drawing",
+      "collaboration",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "6965DB",
+    "url": "https://excalidraw.com"
   },
   {
     "slug": "expo",
@@ -1921,6 +2301,23 @@
     "url": "https://docs.fedoraproject.org/en-US/project/brand/"
   },
   {
+    "slug": "ffmpeg",
+    "name": "FFmpeg",
+    "category": "tools",
+    "tags": [
+      "video",
+      "audio",
+      "encoding",
+      "multimedia"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "007808",
+    "url": "https://commons.wikimedia.org/wiki/File:FFmpeg_Logo_new.svg"
+  },
+  {
     "slug": "figma",
     "name": "Figma",
     "category": "design",
@@ -2038,6 +2435,23 @@
     ],
     "hex": "02569B",
     "url": "https://flutter.dev/brand"
+  },
+  {
+    "slug": "flux",
+    "name": "Flux",
+    "category": "devops",
+    "tags": [
+      "gitops",
+      "kubernetes",
+      "cd",
+      "cncf"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "5468FF",
+    "url": "https://github.com/cncf/artwork/blob/c2e619cdf85e8bac090ceca7c0834c5cfedf9426/projects/flux/icon/black/flux-icon-black.svg"
   },
   {
     "slug": "flyio",
@@ -2378,6 +2792,23 @@
     "url": "https://gleam.run"
   },
   {
+    "slug": "glitch",
+    "name": "Glitch",
+    "category": "tools",
+    "tags": [
+      "cloud-ide",
+      "remix",
+      "community",
+      "hosting"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3333FF",
+    "url": "https://glitch.com/about/press/"
+  },
+  {
     "slug": "gnometerminal",
     "name": "GNOME Terminal",
     "category": "tools",
@@ -2413,6 +2844,25 @@
     ],
     "hex": "4EAA25",
     "url": "https://github.com/odb/official-bash-logo/tree/61eff022f2dad3c7468f5deb4f06652d15f2c143"
+  },
+  {
+    "slug": "emacs",
+    "name": "GNU Emacs",
+    "category": "tools",
+    "tags": [
+      "editor",
+      "lisp",
+      "extensible",
+      "gnu"
+    ],
+    "aliases": [
+      "gnu-emacs"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "7F5AB6",
+    "url": "https://git.savannah.gnu.org/cgit/emacs.git/tree/etc/images/icons/hicolor/scalable/apps/emacs.svg"
   },
   {
     "slug": "gpg",
@@ -2685,6 +3135,41 @@
     "url": "https://github.com/benoitc/gunicorn/blob/ff58e0c6da83d5520916bc4cc109a529258d76e1/docs/logo/gunicorn.svg"
   },
   {
+    "slug": "hackerone",
+    "name": "HackerOne",
+    "category": "devops",
+    "tags": [
+      "security",
+      "bounty",
+      "pentesting",
+      "vulnerability"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "494649",
+    "url": "https://www.hackerone.com/branding"
+  },
+  {
+    "slug": "hashicorp",
+    "name": "HashiCorp",
+    "category": "devops",
+    "tags": [
+      "infrastructure",
+      "cloud",
+      "automation",
+      "iac"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.hashicorp.com"
+  },
+  {
     "slug": "hashnode",
     "name": "Hashnode",
     "category": "social",
@@ -2771,6 +3256,42 @@
     ],
     "hex": "D50C2D",
     "url": "https://www.hetzner.com"
+  },
+  {
+    "slug": "hexo",
+    "name": "Hexo",
+    "category": "frontend",
+    "tags": [
+      "ssg",
+      "static",
+      "nodejs",
+      "blog"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0E83CD",
+    "url": "https://hexo.io"
+  },
+  {
+    "slug": "homeassistant",
+    "name": "Home Assistant",
+    "category": "tools",
+    "tags": [
+      "iot",
+      "home",
+      "automation",
+      "open-source"
+    ],
+    "aliases": [
+      "hass"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "18BCF2",
+    "url": "https://github.com/home-assistant/assets/blob/0f69676da79c3881e7dfca6d6c0a5739f88273d8/logo/home-assistant-logo.zip"
   },
   {
     "slug": "homebrew",
@@ -2861,6 +3382,23 @@
     ],
     "hex": "FFD21E",
     "url": "https://huggingface.co/brand"
+  },
+  {
+    "slug": "hugo",
+    "name": "Hugo",
+    "category": "frontend",
+    "tags": [
+      "ssg",
+      "static",
+      "go",
+      "fast"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF4088",
+    "url": "https://gohugo.io"
   },
   {
     "slug": "hyper",
@@ -3101,6 +3639,40 @@
     "url": "https://github.com/voodootikigod/logo.js/blob/1544bdeed6d618a6cfe4f0650d04ab8d9cfa76d9/js.svg"
   },
   {
+    "slug": "jekyll",
+    "name": "Jekyll",
+    "category": "frontend",
+    "tags": [
+      "ssg",
+      "static",
+      "ruby",
+      "github-pages"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "CC0000",
+    "url": "https://github.com/jekyll/brand/blob/8302ad3ecf045054a095020729a8d2cc7005faf8/jekyll-logo-black.svg"
+  },
+  {
+    "slug": "jellyfin",
+    "name": "Jellyfin",
+    "category": "tools",
+    "tags": [
+      "media",
+      "server",
+      "streaming",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "00A4DC",
+    "url": "https://jellyfin.org/docs/general/contributing/branding.html"
+  },
+  {
     "slug": "jenkins",
     "name": "Jenkins",
     "category": "devops",
@@ -3292,6 +3864,40 @@
     "url": "https://keras.io"
   },
   {
+    "slug": "keycloak",
+    "name": "Keycloak",
+    "category": "devops",
+    "tags": [
+      "auth",
+      "identity",
+      "sso",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "4D4D4D",
+    "url": "https://github.com/keycloak/keycloak-misc/blob/dee033f2d6d6b5c3a6ce8eb84e285f7e5626dbf6/logo/icon-black.svg"
+  },
+  {
+    "slug": "keystone",
+    "name": "Keystone",
+    "category": "backend",
+    "tags": [
+      "cms",
+      "headless",
+      "graphql",
+      "nodejs"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "166BFF",
+    "url": "https://keystonejs.com"
+  },
+  {
     "slug": "kibana",
     "name": "Kibana",
     "category": "devops",
@@ -3307,6 +3913,40 @@
     ],
     "hex": "005571",
     "url": "https://www.elastic.co/brand"
+  },
+  {
+    "slug": "kick",
+    "name": "Kick",
+    "category": "social",
+    "tags": [
+      "streaming",
+      "live",
+      "gaming",
+      "video"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "53FC19",
+    "url": "https://kick.com"
+  },
+  {
+    "slug": "kickstarter",
+    "name": "Kickstarter",
+    "category": "brands",
+    "tags": [
+      "crowdfunding",
+      "creative",
+      "projects",
+      "funding"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "05CE78",
+    "url": "https://www.kickstarter.com/help/brand_assets"
   },
   {
     "slug": "kofi",
@@ -3345,6 +3985,23 @@
     ],
     "hex": "7F52FF",
     "url": "https://www.jetbrains.com/company/brand/logos/"
+  },
+  {
+    "slug": "krita",
+    "name": "Krita",
+    "category": "design",
+    "tags": [
+      "painting",
+      "digital-art",
+      "open-source",
+      "raster"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3BABFF",
+    "url": "https://krita.org/en/about/press/"
   },
   {
     "slug": "kubernetes",
@@ -3401,6 +4058,25 @@
     "url": "https://github.com/laravel/art/tree/5a8325b064634b900f25dbb6f1cafd888b2d2211"
   },
   {
+    "slug": "latex",
+    "name": "LaTeX",
+    "category": "misc",
+    "tags": [
+      "typesetting",
+      "academic",
+      "publishing",
+      "documents"
+    ],
+    "aliases": [
+      "tex"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "008080",
+    "url": "https://github.com/latex3/branding/tree/9def6b5f6075567d62b67424e11dbe6d4d5245b4"
+  },
+  {
     "slug": "leaflet",
     "name": "Leaflet",
     "category": "frontend",
@@ -3416,6 +4092,24 @@
     ],
     "hex": "199900",
     "url": "https://github.com/Leaflet/Leaflet/blob/d843c3b88486713827d7e860b58bdba75bfbd5a2/src/images/logo.svg"
+  },
+  {
+    "slug": "lemmy",
+    "name": "Lemmy",
+    "category": "social",
+    "tags": [
+      "forum",
+      "reddit-alt",
+      "fediverse",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://join-lemmy.org"
   },
   {
     "slug": "less",
@@ -3456,6 +4150,23 @@
     "url": "https://letsencrypt.org/trademarks/"
   },
   {
+    "slug": "lighthouse",
+    "name": "Lighthouse",
+    "category": "testing",
+    "tags": [
+      "performance",
+      "audit",
+      "google",
+      "web"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F44B21",
+    "url": "https://github.com/GoogleChrome/lighthouse/blob/80d2e6c1948f232ec4f1bdeabc8bc632fc5d0bfd/assets/lh_favicon.svg"
+  },
+  {
     "slug": "line",
     "name": "LINE",
     "category": "social",
@@ -3488,6 +4199,23 @@
     ],
     "hex": "5E6AD2",
     "url": "https://linear.app"
+  },
+  {
+    "slug": "linkerd",
+    "name": "Linkerd",
+    "category": "devops",
+    "tags": [
+      "service-mesh",
+      "kubernetes",
+      "cncf",
+      "proxy"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "2BEDA7",
+    "url": "https://cncf-branding.netlify.app/projects/linkerd/"
   },
   {
     "slug": "linux",
@@ -3664,6 +4392,26 @@
     "url": "https://mailchimp.com/about/brand-assets"
   },
   {
+    "slug": "make",
+    "name": "Make",
+    "category": "tools",
+    "tags": [
+      "automation",
+      "workflow",
+      "integration",
+      "no-code"
+    ],
+    "aliases": [
+      "integromat"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "6D00CC",
+    "url": "https://www.make.com/en/press"
+  },
+  {
     "slug": "manjaro",
     "name": "Manjaro",
     "category": "os",
@@ -3771,6 +4519,41 @@
     "url": "https://github.com/mastodon/mastodon/blob/7ccf7a73f1c47a8c03712c39f7c591e837cf6d08/app/javascript/images/logo-symbol-icon.svg"
   },
   {
+    "slug": "matrix",
+    "name": "Matrix",
+    "category": "social",
+    "tags": [
+      "messaging",
+      "decentralized",
+      "federation",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://matrix.org"
+  },
+  {
+    "slug": "mattermost",
+    "name": "Mattermost",
+    "category": "social",
+    "tags": [
+      "messaging",
+      "team",
+      "open-source",
+      "slack-alt"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0058CC",
+    "url": "https://www.mattermost.org/brand-guidelines/"
+  },
+  {
     "slug": "medium",
     "name": "Medium",
     "category": "social",
@@ -3806,6 +4589,23 @@
     "url": "https://www.meilisearch.com"
   },
   {
+    "slug": "mermaid",
+    "name": "Mermaid",
+    "category": "design",
+    "tags": [
+      "diagrams",
+      "charts",
+      "markdown",
+      "visualization"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FF3670",
+    "url": "https://github.com/mermaid-js/mermaid/blob/f5bd1e08098fa688ef889e73c8b06696e75e62d8/docs/public/mermaid-logo.svg"
+  },
+  {
     "slug": "meta",
     "name": "Meta",
     "category": "brands",
@@ -3838,6 +4638,23 @@
     ],
     "hex": "C72E49",
     "url": "https://min.io"
+  },
+  {
+    "slug": "mintlify",
+    "name": "Mintlify",
+    "category": "tools",
+    "tags": [
+      "docs",
+      "documentation",
+      "api",
+      "modern"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "18E299",
+    "url": "https://mintlify.com"
   },
   {
     "slug": "miro",
@@ -3997,6 +4814,23 @@
     ],
     "hex": "4479A1",
     "url": "https://www.mysql.com/about/legal/logos.html"
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "category": "tools",
+    "tags": [
+      "automation",
+      "workflow",
+      "integration",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "EA4B71",
+    "url": "https://n8n.io/press"
   },
   {
     "slug": "neo4j",
@@ -4173,6 +5007,26 @@
     ],
     "hex": "5277C3",
     "url": "https://github.com/NixOS/nixos-homepage/tree/58cfdb770aba28b73446a1b3ee65a5cec4f0d44f/logo"
+  },
+  {
+    "slug": "nodered",
+    "name": "Node-RED",
+    "category": "tools",
+    "tags": [
+      "iot",
+      "flow",
+      "automation",
+      "low-code"
+    ],
+    "aliases": [
+      "node-red"
+    ],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "8F0000",
+    "url": "https://nodered.org/about/resources/"
   },
   {
     "slug": "nodejs",
@@ -4459,6 +5313,23 @@
     "url": "https://cncf-branding.netlify.app/projects/opentelemetry/"
   },
   {
+    "slug": "openwrt",
+    "name": "OpenWrt",
+    "category": "os",
+    "tags": [
+      "router",
+      "firmware",
+      "networking",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "00B5E2",
+    "url": "https://openwrt.org/docs/guide-graphic-designer/openwrt-logo"
+  },
+  {
     "slug": "opera",
     "name": "Opera",
     "category": "browsers",
@@ -4474,6 +5345,42 @@
     ],
     "hex": "FF1B2D",
     "url": "https://brand.opera.com/1472-2/opera-logos/"
+  },
+  {
+    "slug": "ovh",
+    "name": "OVH",
+    "category": "cloud",
+    "tags": [
+      "hosting",
+      "cloud",
+      "european",
+      "infrastructure"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "123F6D",
+    "url": "https://www.ovh.com/ca/en/newsroom/"
+  },
+  {
+    "slug": "owasp",
+    "name": "OWASP",
+    "category": "devops",
+    "tags": [
+      "security",
+      "web",
+      "vulnerabilities",
+      "standards"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://github.com/OWASP/www-event-2020-07-virtual/blob/eefbef6c1afdd1dee2af11e7f44ad005b25ad48c/assets/images/logo.svg"
   },
   {
     "slug": "packer",
@@ -4508,6 +5415,23 @@
     ],
     "hex": "06AC38",
     "url": "https://www.pagerduty.com/brand/"
+  },
+  {
+    "slug": "pagespeedinsights",
+    "name": "PageSpeed Insights",
+    "category": "testing",
+    "tags": [
+      "performance",
+      "google",
+      "web",
+      "optimization"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "4285F4",
+    "url": "https://developers.google.com/web/fundamentals/performance/speed-tools/"
   },
   {
     "slug": "pandas",
@@ -4603,6 +5527,23 @@
     "url": "https://github.com/metacpan/perl-assets/blob/56b555711934dde8fd0b20ec29ecc3bf81a3d493/blessed/src/010.svg"
   },
   {
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "category": "ai-ml",
+    "tags": [
+      "search",
+      "ai",
+      "assistant",
+      "llm"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "1FB8CD",
+    "url": "https://www.perplexity.ai"
+  },
+  {
     "slug": "php",
     "name": "PHP",
     "category": "languages",
@@ -4655,6 +5596,23 @@
     "url": "https://business.pinterest.com/en/brand-guidelines"
   },
   {
+    "slug": "pixelfed",
+    "name": "Pixelfed",
+    "category": "social",
+    "tags": [
+      "photos",
+      "instagram-alt",
+      "fediverse",
+      "open-source"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "6366F1",
+    "url": "https://pixelfed.org"
+  },
+  {
     "slug": "planetscale",
     "name": "PlanetScale",
     "category": "databases",
@@ -4690,6 +5648,23 @@
     ],
     "hex": "0070D1",
     "url": "https://www.playstation.com/en-us/"
+  },
+  {
+    "slug": "plex",
+    "name": "Plex",
+    "category": "tools",
+    "tags": [
+      "media",
+      "server",
+      "streaming",
+      "self-hosted"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "EBAF00",
+    "url": "https://brand.plex.tv"
   },
   {
     "slug": "plotly",
@@ -4868,6 +5843,24 @@
     "url": "https://wiki.postgresql.org/wiki/Logo"
   },
   {
+    "slug": "posthog",
+    "name": "PostHog",
+    "category": "tools",
+    "tags": [
+      "analytics",
+      "product",
+      "open-source",
+      "tracking"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://posthog.com/handbook/company/brand-assets"
+  },
+  {
     "slug": "postman",
     "name": "Postman",
     "category": "tools",
@@ -4971,6 +5964,23 @@
     ],
     "hex": "E6522C",
     "url": "https://prometheus.io"
+  },
+  {
+    "slug": "proxmox",
+    "name": "Proxmox",
+    "category": "cloud",
+    "tags": [
+      "virtualization",
+      "server",
+      "hypervisor",
+      "kvm"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "E57000",
+    "url": "https://www.proxmox.com/en/news/media-kit"
   },
   {
     "slug": "pulumi",
@@ -5440,6 +6450,24 @@
     "url": "https://render.com"
   },
   {
+    "slug": "replicate",
+    "name": "Replicate",
+    "category": "ai-ml",
+    "tags": [
+      "ml",
+      "inference",
+      "api",
+      "models"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://replicate.com"
+  },
+  {
     "slug": "replit",
     "name": "Replit",
     "category": "misc",
@@ -5492,6 +6520,24 @@
     "url": "https://www.jetbrains.com/company/brand/logos/"
   },
   {
+    "slug": "rive",
+    "name": "Rive",
+    "category": "design",
+    "tags": [
+      "animation",
+      "interactive",
+      "runtime",
+      "motion"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "1D1D1D",
+    "url": "https://rive.app"
+  },
+  {
     "slug": "roblox",
     "name": "Roblox",
     "category": "gaming",
@@ -5526,6 +6572,40 @@
     ],
     "hex": "6706CE",
     "url": "https://roboflow.com/press"
+  },
+  {
+    "slug": "rollbar",
+    "name": "Rollbar",
+    "category": "tools",
+    "tags": [
+      "error-tracking",
+      "monitoring",
+      "debugging",
+      "alerts"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3569F3",
+    "url": "https://rollbar.com/about"
+  },
+  {
+    "slug": "rss",
+    "name": "RSS",
+    "category": "misc",
+    "tags": [
+      "feed",
+      "syndication",
+      "xml",
+      "news"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FFA500",
+    "url": "https://en.wikipedia.org/wiki/Feed_icon"
   },
   {
     "slug": "ruby",
@@ -5677,6 +6757,25 @@
     "url": "https://sass-lang.com/styleguide/brand"
   },
   {
+    "slug": "saucelabs",
+    "name": "Sauce Labs",
+    "category": "testing",
+    "tags": [
+      "testing",
+      "cross-browser",
+      "automation",
+      "cloud"
+    ],
+    "aliases": [
+      "sauce-labs"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "3DDC91",
+    "url": "https://saucelabs.com"
+  },
+  {
     "slug": "scala",
     "name": "Scala",
     "category": "languages",
@@ -5730,6 +6829,23 @@
     "url": "https://github.com/SeleniumHQ/heroku-selenium/blob/2f66891ba030d3aa1f36ab1748c52ba4fb4e057d/selenium-green.svg"
   },
   {
+    "slug": "semver",
+    "name": "SemVer",
+    "category": "tools",
+    "tags": [
+      "versioning",
+      "semantic",
+      "convention",
+      "release"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3F4551",
+    "url": "https://github.com/semver/semver.org/blob/b6983849e38911195a24357809187c2f50af0d40/assets/500x500(light).jpg"
+  },
+  {
     "slug": "sentry",
     "name": "Sentry",
     "category": "devops",
@@ -5746,6 +6862,23 @@
     ],
     "hex": "362D59",
     "url": "https://sentry.io/branding/"
+  },
+  {
+    "slug": "sequelize",
+    "name": "Sequelize",
+    "category": "databases",
+    "tags": [
+      "orm",
+      "nodejs",
+      "sql",
+      "database"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "52B0E7",
+    "url": "https://github.com/sequelize/website/blob/e6a482fa58a839b15ace80e3c8901ed2887be45e/static/img/logo-simple.svg"
   },
   {
     "slug": "shadcnui",
@@ -5967,6 +7100,24 @@
     "url": "https://atlassian.design/resources/logo-library"
   },
   {
+    "slug": "speedtest",
+    "name": "Speedtest",
+    "category": "tools",
+    "tags": [
+      "network",
+      "speed",
+      "bandwidth",
+      "testing"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "141526",
+    "url": "https://www.speedtest.net"
+  },
+  {
     "slug": "spotify",
     "name": "Spotify",
     "category": "social",
@@ -6036,6 +7187,23 @@
     ],
     "hex": "003B57",
     "url": "https://github.com/sqlite/sqlite/blob/43e862723ec680542ca6f608f9963c0993dd7324/art/sqlite370.eps"
+  },
+  {
+    "slug": "square",
+    "name": "Square",
+    "category": "brands",
+    "tags": [
+      "payment",
+      "fintech",
+      "pos",
+      "processing"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "3E4348",
+    "url": "https://squareup.com"
   },
   {
     "slug": "squarespace",
@@ -6387,6 +7555,24 @@
     "url": "https://tails.boum.org/contribute/how/promote/material/logo/"
   },
   {
+    "slug": "tailscale",
+    "name": "Tailscale",
+    "category": "cloud",
+    "tags": [
+      "vpn",
+      "mesh",
+      "network",
+      "wireguard"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "242424",
+    "url": "https://tailscale.com/press"
+  },
+  {
     "slug": "tailwindcss",
     "name": "Tailwind CSS",
     "category": "frontend",
@@ -6421,6 +7607,24 @@
     ],
     "hex": "24C8D8",
     "url": "https://github.com/tauri-apps/tauri-docs/blob/b1cdfa9d7c6d0b17dae60a90266ddced40a7b384/static/img/tauri.svg"
+  },
+  {
+    "slug": "teamcity",
+    "name": "TeamCity",
+    "category": "devops",
+    "tags": [
+      "ci",
+      "cd",
+      "jetbrains",
+      "enterprise"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://www.jetbrains.com/company/brand/logos"
   },
   {
     "slug": "telegram",
@@ -6537,6 +7741,24 @@
     "url": "https://github.com/mrdoob/three.js/blob/a567b810cfcb7f6a03e4faea99f03c53081da477/files/icon.svg"
   },
   {
+    "slug": "tidal",
+    "name": "TIDAL",
+    "category": "social",
+    "tags": [
+      "music",
+      "streaming",
+      "hifi",
+      "audio"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "000000",
+    "url": "https://tidal.com/press"
+  },
+  {
     "slug": "tiktok",
     "name": "TikTok",
     "category": "social",
@@ -6553,6 +7775,25 @@
     ],
     "hex": "000000",
     "url": "https://tiktok.com"
+  },
+  {
+    "slug": "timescale",
+    "name": "Timescale",
+    "category": "databases",
+    "tags": [
+      "database",
+      "time-series",
+      "postgresql",
+      "analytics"
+    ],
+    "aliases": [
+      "timescaledb"
+    ],
+    "variants": [
+      "default"
+    ],
+    "hex": "FDB515",
+    "url": "https://www.timescale.com"
   },
   {
     "slug": "todoist",
@@ -6659,6 +7900,23 @@
     "url": "https://github.com/trpc/trpc/blob/e0df4a2d5b498dd953a65901e04915c6e3f7ecc5/www/static/img/logo-no-text.svg"
   },
   {
+    "slug": "truenas",
+    "name": "TrueNAS",
+    "category": "cloud",
+    "tags": [
+      "nas",
+      "storage",
+      "zfs",
+      "server"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "0095D5",
+    "url": "https://www.truenas.com"
+  },
+  {
     "slug": "turborepo",
     "name": "Turborepo",
     "category": "tools",
@@ -6710,6 +7968,23 @@
     ],
     "hex": "9146FF",
     "url": "https://brand.twitch.tv"
+  },
+  {
+    "slug": "typeorm",
+    "name": "TypeORM",
+    "category": "databases",
+    "tags": [
+      "orm",
+      "typescript",
+      "database",
+      "activerecord"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "FE0803",
+    "url": "https://github.com/typeorm/typeorm/blob/e7649d2746f907ff36b1efb600402dedd5f5a499/resources/logo_big.png"
   },
   {
     "slug": "typescript",
@@ -6800,6 +8075,23 @@
     ],
     "hex": "FFFFFF",
     "url": "https://brand.unity.com"
+  },
+  {
+    "slug": "unraid",
+    "name": "Unraid",
+    "category": "cloud",
+    "tags": [
+      "nas",
+      "server",
+      "storage",
+      "self-hosted"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "F15A2C",
+    "url": "https://unraid.net"
   },
   {
     "slug": "unrealengine",
@@ -6923,6 +8215,23 @@
     ],
     "hex": "000000",
     "url": "https://vercel.com/geist/brands"
+  },
+  {
+    "slug": "viber",
+    "name": "Viber",
+    "category": "social",
+    "tags": [
+      "messaging",
+      "calls",
+      "mobile",
+      "voip"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "7360F2",
+    "url": "https://www.viber.com/brand-center"
   },
   {
     "slug": "vim",
@@ -7227,6 +8536,42 @@
     "url": "https://about.meta.com/brand/resources/whatsapp/whatsapp-brand"
   },
   {
+    "slug": "windsurf",
+    "name": "Windsurf",
+    "category": "tools",
+    "tags": [
+      "ide",
+      "ai",
+      "code-editor",
+      "codeium"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "0B100F",
+    "url": "https://windsurf.com/brand"
+  },
+  {
+    "slug": "wireguard",
+    "name": "WireGuard",
+    "category": "devops",
+    "tags": [
+      "vpn",
+      "networking",
+      "encryption",
+      "tunnel"
+    ],
+    "aliases": [],
+    "variants": [
+      "default",
+      "light"
+    ],
+    "hex": "88171A",
+    "url": "https://www.wireguard.com"
+  },
+  {
     "slug": "wix",
     "name": "Wix",
     "category": "design",
@@ -7298,6 +8643,23 @@
     ],
     "hex": "147EFB",
     "url": "https://developer.apple.com/develop"
+  },
+  {
+    "slug": "xml",
+    "name": "XML",
+    "category": "misc",
+    "tags": [
+      "markup",
+      "data",
+      "format",
+      "web"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "005FAD",
+    "url": "https://www.w3.org/Icons/XML"
   },
   {
     "slug": "yaml",
@@ -7425,5 +8787,22 @@
     ],
     "hex": "0B5CFF",
     "url": "https://brand.zoom.us/media-library/"
+  },
+  {
+    "slug": "zulip",
+    "name": "Zulip",
+    "category": "social",
+    "tags": [
+      "messaging",
+      "threaded",
+      "open-source",
+      "team"
+    ],
+    "aliases": [],
+    "variants": [
+      "default"
+    ],
+    "hex": "6492FE",
+    "url": "https://github.com/zulip/zulip/blob/df9e40491dc77b658d943cff36a816d46e32ce1b/static/images/logo/zulip-org-logo.svg"
   }
 ]

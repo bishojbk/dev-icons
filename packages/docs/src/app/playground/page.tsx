@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useRef, useCallback, useEffect } from 'react';
 import { iconMetadata } from '@/lib/iconMetadata';
 import { iconComponents } from '@/lib/iconComponents';
 import type { IconMeta, IconVariant, IconAnimation } from 'devicon-kit';
@@ -22,7 +22,7 @@ function CopyButton({ text }: { text: string }) {
       className="btn-copy rounded-lg px-3 py-1.5 text-xs font-medium transition-all"
       style={{
         backgroundColor: copied ? '#10b981' : 'var(--accent)',
-        color: 'white',
+        color: copied ? 'white' : '#0a0a0c',
       }}
     >
       {copied ? 'Copied!' : 'Copy'}
@@ -31,17 +31,32 @@ function CopyButton({ text }: { text: string }) {
 }
 
 export default function PlaygroundPage() {
-  const [selectedSlug, setSelectedSlug] = useState(iconMetadata[0]?.slug || '');
+  const [selectedSlug, setSelectedSlug] = useState(
+    iconMetadata[0]?.slug || '',
+  );
   const [size, setSize] = useState<(typeof sizes)[number]>('xl');
   const [useDefaultColor, setUseDefaultColor] = useState(true);
-  const [customColor, setCustomColor] = useState('#6366f1');
+  const [customColor, setCustomColor] = useState('#f59e0b');
   const [variant, setVariant] = useState('default');
-  const [animation, setAnimation] = useState<(typeof animations)[number]>('none');
+  const [animation, setAnimation] =
+    useState<(typeof animations)[number]>('none');
+  const [searchInput, setSearchInput] = useState('');
   const [searchQuery, setSearchQuery] = useState('');
+  const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const handleSearchChange = useCallback((val: string) => {
+    setSearchInput(val);
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => setSearchQuery(val), 200);
+  }, []);
+
+  useEffect(() => {
+    return () => { if (debounceRef.current) clearTimeout(debounceRef.current); };
+  }, []);
 
   const selectedIcon = useMemo(
     () => iconMetadata.find((i) => i.slug === selectedSlug) || iconMetadata[0],
-    [selectedSlug]
+    [selectedSlug],
   );
 
   const filteredIcons = useMemo(() => {
@@ -51,7 +66,7 @@ export default function PlaygroundPage() {
       (i) =>
         i.name.toLowerCase().includes(q) ||
         i.slug.includes(q) ||
-        i.tags.some((t) => t.includes(q))
+        i.tags.some((t) => t.includes(q)),
     );
   }, [searchQuery]);
 
@@ -68,22 +83,32 @@ export default function PlaygroundPage() {
   }, [selectedIcon, size, useDefaultColor, customColor, variant, animation]);
 
   const animationStyle = useMemo(() => {
-    if (animation === 'spin') return { animation: 'devicon-spin 1s linear infinite' };
-    if (animation === 'pulse') return { animation: 'devicon-pulse 2s ease-in-out infinite' };
-    if (animation === 'bounce') return { animation: 'devicon-bounce 1s ease infinite' };
+    if (animation === 'spin')
+      return { animation: 'devicon-spin 1s linear infinite' };
+    if (animation === 'pulse')
+      return { animation: 'devicon-pulse 2s ease-in-out infinite' };
+    if (animation === 'bounce')
+      return { animation: 'devicon-bounce 1s ease infinite' };
     return {};
   }, [animation]);
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8">
+    <div className="mx-auto max-w-7xl px-6 py-10 sm:py-12">
       <div className="mb-8">
         <h1
-          className="text-3xl font-bold tracking-tight"
-          style={{ color: 'var(--text-primary)' }}
+          className="text-3xl font-bold tracking-tight sm:text-4xl"
+          style={{
+            color: 'var(--text-primary)',
+            fontFamily: 'var(--font-display)',
+            letterSpacing: '-0.02em',
+          }}
         >
           Playground
         </h1>
-        <p className="mt-2 text-sm" style={{ color: 'var(--text-secondary)' }}>
+        <p
+          className="mt-2 text-sm"
+          style={{ color: 'var(--text-secondary)' }}
+        >
           Customize icons interactively and copy the generated code.
         </p>
       </div>
@@ -95,6 +120,7 @@ export default function PlaygroundPage() {
           style={{
             backgroundColor: 'var(--bg-surface)',
             borderColor: 'var(--border)',
+            boxShadow: 'var(--card-shadow)',
           }}
         >
           {/* Icon Selector */}
@@ -107,12 +133,15 @@ export default function PlaygroundPage() {
             </label>
             <input
               type="text"
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
+              value={searchInput}
+              onChange={(e) => handleSearchChange(e.target.value)}
               placeholder="Search icons..."
               className="search-input mb-2 w-full rounded-lg border px-3 py-2 text-sm outline-none"
             />
-            <div className="max-h-40 overflow-y-auto rounded-lg border" style={{ borderColor: 'var(--border)' }}>
+            <div
+              className="max-h-40 overflow-y-auto rounded-lg border"
+              style={{ borderColor: 'var(--border)' }}
+            >
               {filteredIcons.map((icon) => (
                 <button
                   key={icon.slug}
@@ -122,8 +151,14 @@ export default function PlaygroundPage() {
                   }}
                   className="flex w-full items-center gap-2 px-3 py-1.5 text-left text-sm transition-colors"
                   style={{
-                    backgroundColor: icon.slug === selectedSlug ? 'var(--accent-bg)' : 'transparent',
-                    color: icon.slug === selectedSlug ? 'var(--accent)' : 'var(--text-primary)',
+                    backgroundColor:
+                      icon.slug === selectedSlug
+                        ? 'var(--accent-bg)'
+                        : 'transparent',
+                    color:
+                      icon.slug === selectedSlug
+                        ? 'var(--accent)'
+                        : 'var(--text-primary)',
                   }}
                 >
                   {icon.name}
@@ -147,9 +182,11 @@ export default function PlaygroundPage() {
                   onClick={() => setSize(s)}
                   className="option-pill rounded-md border px-2.5 py-1 text-xs font-medium transition-all"
                   style={{
-                    backgroundColor: size === s ? 'var(--accent)' : 'transparent',
-                    borderColor: size === s ? 'var(--accent)' : 'var(--border)',
-                    color: size === s ? 'white' : 'var(--text-secondary)',
+                    backgroundColor:
+                      size === s ? 'var(--accent)' : 'transparent',
+                    borderColor:
+                      size === s ? 'var(--accent)' : 'var(--border)',
+                    color: size === s ? '#0a0a0c' : 'var(--text-secondary)',
                   }}
                 >
                   {s}
@@ -171,9 +208,15 @@ export default function PlaygroundPage() {
                 onClick={() => setUseDefaultColor(true)}
                 className="option-pill rounded-md border px-2.5 py-1 text-xs font-medium transition-all"
                 style={{
-                  backgroundColor: useDefaultColor ? 'var(--accent)' : 'transparent',
-                  borderColor: useDefaultColor ? 'var(--accent)' : 'var(--border)',
-                  color: useDefaultColor ? 'white' : 'var(--text-secondary)',
+                  backgroundColor: useDefaultColor
+                    ? 'var(--accent)'
+                    : 'transparent',
+                  borderColor: useDefaultColor
+                    ? 'var(--accent)'
+                    : 'var(--border)',
+                  color: useDefaultColor
+                    ? '#0a0a0c'
+                    : 'var(--text-secondary)',
                 }}
               >
                 Brand Default
@@ -182,36 +225,44 @@ export default function PlaygroundPage() {
                 onClick={() => setUseDefaultColor(false)}
                 className="option-pill rounded-md border px-2.5 py-1 text-xs font-medium transition-all"
                 style={{
-                  backgroundColor: !useDefaultColor ? 'var(--accent)' : 'transparent',
-                  borderColor: !useDefaultColor ? 'var(--accent)' : 'var(--border)',
-                  color: !useDefaultColor ? 'white' : 'var(--text-secondary)',
+                  backgroundColor: !useDefaultColor
+                    ? 'var(--accent)'
+                    : 'transparent',
+                  borderColor: !useDefaultColor
+                    ? 'var(--accent)'
+                    : 'var(--border)',
+                  color: !useDefaultColor
+                    ? '#0a0a0c'
+                    : 'var(--text-secondary)',
                 }}
               >
                 Custom
               </button>
             </div>
             {useDefaultColor ? (
-              <p className="text-xs" style={{ color: 'var(--text-tertiary)' }}>
-                Uses the icon&apos;s official brand color. No color prop needed.
+              <p
+                className="text-xs"
+                style={{ color: 'var(--text-tertiary)' }}
+              >
+                Uses the icon&apos;s official brand color. No color prop
+                needed.
               </p>
             ) : (
-            <div className="flex items-center gap-2">
-              <input
-                type="color"
-                value={customColor}
-                onChange={(e) => setCustomColor(e.target.value)}
-                className="h-8 w-8 cursor-pointer rounded border-0"
-              />
-              <input
-                type="text"
-                value={customColor}
-                onChange={(e) => setCustomColor(e.target.value)}
-                className="search-input flex-1 rounded-lg border px-3 py-1.5 text-sm outline-none"
-                style={{
-                  fontFamily: 'var(--font-mono)',
-                }}
-              />
-            </div>
+              <div className="flex items-center gap-2">
+                <input
+                  type="color"
+                  value={customColor}
+                  onChange={(e) => setCustomColor(e.target.value)}
+                  className="h-8 w-8 cursor-pointer rounded border-0"
+                />
+                <input
+                  type="text"
+                  value={customColor}
+                  onChange={(e) => setCustomColor(e.target.value)}
+                  className="search-input flex-1 rounded-lg border px-3 py-1.5 text-sm outline-none"
+                  style={{ fontFamily: 'var(--font-mono)' }}
+                />
+              </div>
             )}
           </div>
 
@@ -231,9 +282,14 @@ export default function PlaygroundPage() {
                     onClick={() => setVariant(v)}
                     className="rounded-md border px-2.5 py-1 text-xs font-medium capitalize transition-all"
                     style={{
-                      backgroundColor: variant === v ? 'var(--accent)' : 'transparent',
-                      borderColor: variant === v ? 'var(--accent)' : 'var(--border)',
-                      color: variant === v ? 'white' : 'var(--text-secondary)',
+                      backgroundColor:
+                        variant === v ? 'var(--accent)' : 'transparent',
+                      borderColor:
+                        variant === v ? 'var(--accent)' : 'var(--border)',
+                      color:
+                        variant === v
+                          ? '#0a0a0c'
+                          : 'var(--text-secondary)',
                     }}
                   >
                     {v}
@@ -258,9 +314,14 @@ export default function PlaygroundPage() {
                   onClick={() => setAnimation(a)}
                   className="rounded-md border px-2.5 py-1 text-xs font-medium capitalize transition-all"
                   style={{
-                    backgroundColor: animation === a ? 'var(--accent)' : 'transparent',
-                    borderColor: animation === a ? 'var(--accent)' : 'var(--border)',
-                    color: animation === a ? 'white' : 'var(--text-secondary)',
+                    backgroundColor:
+                      animation === a ? 'var(--accent)' : 'transparent',
+                    borderColor:
+                      animation === a ? 'var(--accent)' : 'var(--border)',
+                    color:
+                      animation === a
+                        ? '#0a0a0c'
+                        : 'var(--text-secondary)',
                   }}
                 >
                   {a}
@@ -274,11 +335,12 @@ export default function PlaygroundPage() {
         <div className="space-y-6">
           {/* Preview */}
           <div
-            className="flex items-center justify-center rounded-2xl border p-16"
+            className="dot-grid flex items-center justify-center rounded-2xl border p-16"
             style={{
               backgroundColor: 'var(--bg-surface)',
               borderColor: 'var(--border)',
               minHeight: 200,
+              boxShadow: 'var(--card-shadow)',
             }}
           >
             {(() => {
@@ -307,15 +369,9 @@ export default function PlaygroundPage() {
           </div>
 
           {/* Code Output */}
-          <div
-            className="rounded-2xl border"
-            style={{
-              backgroundColor: 'var(--bg-surface)',
-              borderColor: 'var(--border)',
-            }}
-          >
+          <div className="code-window">
             <div
-              className="flex items-center justify-between border-b px-4 py-3"
+              className="flex items-center justify-between border-b px-5 py-3"
               style={{ borderColor: 'var(--border)' }}
             >
               <span
@@ -326,7 +382,7 @@ export default function PlaygroundPage() {
               </span>
               <CopyButton text={code} />
             </div>
-            <pre className="!border-0 !bg-transparent !rounded-t-none p-4">
+            <pre className="!m-0 !rounded-t-none !border-0 !bg-transparent p-5">
               <code
                 className="text-sm"
                 style={{

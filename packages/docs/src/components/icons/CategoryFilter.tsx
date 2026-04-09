@@ -54,7 +54,7 @@ export function CategoryFilter({
         style={{
           backgroundColor: selected === 'all' ? 'var(--accent)' : 'var(--bg-surface)',
           borderColor: selected === 'all' ? 'var(--accent)' : 'var(--border)',
-          color: selected === 'all' ? 'white' : 'var(--text-secondary)',
+          color: selected === 'all' ? '#0a0a0c' : 'var(--text-secondary)',
         }}
       >
         All ({allCount})
@@ -68,7 +68,7 @@ export function CategoryFilter({
           style={{
             backgroundColor: selected === cat ? 'var(--accent)' : 'var(--bg-surface)',
             borderColor: selected === cat ? 'var(--accent)' : 'var(--border)',
-            color: selected === cat ? 'white' : 'var(--text-secondary)',
+            color: selected === cat ? '#0a0a0c' : 'var(--text-secondary)',
           }}
         >
           {formatCategory(cat)} ({counts[cat] || 0})

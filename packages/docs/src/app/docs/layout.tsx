@@ -27,7 +27,7 @@ export default function DocsLayout({
           <div className="sticky top-24 space-y-1">
             <h3
               className="mb-3 text-xs font-semibold uppercase tracking-wider"
-              style={{ color: 'var(--text-tertiary)' }}
+              style={{ color: 'var(--text-tertiary)', fontFamily: 'var(--font-sans)' }}
             >
               Documentation
             </h3>

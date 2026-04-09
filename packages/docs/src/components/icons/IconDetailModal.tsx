@@ -50,7 +50,7 @@ const sizePixels = { xs: 12, sm: 16, md: 24, lg: 32, xl: 48, '2xl': 64 };
 export function IconDetailModal({ icon, onClose }: IconDetailModalProps) {
   const [selectedVariant, setSelectedVariant] = useState(icon.variants[0]);
   const [selectedSize, setSelectedSize] = useState<(typeof sizes)[number]>('xl');
-  const [color, setColor] = useState('#6366f1');
+  const [color, setColor] = useState('#f59e0b');
 
   // Close on Escape key
   useEffect(() => {
@@ -101,10 +101,11 @@ export function IconDetailModal({ icon, onClose }: IconDetailModalProps) {
 
       {/* Modal */}
       <div
-        className="relative max-h-[90vh] w-full max-w-lg overflow-y-auto rounded-2xl border p-6 shadow-xl"
+        className="relative max-h-[90vh] w-full max-w-lg overflow-y-auto rounded-2xl border p-6"
         style={{
           backgroundColor: 'var(--bg-surface)',
           borderColor: 'var(--border)',
+          boxShadow: 'var(--card-shadow-hover)',
         }}
       >
         {/* Close button */}
@@ -154,7 +155,7 @@ export function IconDetailModal({ icon, onClose }: IconDetailModalProps) {
                   style={{
                     backgroundColor: selectedVariant === v ? 'var(--accent)' : 'transparent',
                     borderColor: selectedVariant === v ? 'var(--accent)' : 'var(--border)',
-                    color: selectedVariant === v ? 'white' : 'var(--text-secondary)',
+                    color: selectedVariant === v ? '#0a0a0c' : 'var(--text-secondary)',
                   }}
                 >
                   {v}
@@ -178,7 +179,7 @@ export function IconDetailModal({ icon, onClose }: IconDetailModalProps) {
                 style={{
                   backgroundColor: selectedSize === s ? 'var(--accent)' : 'transparent',
                   borderColor: selectedSize === s ? 'var(--accent)' : 'var(--border)',
-                  color: selectedSize === s ? 'white' : 'var(--text-secondary)',
+                  color: selectedSize === s ? '#0a0a0c' : 'var(--text-secondary)',
                 }}
               >
                 {s} ({sizePixels[s]}px)
