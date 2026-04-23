@@ -1,10 +1,10 @@
 # DevIcon Kit
 
-> 500+ beautifully crafted developer icons as React components with variants, animations, and accessibility built-in.
+> 496 beautifully crafted developer icons as React components with variants, animations, and accessibility built-in.
 
 ## Features
 
-- **500+ Icons** — Programming languages, frameworks, tools, cloud, AI/ML, and more
+- **496 Icons** — Programming languages, frameworks, tools, cloud, AI/ML, and more
 - **Variants** — Switch between default, light, dark, and wordmark with a single prop
 - **Size Presets** — xs (12px), sm (16px), md (24px), lg (32px), xl (48px), 2xl (64px), or custom pixels
 - **Animations** — Built-in spin, pulse, and bounce — no extra CSS needed
@@ -116,8 +116,12 @@ Icons are hidden from screen readers by default (`aria-hidden`). To make them ac
 <button><ReactIcon title="React" /></button>
 ```
 
+## Credits
+
+The SVG icon paths are sourced from [**simple-icons**](https://github.com/simple-icons/simple-icons), licensed under [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0/). Huge thanks to the simple-icons community for maintaining the original icon set. This package wraps those SVGs as React / Vue / Svelte / web components with variants, animations, and accessibility props.
+
 ## License
 
 MIT — see [LICENSE](./LICENSE)
 
-**Note:** The MIT license covers the source code only. All brand trademarks belong to their respective owners. See [DISCLAIMER.md](./DISCLAIMER.md).
+**Note:** The MIT license covers the source code in this repository. The underlying SVG paths are CC0-1.0 (simple-icons). All brand trademarks belong to their respective owners. See [DISCLAIMER.md](./DISCLAIMER.md).
